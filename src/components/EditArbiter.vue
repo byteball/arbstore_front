@@ -70,9 +70,9 @@
                               Arbiter specializations
                             </div>
                             <div v-for="(tag, index) in availableTags" :key="index">
-                              <Field v-slot="{ field }" :name="'tag-' + index" type="checkbox" value="on">
+                              <Field v-slot="{ field }" :name="'tag-' + index" type="checkbox" value="true">
                                 <label class=" labelCheckPopup d-flex justify-content-between align-items-center mb-4 pr-0 pr-lg-4">
-                                  <input type="checkbox" :name="'tag-' + index" class="d-none" v-bind="field" value="on" />
+                                  <input type="checkbox" :name="'tag-' + index" class="d-none" v-bind="field" value="true" :checked="true"/>
                                   <div class="color-2 f-18 mr-3 mwi-100">
                                     {{tag}}
                                   </div>
@@ -82,7 +82,7 @@
                                     </svg>
                                   </div>
                                   <div class="inputBlock checkInputOn">
-                                    <Field class="formInput" :name="'price-tag-' + index" placeholder="1-5%" type="text"  />
+                                    <Field class="formInput" :name="'price-tag-' + index" placeholder="1-5%" type="text" v-model="formData.info.tags[tag]"/>
                                   </div>
                                 </label>
                               </Field>
@@ -192,7 +192,9 @@ export default {
       languages_error:null,
       noty:null,
       formData: {
-        info: {}
+        info: {
+          tags: {}
+        }
       },
       noPhoto: false
     }
