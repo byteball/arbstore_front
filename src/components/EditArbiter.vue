@@ -70,22 +70,20 @@
                               Arbiter specializations
                             </div>
                             <div v-for="(tag, index) in availableTags" :key="index">
-                              <Field v-slot="{ field }" :name="'tag-' + index" type="checkbox" value="true">
-                                <label class=" labelCheckPopup d-flex justify-content-between align-items-center mb-4 pr-0 pr-lg-4">
-                                  <input type="checkbox" :name="'tag-' + index" class="d-none" v-bind="field" value="true" :checked="true"/>
-                                  <div class="color-2 f-18 mr-3 mwi-100">
-                                    {{tag}}
-                                  </div>
-                                  <div class="checkArrow">
-                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path d="M15.2688 0.810683C15.1681 0.709143 15.0483 0.628549 14.9163 0.57355C14.7843 0.518551 14.6427 0.490234 14.4997 0.490234C14.3566 0.490234 14.2151 0.518551 14.083 0.57355C13.951 0.628549 13.8312 0.709143 13.7305 0.810683L5.65966 8.89235L2.26883 5.49068C2.16426 5.38967 2.04083 5.31025 1.90557 5.25695C1.77031 5.20364 1.62587 5.1775 1.48051 5.18002C1.33515 5.18253 1.1917 5.21365 1.05837 5.2716C0.925034 5.32956 0.804419 5.4132 0.703411 5.51777C0.602402 5.62233 0.522979 5.74577 0.469675 5.88103C0.41637 6.01629 0.390229 6.16072 0.392744 6.30608C0.395259 6.45145 0.426381 6.59489 0.484332 6.72823C0.542283 6.86156 0.625929 6.98217 0.730494 7.08318L4.89049 11.2432C4.9912 11.3447 5.11102 11.4253 5.24304 11.4803C5.37505 11.5353 5.51665 11.5636 5.65966 11.5636C5.80267 11.5636 5.94427 11.5353 6.07629 11.4803C6.2083 11.4253 6.32812 11.3447 6.42883 11.2432L15.2688 2.40318C15.3788 2.30174 15.4665 2.17861 15.5266 2.04157C15.5866 1.90453 15.6176 1.75654 15.6176 1.60693C15.6176 1.45732 15.5866 1.30933 15.5266 1.17229C15.4665 1.03525 15.3788 0.912128 15.2688 0.810683Z" fill="#F4FBFF"/>
-                                    </svg>
-                                  </div>
-                                  <div class="inputBlock checkInputOn">
-                                    <Field class="formInput" :name="'price-tag-' + index" placeholder="1-5%" type="text" v-model="formData.info.tags[tag]"/>
-                                  </div>
-                                </label>
-                              </Field>
+                              <label class=" labelCheckPopup d-flex justify-content-between align-items-center mb-4 pr-0 pr-lg-4">
+                                <input type="checkbox" class="d-none" true-value="on" v-model="formData['tag-' + index]"/>
+                                <div class="color-2 f-18 mr-3 mwi-100">
+                                  {{tag}}
+                                </div>
+                                <div class="checkArrow">
+                                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.2688 0.810683C15.1681 0.709143 15.0483 0.628549 14.9163 0.57355C14.7843 0.518551 14.6427 0.490234 14.4997 0.490234C14.3566 0.490234 14.2151 0.518551 14.083 0.57355C13.951 0.628549 13.8312 0.709143 13.7305 0.810683L5.65966 8.89235L2.26883 5.49068C2.16426 5.38967 2.04083 5.31025 1.90557 5.25695C1.77031 5.20364 1.62587 5.1775 1.48051 5.18002C1.33515 5.18253 1.1917 5.21365 1.05837 5.2716C0.925034 5.32956 0.804419 5.4132 0.703411 5.51777C0.602402 5.62233 0.522979 5.74577 0.469675 5.88103C0.41637 6.01629 0.390229 6.16072 0.392744 6.30608C0.395259 6.45145 0.426381 6.59489 0.484332 6.72823C0.542283 6.86156 0.625929 6.98217 0.730494 7.08318L4.89049 11.2432C4.9912 11.3447 5.11102 11.4253 5.24304 11.4803C5.37505 11.5353 5.51665 11.5636 5.65966 11.5636C5.80267 11.5636 5.94427 11.5353 6.07629 11.4803C6.2083 11.4253 6.32812 11.3447 6.42883 11.2432L15.2688 2.40318C15.3788 2.30174 15.4665 2.17861 15.5266 2.04157C15.5866 1.90453 15.6176 1.75654 15.6176 1.60693C15.6176 1.45732 15.5866 1.30933 15.5266 1.17229C15.4665 1.03525 15.3788 0.912128 15.2688 0.810683Z" fill="#F4FBFF"/>
+                                  </svg>
+                                </div>
+                                <div class="inputBlock checkInputOn">
+                                  <Field class="formInput" :name="'price-tag-' + index" placeholder="1-5%" type="text" v-model="formData.info.tags[tag]"/>
+                                </div>
+                              </label>
                             </div>
                           </div>
                         </div>
@@ -104,19 +102,17 @@
                           <span v-if="this.languages_error" class="error_input">This field is required</span>
                         </div>
                         <div class="inputBlock mb-4">
-                          <Field v-slot="{ field }" name="visible" type="checkbox" value="true">
-                            <label class=" labelCheckPopup d-flex  align-items-center mb-4 pr-0 pr-lg-4">
-                              <input type="checkbox" name="visible" v-bind="field" class="d-none" :checked="!!formData.visible" value="true"/>
-                              <div class="color-2 f-18 mr-3 mwi-100">
-                                Visible
-                              </div>
-                              <div class="checkArrow">
-                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M15.2688 0.810683C15.1681 0.709143 15.0483 0.628549 14.9163 0.57355C14.7843 0.518551 14.6427 0.490234 14.4997 0.490234C14.3566 0.490234 14.2151 0.518551 14.083 0.57355C13.951 0.628549 13.8312 0.709143 13.7305 0.810683L5.65966 8.89235L2.26883 5.49068C2.16426 5.38967 2.04083 5.31025 1.90557 5.25695C1.77031 5.20364 1.62587 5.1775 1.48051 5.18002C1.33515 5.18253 1.1917 5.21365 1.05837 5.2716C0.925034 5.32956 0.804419 5.4132 0.703411 5.51777C0.602402 5.62233 0.522979 5.74577 0.469675 5.88103C0.41637 6.01629 0.390229 6.16072 0.392744 6.30608C0.395259 6.45145 0.426381 6.59489 0.484332 6.72823C0.542283 6.86156 0.625929 6.98217 0.730494 7.08318L4.89049 11.2432C4.9912 11.3447 5.11102 11.4253 5.24304 11.4803C5.37505 11.5353 5.51665 11.5636 5.65966 11.5636C5.80267 11.5636 5.94427 11.5353 6.07629 11.4803C6.2083 11.4253 6.32812 11.3447 6.42883 11.2432L15.2688 2.40318C15.3788 2.30174 15.4665 2.17861 15.5266 2.04157C15.5866 1.90453 15.6176 1.75654 15.6176 1.60693C15.6176 1.45732 15.5866 1.30933 15.5266 1.17229C15.4665 1.03525 15.3788 0.912128 15.2688 0.810683Z" fill="#F4FBFF"/>
-                                </svg>
-                              </div>
-                            </label>
-                          </Field>
+                          <label class=" labelCheckPopup d-flex  align-items-center mb-4 pr-0 pr-lg-4">
+                            <input type="checkbox" name="visible" class="d-none" v-model="formData.visible" true-value="1" false-value="0"/>
+                            <div class="color-2 f-18 mr-3 mwi-100">
+                              Visible
+                            </div>
+                            <div class="checkArrow">
+                              <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.2688 0.810683C15.1681 0.709143 15.0483 0.628549 14.9163 0.57355C14.7843 0.518551 14.6427 0.490234 14.4997 0.490234C14.3566 0.490234 14.2151 0.518551 14.083 0.57355C13.951 0.628549 13.8312 0.709143 13.7305 0.810683L5.65966 8.89235L2.26883 5.49068C2.16426 5.38967 2.04083 5.31025 1.90557 5.25695C1.77031 5.20364 1.62587 5.1775 1.48051 5.18002C1.33515 5.18253 1.1917 5.21365 1.05837 5.2716C0.925034 5.32956 0.804419 5.4132 0.703411 5.51777C0.602402 5.62233 0.522979 5.74577 0.469675 5.88103C0.41637 6.01629 0.390229 6.16072 0.392744 6.30608C0.395259 6.45145 0.426381 6.59489 0.484332 6.72823C0.542283 6.86156 0.625929 6.98217 0.730494 7.08318L4.89049 11.2432C4.9912 11.3447 5.11102 11.4253 5.24304 11.4803C5.37505 11.5353 5.51665 11.5636 5.65966 11.5636C5.80267 11.5636 5.94427 11.5353 6.07629 11.4803C6.2083 11.4253 6.32812 11.3447 6.42883 11.2432L15.2688 2.40318C15.3788 2.30174 15.4665 2.17861 15.5266 2.04157C15.5866 1.90453 15.6176 1.75654 15.6176 1.60693C15.6176 1.45732 15.5866 1.30933 15.5266 1.17229C15.4665 1.03525 15.3788 0.912128 15.2688 0.810683Z" fill="#F4FBFF"/>
+                              </svg>
+                            </div>
+                          </label>
                         </div>
                         <div class="input__wrapper">
 
@@ -134,7 +130,7 @@
                           </label>
                           <div id="preview" class="upload_prev">
                             <img v-if="url" :src="url"/>
-                            <img v-if="formData.hash && !noPhoto" :src="'https://testnet.arbstore.org/assets/uploads/'+formData.hash+'.jpeg'" @error="noPhotoHandler"/>
+                            <img v-if="formData.hash && !noPhoto && !url" :src="'https://testnet.arbstore.org/assets/uploads/'+formData.hash+'.jpeg'" @error="noPhotoHandler"/>
                             <span v-if="url" class="remove-file"  @click="removeFile"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#F44336" d="M21.5 4.5H26.501V43.5H21.5z" transform="rotate(45.001 24 24)"/><path fill="#F44336" d="M21.5 4.5H26.5V43.501H21.5z" transform="rotate(135.008 24 24)"/></svg>
 </span>
                           </div>
@@ -228,6 +224,11 @@ export default {
           formValues.append(k, values[k]);
         }
       }
+      // checkboxes
+      for (const key in this.formData) {
+        if (this.formData[key] === true || this.formData[key] === 'true' || this.formData[key] === 1 || this.formData[key] === '1' || this.formData[key] === 'on')
+          formValues.append(key, this.formData[key])
+      }
       formValues.append('photo', this.file);
       for ( let leng of this.formData.info.languages){
         formValues.append('languages[]', leng);
@@ -306,7 +307,10 @@ export default {
         if (resp.data[field] !== "" && resp.data[field] !== null)
           this.formData[field] = resp.data[field];
       }
-      console.log(this.formData);
+      for (let i = 0; i < this.availableTags.length; i++) {
+        if (this.formData.info.tags[this.availableTags[i]])
+          this.formData['tag-' + i] = "on";
+      }
     }).catch(error => {
       console.log(error);
     })
