@@ -18,7 +18,7 @@ const routes = [
     component: () => import('../views/Arbiters.vue')
   },
   {
-    path: '/arbiter/:token',
+    path: '/edit/:token',
     name: 'Arbiter edit',
     component: () => import('../views/Home.vue')
   },
