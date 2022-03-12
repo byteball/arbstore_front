@@ -34,18 +34,18 @@ const routes = [
   },
   {
     path: '/arb-guide',
-    name: 'Arbiters Guide',
+    name: 'Arbiter Guide',
     component: () => import('../views/Arb-guide.vue')
   },
   {
-    path: '/gbytes',
-    name: 'Get Gbytes',
-    component: () => import('../views/Get-gbytes.vue')
+    path: '/fiat-in-out',
+    name: 'In / Out',
+    component: () => import('../views/Fiat-in-out.vue')
   },
   {
     path: '/partners',
     name: 'For Partners',
-    component: () => import('../views/For-partners.vue')
+    component: () => import('../views/Partners.vue')
   },
   {
     path: '/:pathMatch(.*)*',

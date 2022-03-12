@@ -2,9 +2,9 @@
     <div class="topMenuWrap">
       <div id="app">
       <ul>
-        <li class="f-18">
+        <!--li class="f-18">
           <router-link to="/about" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">About</router-link>
-        </li>
+        </li-->
         <li class="f-18">
           <router-link to="/arbiters" @click.native="hideMenu" class="color-1 js__click_menu" active-class="active" >Arbiters</router-link>
         </li>
@@ -12,16 +12,16 @@
           <router-link to="/guide" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">User Guide</router-link>
         </li>
         <li class="f-18">
-          <router-link to="/arb-guide" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">Arbiters Guide</router-link>
+          <router-link to="/arb-guide" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">Arbiter Guide</router-link>
         </li>
         <li class="f-18">
-          <router-link to="/gbytes" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">Get Gbytes</router-link>
+          <router-link to="/fiat-in-out" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">In / Out</router-link>
         </li>
         <li class="f-18">
           <router-link to="/partners" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">For Partners</router-link>
         </li>
         <li class="f-18">
-          <router-link to="/#how_to_start" @click.native="hideMenu" class="button small f-18" >How to start</router-link>
+          <router-link to="/#get_started" @click.native="hideMenu" class="button small f-18" >Get started</router-link>
 
         </li>
 

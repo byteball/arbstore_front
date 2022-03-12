@@ -25,7 +25,7 @@
               <div class="numberAbs big ff-2b">
                 1
               </div>
-              Pair with the person you want to make a contract with by clicking &laquo;Add a new device&raquo; in the Chat tab, then follow the instructions on your screen.
+              Pair with the person you want to make a contract with by clicking "Add a new device" in the Chat tab, then follow the instructions on your screen.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -70,7 +70,7 @@
               <div class="numberAbs big ff-2b">
                 2
               </div>
-              One of the parties opens a chat with the other and shares their address by clicking &laquo;Insert my address&raquo;.
+              One of the parties opens a chat with the other and shares their address by clicking "Insert my address".
               <div style="clear: both"></div>
             </div>
           </div>
@@ -84,7 +84,7 @@
               <div class="numberAbs big ff-2b">
                 3
               </div>
-              The other party clicks the received address and chooses &laquo;Offer contract with arbitration&raquo; This party will be the offerer while the other party will be the acceptor.
+              The other party clicks the received address and chooses "Offer contract with arbitration" This party will be the offerer while the other party will be the acceptor.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -132,7 +132,7 @@
               <div class="numberAbs big ff-2b">
                 4.2
               </div>
-              Now fill in the contract title and text. Make sure that you mention the names and the roles of both parties in the contract body, like in real-world contracts. The contract text should be written in 3rd person, avoid &laquo;I&raquo; and &laquo;you&raquo; as otherwise the arbiter will have trouble identifying who is who if you have a dispute and the contract lands on the arbiter&rsquo;s desk. The text should be rather long and spell out all the terms and conditions, rights and obligations in your deal with the other party.
+              Now fill in the contract title and text. Make sure that you mention the names and the roles of both parties in the contract body, like in real-world contracts. The contract text should be written in 3rd person, avoid "I" and "you" as otherwise the arbiter will have trouble identifying who is who if you have a dispute and the contract lands on the arbiter&rsquo;s desk. The text should be rather long and spell out all the terms and conditions, rights and obligations in your deal with the other party.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -149,7 +149,7 @@
               <p>
                 You can also optionally provide your contact info, so both the peer and the arbiter can contact you via messengers / phone / email, etc.
               </p>
-              When done, click the &laquo;Offer contract&raquo; button to send the contract to your peer for review and signing.
+              When done, click the "Offer contract" button to send the contract to your peer for review and signing.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -206,7 +206,7 @@
               <div class="numberAbs big ff-2b">
                 8
               </div>
-              After the contract is paid, the seller starts fulfilling their contract obligations. After the work is done and the buyer is satisfied with the results, they release the funds from the contract to the seller by clicking the &laquo;release funds&raquo; button in the contract view. The contract is now completed.
+              After the contract is paid, the seller starts fulfilling their contract obligations. After the work is done and the buyer is satisfied with the results, they release the funds from the contract to the seller by clicking the "release funds" button in the contract view. The contract is now completed.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -220,7 +220,7 @@
               <div class="numberAbs big ff-2b">
                 9
               </div>
-              If the seller is unable to fulfil their obligations, they can cancel the contract at any time and return the funds back to the buyer by clicking the &laquo;Refund&raquo; button in their wallet.
+              If the seller is unable to fulfil their obligations, they can cancel the contract at any time and return the funds back to the buyer by clicking the "Refund" button in their wallet.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -249,7 +249,7 @@
                 11
               </div>
               <p>
-                After the &laquo;open dispute&raquo; link was clicked, the arbiter selected in the contract will automatically receive the contract text, briefly review it, and based on the contract&rsquo;s complexity will estimate the cost of their service and ask the plaintiff to pay for it. The payment is processed through the ArbStore this arbiter is enrolled with, so the plaintiff will receive a payment request from the ArbStore in chat. The payment will be held by the ArbStore until the arbiter makes a decision.
+                After the "open dispute" link was clicked, the arbiter selected in the contract will automatically receive the contract text, briefly review it, and based on the contract&rsquo;s complexity will estimate the cost of their service and ask the plaintiff to pay for it. The payment is processed through the ArbStore this arbiter is enrolled with, so the plaintiff will receive a payment request from the ArbStore in chat. The payment will be held by the ArbStore until the arbiter makes a decision.
               </p>
               <p>
                 After the payment is sent, the arbiter starts resolving the dispute. They will contact both parties through Obyte wallet chat or other means of communication they indicated in the contract, collect evidence from both parties, and make a decision about the party who wins the dispute.
@@ -270,7 +270,7 @@
               <div class="numberAbs big ff-2b">
                 12
               </div>
-              If the arbiter decides the dispute in your favor, you will be notified about this in chat and can now claim funds from the contract by clicking the &laquo;Claim funds&raquo; button in the contract view.
+              If the arbiter decides the dispute in your favor, you will be notified about this in chat and can now claim funds from the contract by clicking the "Claim funds" button in the contract view.
               <div style="clear: both"></div>
             </div>
           </div>

@@ -10,15 +10,15 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="color-2 mb-4">
-            Contracts with arbitration feature of Obyte platform has one major advantage for users: there is a third party arbiter that can resolve any disputes during contract fulfillment. Any user can become an arbiter, making profits by resolving conflicts between users during contract negotiations.
+            Contracts with arbitration feature of Obyte platform has one major advantage for users: there is a third party arbiter that can resolve any disputes during contract fulfillment. Any user with proper professional background can become an arbiter, and make profits by resolving disputes between users when they arise.
           </div>
           <div class="color-2 mb-4">
-            Although being a professional lawyer is best option to become an arbiter, nothing can stop any human from signing up as an arbiter and helping other Obyte users. In the end, its up to users to pick the arbiter they think can fit their needs best, thus having a wide variety of arbiters on ArbStore will only be better, never worse.
+            Although being a professional lawyer is the best option to become an arbiter, nothing can stop any person from signing up as an arbiter and helping other Obyte users, as long as they honestly describe their skills and experience. In the end, it's up to users to pick the arbiter they think can fit their needs best. However, the ArbStore reserves the right to unlist the arbiters that don't add value to the store.
           </div>
           <div class="row">
             <div class="col-auto">
               <div class="button" @click="showRegModl">
-                SignUp as arbiter
+                Sign up as arbiter
               </div>
             </div>
           </div>
@@ -34,14 +34,14 @@
                 Arbiters wanted!
               </div>
               <div class="f-32 ff-2b mb-5">
-                Passionate professionals with deep knowledge and high reputation. We offer great opportunity to transform legal landscape!
+                Passionate professionals with expert knowledge and high reputation. We offer great opportunity to transform the legal landscape!
               </div>
               <div class="d-flex align-items-center justify-content-center d-lg-none">
                 <img class="w-100" src="../assets/image/bg-7.png" alt="bg-7">
               </div>
               <div class="row mr-0 ml-0">
                 <div class="button small" @click="showRegModl">
-                  SignUp as arbiter
+                  Sign up as arbiter
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@
               <div class="numberAbs big ff-2b">
                 1
               </div>
-              Pair with the ArbStore by clicking &laquo;SIGN UP&raquo; button on the home page of ArbStore. Your installed Obyte wallet will open and pair with the ArbStore correspondent, revealing chat window with welcome message.
+              Pair with the ArbStore by clicking "Sign up as arbiter" button on the home page of the ArbStore, or on this page above. Your installed Obyte wallet will open and pair with the ArbStore, and you'll see a chat window with a welcome message.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -72,9 +72,9 @@
                 2
               </div>
               <p>
-                ArbStore will ask you to attest through Real Name Attestation bot first, which is available through Bot Store tab on Chat page of your wallet. Save your private profile that Real Name Attestation bot sent you by clicking on it after attestation process is finished.
+                The ArbStore will ask you to get attested by through Real Name Attestation bot first. The bot is available through Bot Store tab on the Chat page of your wallet. After finishing the attestation process, click and save your private profile that the Real Name Attestation bot sent to you.
               </p>
-              Real name attestation is required for added credibility, but you do not have to reveal your real name during signing up as arbiter.
+              Real name attestation is strongly recommended for added credibility, however you do not have to reveal your real name during signing up as an arbiter.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -88,7 +88,7 @@
               <div class="numberAbs big ff-2b">
                 3
               </div>
-              Now go back to ArbStore chat. Insert your attested address by clicking the &laquo;Insert my address&raquo; button.
+              Now go back to the ArbStore chat. Insert your attested address by clicking the "Insert my address" button.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -103,12 +103,12 @@
                 4
               </div>
               <p>
-                ArbStore will ask you to sign a message first to prove you are the owner of the address. Click the link inside the message to sign it. Double check that you signing the message that clearly expresses your current intentions of signing up as an arbiter with the correct address.
+                The ArbStore will ask you to sign a message first to prove that you are the owner of the address. Click the link inside the message to sign it. Double check that you are signing a message that clearly expresses your current intention of signing up as an arbiter with the correct address.
               </p>
               <p>
-                After signature was sent, ArbStore will ask if you wanna stay anonymous or reveal your real name to users. Pick and click any that you want.
+                After the signature was sent, the ArbStore will ask if you'd like to stay anonymous or reveal your real name to users. Click your choice.
               </p>
-              When your revealed your profile (or stayed anonymous), ArbStore will send you your personal secret link to ArbStore web site to continue filling your arbiter profile. Go for it.
+              When you have revealed your profile (or chosen to stay anonymous), the ArbStore will send you your personal secret link to the ArbStore web site to continue filling your arbiter profile. Click it.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -123,18 +123,14 @@
                 5
               </div>
               <p>
-                Fill all the fields on the web page. Be short but clear. Write down the ways that users and ArbStore moderators can reach you outside of Obyte platform.
+                Fill all the fields on the web page. Be concise but clear. Write down the ways that users and ArbStore moderators can reach you outside of Obyte platform.
               </p>
               <p>
-                Then pick the specializations (topics of the contracts) that you are good at and are interested to resolve. When specializations are picked, you need to state the approximate fee for your service of resolving contracts of each topic.
+                Then pick the specializations (topics of the contracts) that you are good at and are interested in resolving. Indicate the approximate fee for your service of resolving contracts of each topic.
               </p>
               <p>
                 Select the languages that you speak.
               </p>
-              <p>
-                After signature was sent, ArbStore will ask if you wanna stay anonymous or reveal your real name to users. Pick and click any that you want.
-              </p>
-              When your revealed your profile (or stayed anonymous), ArbStore will send you your personal secret link to ArbStore web site to continue filling your arbiter profile. Go for it.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -149,12 +145,12 @@
                 6
               </div>
               <p>
-                When web form was successfullly sent, ArbStore will send you a payment request to fill up your deposit with min amount. The amount and asset of the deposit depends on ArbStore configuration. Deposit is used as a source for funds to compensate users for incorrect arbiter decisions or any other missbehavior. Deposit should always have enough funds (at least min amount that you was asked for during this step) to make your arbiter listing visible for users.
+                When the web form was successfullly sent, the ArbStore will send you a payment request to fill up your deposit with a minimum amount. The amount and asset of the deposit depends on ArbStore configuration. The deposit is used as a source for funds to compensate users for incorrect arbiter decisions or any other misbehavior. The deposit should always have enough funds (at least the minimum amount that you were asked for during this step) to make your arbiter listing visible for users.
               </p>
               <p>
                 Wait for the payment to be confirmed in Obyte network.
               </p>
-              Last step, you will be asked for permanent pairing code that will be used by users and ArbStore moderators to chat with you in case they want or need to.
+              As the last step, you will be asked for a permanent pairing code that will be used by users and ArbStore moderators to chat with you in case they want or need to.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -165,9 +161,9 @@
         <div class="row mb-4 mr-0 ml-0 radius-2">
           <div class="bgc-1 col-lg-8">
             <div class="pr-3 pl-3 pb-5  pr-lg-5 pl-lg-5 pb-lg-5  pt-50 position-relative h-100">
-              <p>Success! ArbStore posted announcement unit revealing to the network that new arbiter is now signed up on this ArbStore and ready to work.</p>
+              <p>Success! The ArbStore has now posted an announcement transaction revealing to the network that a new arbiter has been signed up on this ArbStore and is ready to work.</p>
 
-              You can check that your listing is visible on ArbStore arbiters list.
+              You can check that your listing is visible on the ArbStore's <router-link to="/arbiters">arbiters list</router-link>.
 
               <div style="clear: both"></div>
             </div>
@@ -180,9 +176,9 @@
           <div class="bgc-1 col-lg-8">
             <div class="pr-3 pl-3 pb-5  pr-lg-5 pl-lg-5 pb-lg-5  pt-50 position-relative h-100">
               <p>
-                From now on, you can change your listing details or completely hide it from ArbStore by sending commands to ArbStore through the chat.
+                From now on, you can change your listing details or completely hide it from the ArbStore by sending commands to the ArbStore through the chat.
               </p>
-              Send help in the chat to see the list of available commands.
+              You can always send "help" in the chat to see the list of available commands.
 
             </div>
           </div>
@@ -205,12 +201,12 @@
           <div class="bgc-1 col-lg-8">
             <div class="pr-3 pl-3 pb-5  pr-lg-5 pl-lg-5 pb-lg-5  pt-50 position-relative h-100">
               <p>
-                When users that picked you as an arbiter in their contract decide that they need your help and raise a dispute, you will receive a message from ArbStore in chat with full info about the contract and contract parties.
+                When users that picked you as arbiter in their contract decide that they need your help and raise a dispute, you will receive a message from the ArbStore in chat with full info about the contract and contract parties.
               </p>
               <p>
-                Most important link is the first one which starts with &laquo;Dispute request for contract...&raquo;. Clicking it will open the window with the contract that was disputed by one of the contract sides and that you need to resolve.
+                The most important link is the first one which starts with "Dispute request for contract...". Clicking it will open a window with the contract being disputed.
               </p>
-              Second link is used to set your service fee for resolving this dispute.
+              The second link is used to set your service fee for resolving this dispute.
 
             </div>
           </div>
@@ -224,7 +220,7 @@
               <div class="numberAbs big ff-2b">
                 1
               </div>
-              First, read the contract. Then pair with both parties by clicking pair links in contract window. Gather all the evidences and the information you need to make your decision.
+              First, take a look at the contract to determine its complexity, whether it fits your stated scope of contracts you resolve, and estimate the amount of work that the resolution will require. If the contract doesn't fit any of the topics stated in your profile, you can refuse to resolve it. If necessary, pair with both parties by clicking the pairing links in the contract window and gather additional information that would help you better estimate the amount of required work. Don't try to resolve the dispute at this stage yet, you are not supposed to do this before you are paid.
               <div style="clear: both"></div>
             </div>
           </div>
@@ -239,26 +235,26 @@
                 2
               </div>
               <p>
-                Decide on the fee that the plaintiff will pay for your work. Click the link in chat message from ArbStore (1), it will pre-fill the input field for you in chat with the formatted message containing three fields separated by new lines:
+                Decide on the fee that the plaintiff will pay for your work. Click the link in the chat message from the ArbStore (1), it will pre-fill the input field for you in the chat with the formatted message containing three fields separated by new-lines:
                 &mdash; contract_hash
                 &mdash; amount
                 &mdash; comment
-                Now change the amount (2) to the desired value, the asset of the amount is displayed in the message from the ArbStore. On the screenshot the asset is in GB, so the amount will be in GB.
+                Now change the amount (2) to the desired value, the asset of the amount is displayed in the message from the ArbStore. On the screenshot, the asset is in GB, so the amount will be in GB.
               </p>
               <p>
-                Change or leave untouched the comment. It will be visible to plaintiff, so it always good to add some details into it, explaining the amount you asking for or other things in it. At least replace the phrase &laquo;OPTIONAL COMMENT ....&raquo; with some more appropriate text.
+                Optionally change the comment. It will be sent to the plaintiff, so it's always good to add some details into it explaining why you chose this amount for the resolution fee. At least replace the phrase "OPTIONAL COMMENT ...." with some more appropriate text.
               </p>
               <p>
-                Leave the contract title there, it will help both you and plaintiff to associate the fee payment request with the contract itself later.
+                Leave the contract title there, it will help both you and the plaintiff to associate the fee payment request with the contract being disputed.
               </p>
               <p>
-                Send the message. ArbStore will then ask the plaintiff to pay for your services the exact amount you stated, locking the funds in your deposit. You will be notified when the payment is received.
+                Send the message. The ArbStore will then ask the plaintiff to pay for your services the exact amount you stated, locking the funds in your deposit. You will be notified when the payment is received.
               </p>
               <p class="pr-100">
                 IMPORTANT: You can re-send the same message, changing the amount or the comment, but it will trigger more payment requests to the plaintiff, so use this with caution.
               </p>
               <p class="pr-100">
-              Along with the payment request, plaintiff receives your pairing code, so they can chat with you if they have any questions.
+              Along with the payment request, the plaintiff receives your pairing code, so they can chat with you if they have any questions.
               </p>
               <div style="clear: both"></div>
             </div>
@@ -274,12 +270,12 @@
                 3
               </div>
               <p>
-                When the fee was paid, you can post your decision by clicking buttons in the contract dispute window.
+                Once the fee has been paid, start studying the details of the case. Read the contract. Pair with both parties by clicking the pairing links in the contract window, then request evidence from them. As soon as you have collected enough information to make a decision, post your decision by clicking the corresponding buttons in the contract dispute window.
               </p>
               <p>
-                The side that you choose as a winner can claim funds locked on the contract.
+                Now the side that you chose as winner can claim funds locked on the contract.
               </p>
-              The service fee that plaintiff paid for your services will be unlocked to your deposit as soon as you post your decision.
+              The service fee that the plaintiff has paid for your services will be unlocked to your deposit as soon as you post your decision.
               <div style="clear: both"></div>
             </div>
           </div>

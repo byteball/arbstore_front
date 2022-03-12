@@ -12,7 +12,7 @@
                 </button>
                 <div class="bgc-1 radius p-3 p-sm-5 formScroll noScrollArrow">
                   <div class="f-32 ff-2 mb-4">
-                    Arbiter {{isNew ? "SignUp" : "Edit"}}
+                    Arbiter {{isNew ? "Sign up" : "Edit"}}
                   </div>
 
                   <Form @submit="onSubmit">
@@ -139,7 +139,7 @@
                       </div>
                       <div class="col-lg-3">
                         <button type="submit" class="button small f-18 w-100">
-                          SignUp
+                          Sign up
                         </button>
                       </div>
                     </div>

@@ -4,14 +4,13 @@
     <div class="row">
     <div class="col-lg-8">
       <div class="f-98 ff-2">
-        Secure deals
+        Decentralized escrow
       </div>
       <div class="f-52 f-52m mb-4 ff-2">
-        with an independent
-        arbitrator
+        protected by an independent arbiter
       </div>
       <div class="d-flex">
-        <router-link to="/#how_to_start"  class="button" >How to start</router-link>
+        <router-link to="/#get_started"  class="button" >Get started</router-link>
 
 
       </div>
@@ -22,40 +21,38 @@
     </div>
     <div class="row mt-5 pt-5">
       <div class="col-lg-4 mb-4">
-        <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-center">
-          Make C2B and P2P transfers through the ArbStore.
+        <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-top">
+          Safe payments between businesses and individuals.
         </div>
       </div>
       <div class="col-lg-4 mb-4">
-        <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-center">
-          We use decentralized smart contracts to protect both sides of a financial transaction from fraud.
+        <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-top">
+          Smart contracts provide decentralized escrow and protect both parties from fraud.
         </div>
       </div>
       <div class="col-lg-4 mb-4">
-        <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-center">
-          Arbitrators will help resolve disputes quickly
-          and at minimal cost.
+        <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-top">
+          In case of a dispute, an arbiter resolves it.
         </div>
       </div>
     </div>
   </div>
-  <div class="container mt-100 pb-5" id="how_to_start">
+  <div class="container mt-100 pb-5" id="get_started">
     <div class="row mr-0 ml-0 justify-content-center flex-column mb-5">
       <div class="f-52 ff-2b text-left text-md-center mb-3">
-        How to start
-      </div>
-      <div class="f-32 ff-2 text-left text-md-center">
-        Arbstore is based on Obyte platform.
-        <br>
-        If you want to sign up follow this steps
+        Get started
       </div>
     </div>
-    <div class="row pt-5">
+    <div class="row pt-0">
       <div class="col-lg-4 mb-4">
         <div class="f-18 ff-2 bgc-1 radius p-4 position-relative h-100 d-flex flex-column justify-content-between">
-          Download the iOS <br> or Android App
+          <div class="numberAbs ff-2b">
+            1
+          </div>
+          Download Obyte app
+          <div class="ff-1 f-18 color-2 mb-4 mt-4">ArbStore is based on <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> cryptocurrency platform. The wallet app will store your money and contracts.</div>
           <div class="d-flex mt-3">
-            <a href="" class="mr-4">
+            <a href="https://apps.apple.com/us/app/obyte-formerly-byteball/id1147137332" target="_blank" rel="noopener" class="mr-4">
               <svg width="103" height="35" viewBox="0 0 103 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_203_2753)">
                   <path d="M94.0212 0.000110669H8.13968C7.82663 0.000110669 7.51734 0.000110669 7.20512 0.00181327C6.94376 0.00351588 6.68449 0.00846195 6.42062 0.0126248C5.84738 0.0193516 5.27548 0.0696419 4.70991 0.163058C4.14512 0.258509 3.59803 0.43846 3.08714 0.696825C2.57687 0.957376 2.11062 1.29594 1.70531 1.70022C1.29787 2.10337 0.958238 2.56936 0.699473 3.08026C0.439993 3.59015 0.260069 4.13654 0.165915 4.70056C0.0708658 5.26387 0.0197189 5.83368 0.0129334 6.40487C0.00501117 6.66588 0.00417456 6.92775 0 7.1888V26.866C0.00417456 27.1304 0.00501117 27.3864 0.0129334 27.6508C0.019721 28.222 0.0708679 28.7918 0.165915 29.3551C0.259809 29.9194 0.439744 30.4661 0.699473 30.9762C0.958121 31.4855 1.2978 31.9495 1.70531 32.3505C2.10909 32.7565 2.57563 33.0953 3.08714 33.3539C3.59803 33.6129 4.14506 33.794 4.70991 33.8909C5.27558 33.9836 5.84741 34.0339 6.42062 34.0414C6.68449 34.0472 6.94376 34.0505 7.20512 34.0505C7.51733 34.0522 7.82665 34.0522 8.13968 34.0522H94.0212C94.328 34.0522 94.6398 34.0522 94.9466 34.0505C95.2067 34.0505 95.4735 34.0472 95.7336 34.0414C96.3058 34.0343 96.8765 33.984 97.441 33.8909C98.0077 33.7933 98.5567 33.6123 99.07 33.3539C99.5811 33.0952 100.047 32.7564 100.451 32.3505C100.857 31.948 101.197 31.4842 101.459 30.9762C101.717 30.4657 101.895 29.9191 101.988 29.3551C102.083 28.7917 102.136 28.2221 102.146 27.6508C102.15 27.3864 102.15 27.1304 102.15 26.866C102.156 26.5567 102.156 26.2492 102.156 25.9349V8.11824C102.156 7.80649 102.156 7.49722 102.15 7.1888C102.15 6.92775 102.15 6.66588 102.146 6.40483C102.136 5.8336 102.083 5.26392 101.988 4.70053C101.895 4.13683 101.717 3.59048 101.459 3.08023C100.932 2.05617 100.097 1.2226 99.07 0.696748C98.5567 0.439014 98.0076 0.259111 97.441 0.162982C96.8766 0.0691537 96.3058 0.0188459 95.7336 0.0125056C95.4735 0.00835128 95.2067 0.00336264 94.9466 0.00170261C94.6398 0 94.328 0 94.0212 0V0.000110669Z" fill="black"/>
@@ -91,7 +88,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="">
+            <a href="https://play.google.com/store/apps/details?id=org.byteball.wallet" target="_blank" rel="noopener">
               <svg width="116" height="35" viewBox="0 0 116 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_203_2752)">
                   <path d="M110.826 0.0195312H4.41276C2.06196 0.0195312 0.15625 1.92524 0.15625 4.27604V29.8151C0.15625 32.1659 2.06196 34.0716 4.41276 34.0716H110.826C113.176 34.0716 115.082 32.1659 115.082 29.8151V4.27604C115.082 1.92524 113.176 0.0195312 110.826 0.0195312Z" fill="white"/>
@@ -146,38 +143,44 @@
               </svg>
             </a>
           </div>
-          <div class="numberAbs ff-2b">
-            1
+          <div class="ff-1 f-18 color-2 mb-0 mt-1">
+            <a href="https://obyte.org/downloads/Obyte-win64.exe" target="_blank" rel="noopener">Windows</a>
+            &nbsp;
+            <a href="https://obyte.org/downloads/Obyte-osx64.dmg" target="_blank" rel="noopener">Mac</a>
+            &nbsp;
+            <a href="https://obyte.org/downloads/Obyte-x86_64.AppImage" target="_blank" rel="noopener">Linux</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="f-18 ff-2 bgc-1 radius p-4 position-relative h-100 d-flex flex-column justify-content-between">
-          Get your first &laquo;Bytes&raquo;
-          <div class="d-flex mt-3">
-            <router-link to="/gbytes" >
-              <div class="button small">
-                Get Gbytes
-              </div>
-            </router-link>
-          </div>
           <div class="numberAbs ff-2b">
             2
           </div>
+          Get your stablecoins
+          <div class="ff-1 f-18 color-2 mb-4 mt-4">Smart contracts work only with crypto. Convert your fiat to stablecoins, such as USDC, on any cryptocurrency exchange, and <a href="https://getmein.ooo" target="_blank" rel="noopener">transfer them to your Obyte wallet</a>.</div>
+          <div class="d-flex mt-3">
+            <router-link to="/fiat-in-out" >
+              <div class="button small">
+                In / Out
+              </div>
+            </router-link>
+          </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
-        <div class="f-18 ff-2 bgc-1 radius p-4 position-relative h-100 d-flex flex-column justify-content-between">
+        <div class="f-18 ff-2 bgc-1 radius p-4 position-relative h-100 d-flex flex-column just7ify-content-between">
+          <div class="numberAbs ff-2b">
+            3
+          </div>
           Follow the user guide
+          <div class="ff-1 f-18 color-2 mb-4 mt-4">Follow the guide to offer a contract to your counterpart.</div>
           <div class="d-flex mt-3">
             <router-link to="/guide" >
               <div class="button small">
                 User guide
               </div>
             </router-link>
-          </div>
-          <div class="numberAbs ff-2b">
-            3
           </div>
         </div>
       </div>
@@ -187,28 +190,19 @@
     <div class="row">
     <div class="col-lg-6">
       <div class="f-52 ff-2b mb-3">
-        Do you feel secure
+        Trust the strangers
       </div>
       <div class="f-32 ff-2 mb-5">
-        making a deal with the person you do not know?
+        Yes, trust the strangers, because you are protected
       </div>
       <div class="d-flex align-items-center justify-content-center d-lg-none">
         <img class="w-50" src="../assets/image/bg-2.png" alt="bg-2">
       </div>
       <div class="f-18 color-2 mb-4 mt-4">
-        It is risky and not completely transparent, unless you are a big company and can afford high legal and banking costs. Even top players on the payment market can&rsquo;t provide full security and trust. We eliminated the barriers to help individuals and small businesses securely deal with complete strangers or newly acquired customers across the world.
+        If you are a small business or an individual, you are normally cautious about dealing with companies or people you don't know. It can happen that you pay and they don't deliver, or you deliver and they don't pay, and the risks are especially high for cross-border deals. Legal protections exist but they are slow, cumbersome, and expensive. They really work only for the big guys.
       </div>
-      <div class="f-18 color-2">
-        Smart Contracts will help to transfer assets such as domain names,
-        IP rights, game assets, freelancer&rsquo;s services and certain goods. The solution uses distributed ledger technology to register mutual obligations, securely keep the funds and release the funds when
-        the contract is completed. In case of dispute, a reputable and knowledgeable arbiter will resolve the issue.
-      </div>
-      <div class="row mr-0 ml-0 mt-5">
-        <a href="">
-          <div class="button small">
-            Get secured
-          </div>
-        </a>
+      <div class="f-18 color-2 mb-4">
+        Smart contracts are the solution. They provide a decentralized escrow where the funds are locked by the buyer for the full duration of the contract, and the buyer releases the funds to the seller only once they have received what they had paid for. If a dispute arises, the parties can invoke an arbriter who will study the evidence &mdash; like a judge &mdash; and release the funds to the winning party.
       </div>
     </div>
     </div>
@@ -219,13 +213,10 @@
       <div class="bgc-1 radius pt-5 pr-2 pr-sm-5 pl-2 pl-sm-5 pb-0 pb-lg-5 nobgMob bg-3">
         <div class="col-lg-8 col-xl-9">
           <div class="f-52 ff-2b mb-4">
-            Now the problem is solved
-            ArbStore is the answer
+            For small businesses and P2P trade
           </div>
-          <div class="f-32 ff-2">
-            Install the wallet, fill in the contract, sign in,
-            select and agree on an arbiter and you are
-            protected now!
+          <div class="f-18 color-2">
+            Decentralized escrow is meant primarily for cross-border trade between small businesses but it also works for domestic trade or trading high-value items between individuals, such as domain names, vehicles, real estate, art, collectibles, game assets, freelance work, etc.
           </div>
         </div>
         <div class="d-flex align-items-center justify-content-end d-lg-none bg3Mob">
@@ -237,14 +228,100 @@
   </div>
   <div class="container mt-100 pb-5">
     <div class="row">
+      <div class="col-lg-9">
+        <div class="f-52 ff-2">
+          Here is a high level view
+          of actors in the ecosystem:
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center justify-content-lg-between mt-5 d-none d-lg-flex">
+      <div class="col-lg-3">
+        <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
+          Buyer of goods / services
+        </div>
+      </div>
+      <div class="col-lg-5 arrowBlockCenter">
+        <div class="bgc-1 radius p-4 d-flex align-items-center justify-content-center text-center mb-4">
+          Arbiter (dispute resolution)
+        </div>
+        <div class="bgc-1 radius p-4 d-flex align-items-center justify-content-center text-center mb-4">
+          Smart contracts (programmable agreements) + stablecoins
+        </div>
+        <div class="bgc-1 radius p-4 d-flex align-items-center justify-content-center text-center">
+          Obyte decentralized DLT platform
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
+          Seller of goods / services
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex d-lg-none mt-5">
+      <div class="col-lg-3 mb-4">
+        <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
+          Arbiter (dispute resolution)
+        </div>
+      </div>
+      <div class="col-lg-3 pb-5">
+        <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
+          Smart contracts (programmable agreements) + stablecoins
+        </div>
+      </div>
+      <div class="row mb-4 mr-0 ml-0 w-100">
+        <div class="col-6">
+          <div class="arrowMobBlockTop">
+            <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_203_3717)">
+                <path d="M20.7357 38.2718C21.0413 38.3981 21.3846 38.3981 21.6903 38.2718C21.8418 38.2109 21.9799 38.1208 22.0968 38.0067L27.4001 32.7034C27.6346 32.469 27.7663 32.151 27.7663 31.8195C27.7663 31.488 27.6346 31.17 27.4001 30.9356C27.1657 30.7012 26.8478 30.5695 26.5163 30.5695C26.1847 30.5695 25.8668 30.7012 25.6324 30.9356L22.4592 34.1087V8.31703L25.6324 11.4902C25.8668 11.7246 26.1847 11.8563 26.5163 11.8563C26.8478 11.8563 27.1657 11.7246 27.4001 11.4902C27.6346 11.2558 27.7663 10.9378 27.7663 10.6063C27.7663 10.2748 27.6346 9.95683 27.4001 9.72241L22.0968 4.4191C21.9799 4.305 21.8418 4.21491 21.6903 4.15394C21.3846 4.02766 21.0413 4.02765 20.7357 4.15394C20.5841 4.21491 20.446 4.305 20.3291 4.4191L15.0258 9.72241C14.7914 9.95683 14.6597 10.2748 14.6597 10.6063C14.6597 10.9378 14.7914 11.2558 15.0258 11.4902C15.2602 11.7246 15.5781 11.8563 15.9097 11.8563C16.2412 11.8563 16.5591 11.7246 16.7935 11.4902L19.9667 8.31703V34.1088L16.7935 30.9356C16.5591 30.7012 16.2412 30.5695 15.9097 30.5695C15.5781 30.5695 15.2602 30.7012 15.0258 30.9356C14.7914 31.17 14.6597 31.488 14.6597 31.8195C14.6597 32.151 14.7914 32.469 15.0258 32.7034L20.3291 38.0067C20.446 38.1208 20.5841 38.2109 20.7357 38.2718Z" fill="#3E444B"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_203_3717">
+                  <rect width="30" height="30" fill="white" transform="translate(42.4258 21.2129) rotate(135)"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
+            Buyer of goods / services
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="arrowMobBlockTop">
+            <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_203_3717)">
+                <path d="M20.7357 38.2718C21.0413 38.3981 21.3846 38.3981 21.6903 38.2718C21.8418 38.2109 21.9799 38.1208 22.0968 38.0067L27.4001 32.7034C27.6346 32.469 27.7663 32.151 27.7663 31.8195C27.7663 31.488 27.6346 31.17 27.4001 30.9356C27.1657 30.7012 26.8478 30.5695 26.5163 30.5695C26.1847 30.5695 25.8668 30.7012 25.6324 30.9356L22.4592 34.1087V8.31703L25.6324 11.4902C25.8668 11.7246 26.1847 11.8563 26.5163 11.8563C26.8478 11.8563 27.1657 11.7246 27.4001 11.4902C27.6346 11.2558 27.7663 10.9378 27.7663 10.6063C27.7663 10.2748 27.6346 9.95683 27.4001 9.72241L22.0968 4.4191C21.9799 4.305 21.8418 4.21491 21.6903 4.15394C21.3846 4.02766 21.0413 4.02765 20.7357 4.15394C20.5841 4.21491 20.446 4.305 20.3291 4.4191L15.0258 9.72241C14.7914 9.95683 14.6597 10.2748 14.6597 10.6063C14.6597 10.9378 14.7914 11.2558 15.0258 11.4902C15.2602 11.7246 15.5781 11.8563 15.9097 11.8563C16.2412 11.8563 16.5591 11.7246 16.7935 11.4902L19.9667 8.31703V34.1088L16.7935 30.9356C16.5591 30.7012 16.2412 30.5695 15.9097 30.5695C15.5781 30.5695 15.2602 30.7012 15.0258 30.9356C14.7914 31.17 14.6597 31.488 14.6597 31.8195C14.6597 32.151 14.7914 32.469 15.0258 32.7034L20.3291 38.0067C20.446 38.1208 20.5841 38.2109 20.7357 38.2718Z" fill="#3E444B"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_203_3717">
+                  <rect width="30" height="30" fill="white" transform="translate(42.4258 21.2129) rotate(135)"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
+            Seller of goods / services
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
+          Obyte decentralized DLT platform
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-100 pb-5">
+    <div class="row">
       <div class="col-lg-8">
         <div class="f-52 ff-2b">
-          How to start using Contracts with Arbiters
+          How to start using decentralized escrow
         </div>
       </div>
     </div>
     <div class="row mt-5 justify-content-center justify-content-lg-between">
-      <div class="col-lg-5 mb-5 mr-lg-5">
+      <div class="col-lg-9 mb-5">
         <div class="row mr-0 ml-0 flex-nowrap align-items-center">
           <div class="bgc-1 radius-1 p-1 mr-4">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -252,11 +329,11 @@
             </svg>
           </div>
           <div class="f-18 ff-1b">
-            Two counterparties download Obyte wallet and pair with each other
+            Two counterparties download Obyte wallet and pair with each other.
           </div>
         </div>
       </div>
-      <div class="col-lg-5 mb-5 mr-lg-5">
+      <div class="col-lg-9 mb-5">
         <div class="row mr-0 ml-0 flex-nowrap align-items-center">
           <div class="bgc-1 radius-1 p-1 mr-4">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -264,11 +341,11 @@
             </svg>
           </div>
           <div class="f-18 ff-1b">
-            They agree on contract terms and publicly sign the contract
+            They agree on contract terms and digitally sign the contract. They also agree who will be their arbiter in case of a dispute.
           </div>
         </div>
       </div>
-      <div class="col-lg-5 mb-5 mr-lg-5">
+      <div class="col-lg-9 mb-5">
         <div class="row mr-0 ml-0 flex-nowrap align-items-center">
           <div class="bgc-1 radius-1 p-1 mr-4">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -276,47 +353,11 @@
             </svg>
           </div>
           <div class="f-18 ff-1b">
-            Buyer of goods and services locks funds on a smart address backing the contract
+            Buyer of goods or services locks funds on a smart contract address backing the contract.
           </div>
         </div>
       </div>
-      <div class="col-lg-5 mb-5 mr-lg-5">
-        <div class="row mr-0 ml-0 flex-nowrap align-items-center">
-          <div class="bgc-1 radius-1 p-1 mr-4">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M26.25 15.0004C25.9185 15.0004 25.6005 15.1321 25.3661 15.3665C25.1317 15.6009 25 15.9189 25 16.2504V23.7504C25 24.0819 24.8683 24.3999 24.6339 24.6343C24.3995 24.8687 24.0815 25.0004 23.75 25.0004H6.25C5.91848 25.0004 5.60054 24.8687 5.36612 24.6343C5.1317 24.3999 5 24.0819 5 23.7504V6.25041C5 5.91889 5.1317 5.60095 5.36612 5.36653C5.60054 5.13211 5.91848 5.00041 6.25 5.00041H13.75C14.0815 5.00041 14.3995 4.86872 14.6339 4.6343C14.8683 4.39988 15 4.08193 15 3.75041C15 3.41889 14.8683 3.10095 14.6339 2.86653C14.3995 2.63211 14.0815 2.50041 13.75 2.50041H6.25C5.25544 2.50041 4.30161 2.8955 3.59835 3.59876C2.89509 4.30202 2.5 5.25585 2.5 6.25041V23.7504C2.5 24.745 2.89509 25.6988 3.59835 26.4021C4.30161 27.1053 5.25544 27.5004 6.25 27.5004H23.75C24.7446 27.5004 25.6984 27.1053 26.4017 26.4021C27.1049 25.6988 27.5 24.745 27.5 23.7504V16.2504C27.5 15.9189 27.3683 15.6009 27.1339 15.3665C26.8995 15.1321 26.5815 15.0004 26.25 15.0004ZM7.5 15.9504V21.2504C7.5 21.5819 7.6317 21.8999 7.86612 22.1343C8.10054 22.3687 8.41848 22.5004 8.75 22.5004H14.05C14.2145 22.5014 14.3776 22.4698 14.5299 22.4076C14.6822 22.3454 14.8207 22.2538 14.9375 22.1379L23.5875 13.4754L27.1375 10.0004C27.2547 9.88421 27.3477 9.74596 27.4111 9.59363C27.4746 9.44131 27.5072 9.27793 27.5072 9.11291C27.5072 8.9479 27.4746 8.78451 27.4111 8.63219C27.3477 8.47987 27.2547 8.34162 27.1375 8.22541L21.8375 2.86291C21.7213 2.74575 21.583 2.65276 21.4307 2.5893C21.2784 2.52584 21.115 2.49316 20.95 2.49316C20.785 2.49316 20.6216 2.52584 20.4693 2.5893C20.317 2.65276 20.1787 2.74575 20.0625 2.86291L16.5375 6.40041L7.8625 15.0629C7.74665 15.1797 7.65499 15.3182 7.59279 15.4705C7.53058 15.6228 7.49905 15.7859 7.5 15.9504ZM20.95 5.51291L24.4875 9.05041L22.7125 10.8254L19.175 7.28791L20.95 5.51291ZM10 16.4629L17.4125 9.05041L20.95 12.5879L13.5375 20.0004H10V16.4629Z" fill="#F4FBFF"/>
-            </svg>
-          </div>
-          <div class="f-18 ff-1b">
-            Arbiter publicly posts their decision thus resolving the dispute
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5 mb-5 mr-lg-5">
-        <div class="row mr-0 ml-0 flex-nowrap align-items-center">
-          <div class="bgc-1 radius-1 p-1 mr-4">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M15.375 15.275C16.042 14.6977 16.5769 13.9836 16.9436 13.1813C17.3102 12.379 17.5 11.5071 17.5 10.625C17.5 8.9674 16.8415 7.37769 15.6694 6.20558C14.4973 5.03348 12.9076 4.375 11.25 4.375C9.5924 4.375 8.00269 5.03348 6.83058 6.20558C5.65848 7.37769 5 8.9674 5 10.625C4.99999 11.5071 5.18975 12.379 5.55641 13.1813C5.92306 13.9836 6.45803 14.6977 7.125 15.275C5.37517 16.0674 3.89058 17.3469 2.84873 18.9607C1.80687 20.5744 1.25184 22.4541 1.25 24.375C1.25 24.7065 1.3817 25.0245 1.61612 25.2589C1.85054 25.4933 2.16848 25.625 2.5 25.625C2.83152 25.625 3.14946 25.4933 3.38388 25.2589C3.6183 25.0245 3.75 24.7065 3.75 24.375C3.75 22.3859 4.54018 20.4782 5.9467 19.0717C7.35322 17.6652 9.26088 16.875 11.25 16.875C13.2391 16.875 15.1468 17.6652 16.5533 19.0717C17.9598 20.4782 18.75 22.3859 18.75 24.375C18.75 24.7065 18.8817 25.0245 19.1161 25.2589C19.3505 25.4933 19.6685 25.625 20 25.625C20.3315 25.625 20.6495 25.4933 20.8839 25.2589C21.1183 25.0245 21.25 24.7065 21.25 24.375C21.2482 22.4541 20.6931 20.5744 19.6513 18.9607C18.6094 17.3469 17.1248 16.0674 15.375 15.275ZM11.25 14.375C10.5083 14.375 9.7833 14.1551 9.16661 13.743C8.54993 13.331 8.06928 12.7453 7.78545 12.0601C7.50162 11.3748 7.42736 10.6208 7.57206 9.89341C7.71675 9.16598 8.0739 8.4978 8.59835 7.97335C9.1228 7.4489 9.79098 7.09175 10.5184 6.94706C11.2458 6.80236 11.9998 6.87662 12.6851 7.16045C13.3703 7.44428 13.956 7.92493 14.368 8.54161C14.7801 9.1583 15 9.88332 15 10.625C15 11.6196 14.6049 12.5734 13.9017 13.2767C13.1984 13.9799 12.2446 14.375 11.25 14.375ZM23.425 14.775C24.225 13.8742 24.7475 12.7613 24.9298 11.5704C25.112 10.3795 24.9462 9.16134 24.4522 8.0625C23.9583 6.96366 23.1572 6.03099 22.1456 5.37678C21.1339 4.72256 19.9548 4.37468 18.75 4.375C18.4185 4.375 18.1005 4.5067 17.8661 4.74112C17.6317 4.97554 17.5 5.29348 17.5 5.625C17.5 5.95652 17.6317 6.27446 17.8661 6.50888C18.1005 6.7433 18.4185 6.875 18.75 6.875C19.7446 6.875 20.6984 7.27009 21.4017 7.97335C22.1049 8.67661 22.5 9.63044 22.5 10.625C22.4982 11.2815 22.3241 11.9261 21.9951 12.4943C21.666 13.0624 21.1936 13.5342 20.625 13.8625C20.4397 13.9694 20.2849 14.1221 20.1755 14.3059C20.066 14.4898 20.0056 14.6986 20 14.9125C19.9948 15.1247 20.0437 15.3347 20.1421 15.5228C20.2405 15.7109 20.3852 15.8708 20.5625 15.9875L21.05 16.3125L21.2125 16.4C22.7192 17.1146 23.9904 18.245 24.8762 19.6579C25.7621 21.0708 26.2257 22.7074 26.2125 24.375C26.2125 24.7065 26.3442 25.0245 26.5786 25.2589C26.813 25.4933 27.131 25.625 27.4625 25.625C27.794 25.625 28.112 25.4933 28.3464 25.2589C28.5808 25.0245 28.7125 24.7065 28.7125 24.375C28.7227 22.4568 28.2423 20.5678 27.3168 18.8876C26.3914 17.2073 25.0517 15.7916 23.425 14.775Z" fill="#F4FBFF"/>
-            </svg>
-          </div>
-          <div class="f-18 ff-1b">
-            In case of any dispute, either side calls for an arbiter to resolve the dispute
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5 mb-5 mr-lg-5">
-        <div class="row mr-0 ml-0 flex-nowrap align-items-center">
-          <div class="bgc-1 radius-1 p-1 mr-4">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M26.0866 21.5625L22.6991 15.7125C23.3923 14.4394 23.7534 13.0121 23.7491 11.5625C23.7491 9.24186 22.8272 7.01626 21.1863 5.37532C19.5454 3.73437 17.3198 2.8125 14.9991 2.8125C12.6785 2.8125 10.4529 3.73437 8.81193 5.37532C7.17099 7.01626 6.24911 9.24186 6.24911 11.5625C6.24481 13.0121 6.60593 14.4394 7.29911 15.7125L3.91161 21.5625C3.80169 21.7529 3.74392 21.9689 3.74414 22.1887C3.74436 22.4086 3.80255 22.6245 3.91285 22.8147C4.02315 23.0048 4.18165 23.1625 4.37237 23.2719C4.56309 23.3813 4.77927 23.4384 4.99911 23.4375H8.58661L10.4116 26.5125C10.4731 26.6144 10.5489 26.707 10.6366 26.7875C10.8683 27.0109 11.1773 27.1362 11.4991 27.1375H11.6741C11.8628 27.1117 12.0431 27.0431 12.2013 26.9369C12.3594 26.8308 12.4912 26.6899 12.5866 26.525L14.9991 22.375L17.4116 26.5625C17.5084 26.725 17.6408 26.8635 17.7989 26.9674C17.9569 27.0714 18.1365 27.1381 18.3241 27.1625H18.4991C18.8253 27.1645 19.1393 27.0389 19.3741 26.8125C19.4582 26.7366 19.5299 26.648 19.5866 26.55L21.4116 23.475H24.9991C25.2194 23.4759 25.436 23.4185 25.6269 23.3088C25.8179 23.199 25.9765 23.0408 26.0866 22.85C26.2034 22.6556 26.2651 22.4331 26.2651 22.2062C26.2651 21.9794 26.2034 21.7569 26.0866 21.5625ZM11.4866 23.475L10.3741 21.6125C10.2646 21.4277 10.1093 21.2743 9.92314 21.167C9.73704 21.0597 9.52642 21.0022 9.31161 21H7.14911L8.93661 17.9C10.1675 19.0861 11.7189 19.8857 13.3991 20.2L11.4866 23.475ZM14.9991 17.8125C13.763 17.8125 12.5546 17.4459 11.5268 16.7592C10.499 16.0724 9.69792 15.0963 9.22487 13.9543C8.75182 12.8122 8.62805 11.5556 8.86921 10.3432C9.11036 9.1308 9.70562 8.01716 10.5797 7.14308C11.4538 6.269 12.5674 5.67375 13.7798 5.43259C14.9922 5.19143 16.2488 5.31521 17.3909 5.78825C18.5329 6.2613 19.509 7.06238 20.1958 8.09019C20.8826 9.11799 21.2491 10.3264 21.2491 11.5625C21.2491 13.2201 20.5906 14.8098 19.4185 15.9819C18.2464 17.154 16.6567 17.8125 14.9991 17.8125ZM20.6866 21C20.4718 21.0022 20.2612 21.0597 20.0751 21.167C19.889 21.2743 19.7337 21.4277 19.6241 21.6125L18.5116 23.475L16.6116 20.1625C18.286 19.8417 19.8316 19.0429 21.0616 17.8625L22.8491 20.9625L20.6866 21Z" fill="#F4FBFF"/>
-            </svg>
-          </div>
-          <div class="f-18 ff-1b">
-            Winner side claims the funds form the contract.
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5 mb-5 mr-lg-5">
+      <div class="col-lg-9 mb-5">
         <div class="row mr-0 ml-0 flex-nowrap align-items-center">
           <div class="bgc-1 radius-1 p-1 mr-4">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -324,9 +365,105 @@
             </svg>
           </div>
           <div class="f-18 ff-1b">
-            Success story: both parties are satisfied with the outcome, funds locked on the contract are released to the seller
+            Success story: both parties are satisfied with the outcome, the buyer releases the funds locked on the contract to the seller.
           </div>
         </div>
+      </div>
+      <div class="col-lg-9 mb-5">
+        <div class="row mr-0 ml-0 flex-nowrap align-items-center">
+          <div class="bgc-1 radius-1 p-1 mr-4">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.375 15.275C16.042 14.6977 16.5769 13.9836 16.9436 13.1813C17.3102 12.379 17.5 11.5071 17.5 10.625C17.5 8.9674 16.8415 7.37769 15.6694 6.20558C14.4973 5.03348 12.9076 4.375 11.25 4.375C9.5924 4.375 8.00269 5.03348 6.83058 6.20558C5.65848 7.37769 5 8.9674 5 10.625C4.99999 11.5071 5.18975 12.379 5.55641 13.1813C5.92306 13.9836 6.45803 14.6977 7.125 15.275C5.37517 16.0674 3.89058 17.3469 2.84873 18.9607C1.80687 20.5744 1.25184 22.4541 1.25 24.375C1.25 24.7065 1.3817 25.0245 1.61612 25.2589C1.85054 25.4933 2.16848 25.625 2.5 25.625C2.83152 25.625 3.14946 25.4933 3.38388 25.2589C3.6183 25.0245 3.75 24.7065 3.75 24.375C3.75 22.3859 4.54018 20.4782 5.9467 19.0717C7.35322 17.6652 9.26088 16.875 11.25 16.875C13.2391 16.875 15.1468 17.6652 16.5533 19.0717C17.9598 20.4782 18.75 22.3859 18.75 24.375C18.75 24.7065 18.8817 25.0245 19.1161 25.2589C19.3505 25.4933 19.6685 25.625 20 25.625C20.3315 25.625 20.6495 25.4933 20.8839 25.2589C21.1183 25.0245 21.25 24.7065 21.25 24.375C21.2482 22.4541 20.6931 20.5744 19.6513 18.9607C18.6094 17.3469 17.1248 16.0674 15.375 15.275ZM11.25 14.375C10.5083 14.375 9.7833 14.1551 9.16661 13.743C8.54993 13.331 8.06928 12.7453 7.78545 12.0601C7.50162 11.3748 7.42736 10.6208 7.57206 9.89341C7.71675 9.16598 8.0739 8.4978 8.59835 7.97335C9.1228 7.4489 9.79098 7.09175 10.5184 6.94706C11.2458 6.80236 11.9998 6.87662 12.6851 7.16045C13.3703 7.44428 13.956 7.92493 14.368 8.54161C14.7801 9.1583 15 9.88332 15 10.625C15 11.6196 14.6049 12.5734 13.9017 13.2767C13.1984 13.9799 12.2446 14.375 11.25 14.375ZM23.425 14.775C24.225 13.8742 24.7475 12.7613 24.9298 11.5704C25.112 10.3795 24.9462 9.16134 24.4522 8.0625C23.9583 6.96366 23.1572 6.03099 22.1456 5.37678C21.1339 4.72256 19.9548 4.37468 18.75 4.375C18.4185 4.375 18.1005 4.5067 17.8661 4.74112C17.6317 4.97554 17.5 5.29348 17.5 5.625C17.5 5.95652 17.6317 6.27446 17.8661 6.50888C18.1005 6.7433 18.4185 6.875 18.75 6.875C19.7446 6.875 20.6984 7.27009 21.4017 7.97335C22.1049 8.67661 22.5 9.63044 22.5 10.625C22.4982 11.2815 22.3241 11.9261 21.9951 12.4943C21.666 13.0624 21.1936 13.5342 20.625 13.8625C20.4397 13.9694 20.2849 14.1221 20.1755 14.3059C20.066 14.4898 20.0056 14.6986 20 14.9125C19.9948 15.1247 20.0437 15.3347 20.1421 15.5228C20.2405 15.7109 20.3852 15.8708 20.5625 15.9875L21.05 16.3125L21.2125 16.4C22.7192 17.1146 23.9904 18.245 24.8762 19.6579C25.7621 21.0708 26.2257 22.7074 26.2125 24.375C26.2125 24.7065 26.3442 25.0245 26.5786 25.2589C26.813 25.4933 27.131 25.625 27.4625 25.625C27.794 25.625 28.112 25.4933 28.3464 25.2589C28.5808 25.0245 28.7125 24.7065 28.7125 24.375C28.7227 22.4568 28.2423 20.5678 27.3168 18.8876C26.3914 17.2073 25.0517 15.7916 23.425 14.775Z" fill="#F4FBFF"/>
+            </svg>
+          </div>
+          <div class="f-18 ff-1b">
+            In case of a dispute, either side can invoke the arbiter to resolve the dispute.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 mb-5">
+        <div class="row mr-0 ml-0 flex-nowrap align-items-center">
+          <div class="bgc-1 radius-1 p-1 mr-4">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26.25 15.0004C25.9185 15.0004 25.6005 15.1321 25.3661 15.3665C25.1317 15.6009 25 15.9189 25 16.2504V23.7504C25 24.0819 24.8683 24.3999 24.6339 24.6343C24.3995 24.8687 24.0815 25.0004 23.75 25.0004H6.25C5.91848 25.0004 5.60054 24.8687 5.36612 24.6343C5.1317 24.3999 5 24.0819 5 23.7504V6.25041C5 5.91889 5.1317 5.60095 5.36612 5.36653C5.60054 5.13211 5.91848 5.00041 6.25 5.00041H13.75C14.0815 5.00041 14.3995 4.86872 14.6339 4.6343C14.8683 4.39988 15 4.08193 15 3.75041C15 3.41889 14.8683 3.10095 14.6339 2.86653C14.3995 2.63211 14.0815 2.50041 13.75 2.50041H6.25C5.25544 2.50041 4.30161 2.8955 3.59835 3.59876C2.89509 4.30202 2.5 5.25585 2.5 6.25041V23.7504C2.5 24.745 2.89509 25.6988 3.59835 26.4021C4.30161 27.1053 5.25544 27.5004 6.25 27.5004H23.75C24.7446 27.5004 25.6984 27.1053 26.4017 26.4021C27.1049 25.6988 27.5 24.745 27.5 23.7504V16.2504C27.5 15.9189 27.3683 15.6009 27.1339 15.3665C26.8995 15.1321 26.5815 15.0004 26.25 15.0004ZM7.5 15.9504V21.2504C7.5 21.5819 7.6317 21.8999 7.86612 22.1343C8.10054 22.3687 8.41848 22.5004 8.75 22.5004H14.05C14.2145 22.5014 14.3776 22.4698 14.5299 22.4076C14.6822 22.3454 14.8207 22.2538 14.9375 22.1379L23.5875 13.4754L27.1375 10.0004C27.2547 9.88421 27.3477 9.74596 27.4111 9.59363C27.4746 9.44131 27.5072 9.27793 27.5072 9.11291C27.5072 8.9479 27.4746 8.78451 27.4111 8.63219C27.3477 8.47987 27.2547 8.34162 27.1375 8.22541L21.8375 2.86291C21.7213 2.74575 21.583 2.65276 21.4307 2.5893C21.2784 2.52584 21.115 2.49316 20.95 2.49316C20.785 2.49316 20.6216 2.52584 20.4693 2.5893C20.317 2.65276 20.1787 2.74575 20.0625 2.86291L16.5375 6.40041L7.8625 15.0629C7.74665 15.1797 7.65499 15.3182 7.59279 15.4705C7.53058 15.6228 7.49905 15.7859 7.5 15.9504ZM20.95 5.51291L24.4875 9.05041L22.7125 10.8254L19.175 7.28791L20.95 5.51291ZM10 16.4629L17.4125 9.05041L20.95 12.5879L13.5375 20.0004H10V16.4629Z" fill="#F4FBFF"/>
+            </svg>
+          </div>
+          <div class="f-18 ff-1b">
+            After studying the evidence, the arbiter publicly posts their decision thus resolving the dispute.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 mb-5">
+        <div class="row mr-0 ml-0 flex-nowrap align-items-center">
+          <div class="bgc-1 radius-1 p-1 mr-4">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26.0866 21.5625L22.6991 15.7125C23.3923 14.4394 23.7534 13.0121 23.7491 11.5625C23.7491 9.24186 22.8272 7.01626 21.1863 5.37532C19.5454 3.73437 17.3198 2.8125 14.9991 2.8125C12.6785 2.8125 10.4529 3.73437 8.81193 5.37532C7.17099 7.01626 6.24911 9.24186 6.24911 11.5625C6.24481 13.0121 6.60593 14.4394 7.29911 15.7125L3.91161 21.5625C3.80169 21.7529 3.74392 21.9689 3.74414 22.1887C3.74436 22.4086 3.80255 22.6245 3.91285 22.8147C4.02315 23.0048 4.18165 23.1625 4.37237 23.2719C4.56309 23.3813 4.77927 23.4384 4.99911 23.4375H8.58661L10.4116 26.5125C10.4731 26.6144 10.5489 26.707 10.6366 26.7875C10.8683 27.0109 11.1773 27.1362 11.4991 27.1375H11.6741C11.8628 27.1117 12.0431 27.0431 12.2013 26.9369C12.3594 26.8308 12.4912 26.6899 12.5866 26.525L14.9991 22.375L17.4116 26.5625C17.5084 26.725 17.6408 26.8635 17.7989 26.9674C17.9569 27.0714 18.1365 27.1381 18.3241 27.1625H18.4991C18.8253 27.1645 19.1393 27.0389 19.3741 26.8125C19.4582 26.7366 19.5299 26.648 19.5866 26.55L21.4116 23.475H24.9991C25.2194 23.4759 25.436 23.4185 25.6269 23.3088C25.8179 23.199 25.9765 23.0408 26.0866 22.85C26.2034 22.6556 26.2651 22.4331 26.2651 22.2062C26.2651 21.9794 26.2034 21.7569 26.0866 21.5625ZM11.4866 23.475L10.3741 21.6125C10.2646 21.4277 10.1093 21.2743 9.92314 21.167C9.73704 21.0597 9.52642 21.0022 9.31161 21H7.14911L8.93661 17.9C10.1675 19.0861 11.7189 19.8857 13.3991 20.2L11.4866 23.475ZM14.9991 17.8125C13.763 17.8125 12.5546 17.4459 11.5268 16.7592C10.499 16.0724 9.69792 15.0963 9.22487 13.9543C8.75182 12.8122 8.62805 11.5556 8.86921 10.3432C9.11036 9.1308 9.70562 8.01716 10.5797 7.14308C11.4538 6.269 12.5674 5.67375 13.7798 5.43259C14.9922 5.19143 16.2488 5.31521 17.3909 5.78825C18.5329 6.2613 19.509 7.06238 20.1958 8.09019C20.8826 9.11799 21.2491 10.3264 21.2491 11.5625C21.2491 13.2201 20.5906 14.8098 19.4185 15.9819C18.2464 17.154 16.6567 17.8125 14.9991 17.8125ZM20.6866 21C20.4718 21.0022 20.2612 21.0597 20.0751 21.167C19.889 21.2743 19.7337 21.4277 19.6241 21.6125L18.5116 23.475L16.6116 20.1625C18.286 19.8417 19.8316 19.0429 21.0616 17.8625L22.8491 20.9625L20.6866 21Z" fill="#F4FBFF"/>
+            </svg>
+          </div>
+          <div class="f-18 ff-1b">
+            The winner side claims the funds from the contract.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 f-18 color-2">
+        See more detailed description of the workflow in the <router-link to="/guide" >user guide</router-link>.
+      </div>
+    </div>
+  </div>
+  <div class="container mt-100 pb-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="f-52 ff-2b">
+          Perfect privacy
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        When you make a contract, only you and your conterpart know its content. Even the ArbStore doesn't know what your contract is about. The contract text is exchanged between you and your counterpart using Obyte's end-to-end encrypted messaging (which has been around since 2016).
+      </div>
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        If your contract completes successfully, nobody else learns its content (unless you or your counterpart decide to disclose it).
+      </div>
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        If a dispute arises, the arbiter gets the unencrypted text of the contract from the claimant in order to be able to resolve the dispute. The arbiter is bound by their own privacy terms which you can inquire before <router-link to="/arbiters">choosing the arbiter</router-link>.
+      </div>
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        Only if the losing party decides to appeal the arbiter's decision, only in this case will they disclose the contract text to the ArbStore. The ArbStore will never share it with any third parties unless required by law.
+      </div>
+    </div>
+  </div>
+  <div class="container mt-100 pb-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="f-52 ff-2b">
+          Truly global and unstoppable, no political risks
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        Since the ArbStore works on top of a <a href="https://obyte.org" target="_blank" rel="noopener">truly permissionless cryptocurrency platform</a>, nobody can ever stop, block, restrict, or intervene with your transactions. There are no intermediaries like banks, SWIFT, or credit card systems. Even the ArbStore itself is not an intermediary and can't intervene with your business.
+      </div>
+    </div>
+  </div>
+  <div class="container mt-100 pb-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="f-52 ff-2b">
+          How much?
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        ArbStore takes a 0.75% cut from every contract it facilitates.
+      </div>
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        If a dispute arises, an arbitration fee has to be paid in addition. Different arbiters charge different fees but they typically range from 2% to 5%. See the <router-link to="/arbiters" >list of arbiters</router-link> and their fees. You select the arbiter before signing the contract and know their fees in advance. Arbitration costs are borne by the claimant in the current version. In a future version, the losing party will bear the arbitration costs.
+      </div>
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        If you come from fiat, there are also conversion costs for getting into crypto and back to fiat. They vary widely depending on payment method. Bank transfers through SEPA or SWIFT usually cost between $5 and $50 while credit card payments are usually in 2%-4% range. If you make many contracts in a row, you don't have to use fiat/crypto conversions too often and can save costs.
       </div>
     </div>
   </div>
@@ -339,12 +476,12 @@
           If you want to become an arbiter
         </div>
         <div class="f-32 ff-2 mb-4">
-          you can sign-up on ArbStore using its chatbot
+          you can sign up on ArbStore using its chatbot
         </div>
         <div class="row mr-0 ml-0 mt-5">
           <a href="javascript:void(0);" @click="showRegModl">
             <div class="button small">
-              SignUp as arbiter
+              Sign up as arbiter
             </div>
           </a>
         </div>

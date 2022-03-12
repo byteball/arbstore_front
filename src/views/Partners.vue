@@ -2,13 +2,13 @@
   <main class="mt-5">
     <div class="container pb-5 nobgMob bg-10">
       <h1 class="f-98 ff-2 mb-4">
-        Arbstore
+        ArbStore
       </h1>
       <div class="row">
         <div class="col-lg-7">
           <div class="f-52 f-52m ff-2 mb-4">
             is a new <br class="d-none d-lg-block">
-            escrow - based payment solution
+            escrow based payment solution
           </div>
         </div>
         <div class="d-flex align-items-center justify-content-center d-lg-none col">
@@ -18,121 +18,29 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="color-2 mb-3">
-            For Marketplaces, Classified advertisement platforms, Gaming communities and other e-commerce platforms with C2B and P2P trade patterns.
+            For marketplaces, classified advertisement platforms, gaming communities and other e-commerce platforms with P2P trade patterns.
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <div class="color-2 mb-3">
-            It is aimed to promote and support cross-border trade. Arbiters are an important part of the ecosystem. They protect parties from unlawful misconduct. In case of dispute the arbiter reviews the contract, collects the arguments, decides the outcome, announces the ruling and releases the funds.
+            It is aimed to promote and support cross-border trade. Arbiters are an important part of the ecosystem. They protect the parties from fraud. In case of a dispute, the arbiter reviews the contract, collects the evidence, decides the outcome, announces the ruling, and releases the funds.
           </div>
         </div>
         <div class="col-lg-6">
           <div class="color-2">
-            The solution works with programmable crypto currencies including stable coins and possibly CBDC. Escrow services are facilitated by Smart Contracts built on decentralized DLT. Obyte was selected as a platform for a number of important and critical reasons. It is decentralized and censorship resistant; with mature infrastructure; highly scalable with low and predictable tx fees; has almost zero carbon footprint. Those are all critical components for running a business.
+            The solution works with crypto currencies including stable coins, and potentially CBDC in the future. Escrow services are facilitated by smart contracts built on a decentralized DLT. <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> was selected as a platform for a number of important reasons. It is decentralized and censorship resistant, with mature infrastructure, highly scalable, with low and predictable transaction fees, and has almost zero carbon footprint. Those are all critical components for running a business.
           </div>
         </div>
       </div>
     </div>
-    <div class="container mt-100 pb-5">
-      <div class="row">
-        <div class="col-lg-9">
-          <div class="f-52 ff-2">
-            Here is a high level view
-            of actors in the ecosystem:
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center justify-content-lg-between mt-5 d-none d-lg-flex">
-        <div class="col-lg-3">
-          <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
-            Buyer of Goods/ Services
-          </div>
-        </div>
-        <div class="col-lg-5 arrowBlockCenter">
-          <div class="bgc-1 radius p-4 d-flex align-items-center justify-content-center text-center mb-4">
-            Arbiter (dispute resolution)
-          </div>
-          <div class="bgc-1 radius p-4 d-flex align-items-center justify-content-center text-center mb-4">
-            Smart Contracts (Programmable agreements + crypto/stablecoins
-          </div>
-          <div class="bgc-1 radius p-4 d-flex align-items-center justify-content-center text-center">
-            Obyte Decentralized DLT Platform
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
-            Seller of Goods/ Services
-          </div>
-        </div>
-      </div>
-      <div class="row d-flex d-lg-none mt-5">
-        <div class="col-lg-3 mb-4">
-          <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
-            Arbiter (dispute resolution)
-          </div>
-        </div>
-        <div class="col-lg-3 pb-5">
-          <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
-            Smart Contracts (Programmable agreements + crypto/stablecoins
-          </div>
-        </div>
-        <div class="row mb-4 mr-0 ml-0 w-100">
-          <div class="col-6">
-            <div class="arrowMobBlockTop">
-              <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_203_3717)">
-                  <path d="M20.7357 38.2718C21.0413 38.3981 21.3846 38.3981 21.6903 38.2718C21.8418 38.2109 21.9799 38.1208 22.0968 38.0067L27.4001 32.7034C27.6346 32.469 27.7663 32.151 27.7663 31.8195C27.7663 31.488 27.6346 31.17 27.4001 30.9356C27.1657 30.7012 26.8478 30.5695 26.5163 30.5695C26.1847 30.5695 25.8668 30.7012 25.6324 30.9356L22.4592 34.1087V8.31703L25.6324 11.4902C25.8668 11.7246 26.1847 11.8563 26.5163 11.8563C26.8478 11.8563 27.1657 11.7246 27.4001 11.4902C27.6346 11.2558 27.7663 10.9378 27.7663 10.6063C27.7663 10.2748 27.6346 9.95683 27.4001 9.72241L22.0968 4.4191C21.9799 4.305 21.8418 4.21491 21.6903 4.15394C21.3846 4.02766 21.0413 4.02765 20.7357 4.15394C20.5841 4.21491 20.446 4.305 20.3291 4.4191L15.0258 9.72241C14.7914 9.95683 14.6597 10.2748 14.6597 10.6063C14.6597 10.9378 14.7914 11.2558 15.0258 11.4902C15.2602 11.7246 15.5781 11.8563 15.9097 11.8563C16.2412 11.8563 16.5591 11.7246 16.7935 11.4902L19.9667 8.31703V34.1088L16.7935 30.9356C16.5591 30.7012 16.2412 30.5695 15.9097 30.5695C15.5781 30.5695 15.2602 30.7012 15.0258 30.9356C14.7914 31.17 14.6597 31.488 14.6597 31.8195C14.6597 32.151 14.7914 32.469 15.0258 32.7034L20.3291 38.0067C20.446 38.1208 20.5841 38.2109 20.7357 38.2718Z" fill="#3E444B"/>
-                </g>
-                <defs>
-                  <clipPath id="clip0_203_3717">
-                    <rect width="30" height="30" fill="white" transform="translate(42.4258 21.2129) rotate(135)"/>
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-            <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
-              Buyer of Goods/ Services
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="arrowMobBlockTop">
-              <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_203_3717)">
-                  <path d="M20.7357 38.2718C21.0413 38.3981 21.3846 38.3981 21.6903 38.2718C21.8418 38.2109 21.9799 38.1208 22.0968 38.0067L27.4001 32.7034C27.6346 32.469 27.7663 32.151 27.7663 31.8195C27.7663 31.488 27.6346 31.17 27.4001 30.9356C27.1657 30.7012 26.8478 30.5695 26.5163 30.5695C26.1847 30.5695 25.8668 30.7012 25.6324 30.9356L22.4592 34.1087V8.31703L25.6324 11.4902C25.8668 11.7246 26.1847 11.8563 26.5163 11.8563C26.8478 11.8563 27.1657 11.7246 27.4001 11.4902C27.6346 11.2558 27.7663 10.9378 27.7663 10.6063C27.7663 10.2748 27.6346 9.95683 27.4001 9.72241L22.0968 4.4191C21.9799 4.305 21.8418 4.21491 21.6903 4.15394C21.3846 4.02766 21.0413 4.02765 20.7357 4.15394C20.5841 4.21491 20.446 4.305 20.3291 4.4191L15.0258 9.72241C14.7914 9.95683 14.6597 10.2748 14.6597 10.6063C14.6597 10.9378 14.7914 11.2558 15.0258 11.4902C15.2602 11.7246 15.5781 11.8563 15.9097 11.8563C16.2412 11.8563 16.5591 11.7246 16.7935 11.4902L19.9667 8.31703V34.1088L16.7935 30.9356C16.5591 30.7012 16.2412 30.5695 15.9097 30.5695C15.5781 30.5695 15.2602 30.7012 15.0258 30.9356C14.7914 31.17 14.6597 31.488 14.6597 31.8195C14.6597 32.151 14.7914 32.469 15.0258 32.7034L20.3291 38.0067C20.446 38.1208 20.5841 38.2109 20.7357 38.2718Z" fill="#3E444B"/>
-                </g>
-                <defs>
-                  <clipPath id="clip0_203_3717">
-                    <rect width="30" height="30" fill="white" transform="translate(42.4258 21.2129) rotate(135)"/>
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-            <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
-              Seller of Goods/ Services
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="bgc-1 radius p-5 d-flex align-items-center justify-content-center text-center h-100">
-            Obyte Decentralized DLT Platform
-          </div>
-        </div>
-      </div>
-    </div>
+
     <div class="container mt-100 pb-5">
       <div class="row">
         <div class="col-lg-7">
           <div class="f-52 ff-2 mb-4">
-            When researching the payment market
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="f-32 ff-2">
-            we discovered some very promising data related to use of crypto for p2p payments:
+            Market data
           </div>
         </div>
       </div>
@@ -140,7 +48,7 @@
         <div class="col-lg-4 mb-4">
           <div class="bgc-1 radius p-3 d-flex flex-column justify-content-lg-between h-100">
             <div class="f-18">
-              Customers who currently use crypto as a payment
+              Customers who currently use crypto for payments
             </div>
             <div class="bigNumberPst ff-2b">
               10%
@@ -150,7 +58,7 @@
         <div class="col-lg-4 mb-4">
           <div class="bgc-1 radius p-3 d-flex flex-column justify-content-lg-between h-100">
             <div class="f-18">
-              Customers concerned about high forwarding fees and lack of standardization in cross-border payments
+              Customers concerned about high transaction fees and lack of standardization in cross-border payments
             </div>
             <div class="bigNumberPst ff-2b">
               35%
@@ -160,7 +68,7 @@
         <div class="col-lg-4 mb-4">
           <div class="bgc-1 radius p-3 d-flex flex-column justify-content-lg-between h-100">
             <div class="f-18">
-              Will use crypto currency payment method in the next 1-2- years
+              Will use crypto currency payment methods in the next 1-2 years
             </div>
             <div class="bigNumberPst ff-2b">
               45%
@@ -168,17 +76,22 @@
           </div>
         </div>
       </div>
+      <div class="row mt-2">
+        <div class="f-14 col-lg-9 color-2">
+          Source: <a href="https://www.us.sogeti.com/explore/research/reports/world-payments-report-2021/#download" target="_blank" rel="noopener">World Payments Report 2021</a>.
+        </div>
+      </div>
       <div class="row mt-4">
-        <div class="col-lg-5 color-2">
-          With this forecast in hands, we see that marketplaces should start adopting the emerging payment method in order to keep their client base happy.
+        <div class="col-lg-9 color-2">
+          With this data in mind, we see that marketplaces should start adopting the emerging payment method in order to keep their clients happy.
         </div>
       </div>
     </div>
     <div class="container mt-100 pb-5">
       <div class="row mb-5">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="f-52 ff-2 brakeWord">
-            What are the true benefits for the marketplaces?
+            What are the benefits for marketplaces?
           </div>
         </div>
       </div>
@@ -192,7 +105,7 @@
               </svg>
             </div>
             <div class="f-18">
-              Adding value for the users by eliminating the risk of fraud
+              Adding value for users by eliminating the risk of fraud
             </div>
           </div>
         </div>
@@ -231,7 +144,7 @@
               </svg>
             </div>
             <div class="f-18">
-              Low and transparent tx fee spur the volumes
+              Low and transparent fees help increase volumes
             </div>
           </div>
         </div>
@@ -258,7 +171,7 @@
               </svg>
             </div>
             <div class="f-18">
-              Acquiring a new segment of users, who prefer crypto to credit cards
+              Acquiring a new segment of users who prefer crypto to credit cards
             </div>
           </div>
         </div>
@@ -266,12 +179,12 @@
       <div class="row mt-5">
         <div class="col-lg-6 mb-4">
           <div class="color-2">
-            In summary we want to outline that ArbStore has generated an alternative approach to the existing market practices in the escrow p2p payment segment. It is cost efficient, secure and eliminates the lack of standardization in global payments.
+            ArbStore is a foward-looking approach to the P2P escrow payment segment. It is cost efficient, secure, and truly global.
           </div>
         </div>
         <div class="col-lg-6 mb-4">
           <div class="color-2">
-            This new innovative application integrated DeFi into p2p payment market where demand is expected to grow exponentially. For more details please contact partners@arbstore.org
+            To discuss partnership opportunities, please contact us at <a href="mailto:partners@arbstore.org">partners@arbstore.org</a>.
           </div>
         </div>
       </div>

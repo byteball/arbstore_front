@@ -2,7 +2,7 @@
   <main class="mt-5">
     <div class="container pb-5">
       <h1 class="f-98 ff-2b mb-5">
-        Choose arbiter
+        Choose an arbiter
       </h1>
       <div class="row d-flex d-xl-none mb-5 mr-0 ml-0">
         <div class="button small f-18" @click="mobFilter">
@@ -178,7 +178,7 @@
             Arbiters wanted!
           </div>
           <div class="f-32 ff-2b mb-5">
-            Passionate professionals with deep knowledge and high reputation. We offer great opportunity to transform legal landscape!
+            Passionate professionals with expert knowledge and high reputation. We offer great opportunity to transform the legal landscape!
           </div>
           <div class="d-flex align-items-center justify-content-center d-lg-none">
             <img class="w-100" src="../assets/image/bg-7.png" alt="bg-7">
@@ -186,7 +186,7 @@
           <div class="row mr-0 ml-0">
             <a href="javascript:void(0);" @click="showRegModl">
               <div class="button small">
-                SignUp as arbiter
+                Sign up as arbiter
               </div>
             </a>
           </div>
