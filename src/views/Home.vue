@@ -437,6 +437,20 @@
     <div class="row">
       <div class="col-lg-8">
         <div class="f-52 ff-2b">
+          Decentralized custody
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 f-18 mt-4 color-2">
+        Neither the ArbStore nor the arbiters custody the funds. The funds are escrowed by a smart contract deployed on a decentralized <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> network, and no third party can touch them, even the ArbStore.
+      </div>
+    </div>
+  </div>
+  <div class="container mt-100 pb-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="f-52 ff-2b">
           Truly global and unstoppable, no political risks
         </div>
       </div>
