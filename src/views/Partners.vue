@@ -131,7 +131,7 @@
               </svg>
             </div>
             <div class="f-18">
-              Expands payment geography
+              Expanding your business geography
             </div>
           </div>
         </div>

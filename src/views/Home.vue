@@ -22,7 +22,7 @@
     <div class="row mt-5 pt-5">
       <div class="col-lg-4 mb-4">
         <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-top">
-          Safe payments between businesses and individuals.
+          Safe transactions between businesses or individuals.
         </div>
       </div>
       <div class="col-lg-4 mb-4">
@@ -451,7 +451,7 @@
     <div class="row">
       <div class="col-lg-8">
         <div class="f-52 ff-2b">
-          Truly global and unstoppable, no political risks
+          Truly global and unstoppable, no borders, no middlemen
         </div>
       </div>
     </div>
