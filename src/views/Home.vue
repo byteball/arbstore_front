@@ -190,10 +190,10 @@
     <div class="row">
     <div class="col-lg-6">
       <div class="f-52 ff-2b mb-3">
-        Trust the strangers
+        Trust strangers
       </div>
       <div class="f-32 ff-2 mb-5">
-        Yes, trust the strangers, because you are protected
+        Yes, trust even strangers, because you are protected
       </div>
       <div class="d-flex align-items-center justify-content-center d-lg-none">
         <img class="w-50" src="../assets/image/bg-2.png" alt="bg-2">
