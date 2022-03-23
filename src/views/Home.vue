@@ -213,10 +213,10 @@
       <div class="bgc-1 radius pt-5 pr-2 pr-sm-5 pl-2 pl-sm-5 pb-0 pb-lg-5 nobgMob bg-3">
         <div class="col-lg-8 col-xl-9">
           <div class="f-52 ff-2b mb-4">
-            For small businesses and P2P trade
+            For small/medium businesses and P2P trade
           </div>
           <div class="f-18 color-2">
-            Decentralized escrow is meant primarily for cross-border trade between small businesses but it also works for domestic trade or trading high-value items between individuals, such as domain names, vehicles, real estate, art, collectibles, game assets, freelance work, etc.
+            Decentralized escrow is meant primarily for cross-border trade between small/medium businesses but it also works for domestic trade or trading high-value items between individuals, such as domain names, vehicles, real estate, art, collectibles, game assets, freelance work, etc.
           </div>
         </div>
         <div class="d-flex align-items-center justify-content-end d-lg-none bg3Mob">
