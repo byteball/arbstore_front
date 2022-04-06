@@ -33,46 +33,97 @@
           </svg>
         </a>
       </div>
+      <div class="row justify-content-center align-items-center mt-2">
+        &copy;&nbsp;<a href="https://obyte.org">Obyte.org</a>
+      </div>
     </div>
-    <EditArbiter v-if="$route.params.token && isModalVisible" @close="closeModal" :token="$route.params.token"/>
+    <EditArbiter v-if="$route.params.token && editFormVisible" @close="closeEditForm" :token="$route.params.token"/>
+    <Modal v-show="isModalVisible" @close="closeModal" :props="props">
+        <template v-slot:header>
+            Sign up as Arbiter
+        </template>
+        <template v-slot:body>
+          <div class="row pt-0">
+            <div class="col-lg-6 mb-4">
+                <div class="f-18 ff-2 bgc-1 radius p-4 position-relative h-100 d-flex flex-column justify-content-between">
+                  <div class="numberAbs ff-2b">
+                    1
+                  </div>
+                  Download Obyte app
+                  <div class="ff-1 f-18 color-2 mb-4 mt-4">ArbStore is based on <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> cryptocurrency platform. Sign up process is started through ArbStore chat bot inside Obyte wallet app.</div>
+                  <div class="d-flex mt-3">
+                    <a href="https://apps.apple.com/us/app/obyte-formerly-byteball/id1147137332" target="_blank" rel="noopener" class="mr-4">
+                      <AppStoreSVG/>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=org.byteball.wallet" target="_blank" rel="noopener">
+                      <PlayMarketSVG/>
+                    </a>
+                  </div>
+                  <div class="ff-1 f-18 color-2 mb-0 mt-1">
+                    <a href="https://obyte.org/downloads/Obyte-win64.exe" target="_blank" rel="noopener">Windows</a>
+                    &nbsp;
+                    <a href="https://obyte.org/downloads/Obyte-osx64.dmg" target="_blank" rel="noopener">Mac</a>
+                    &nbsp;
+                    <a href="https://obyte.org/downloads/Obyte-x86_64.AppImage" target="_blank" rel="noopener">Linux</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="f-18 ff-2 bgc-1 radius p-4 position-relative h-100 d-flex flex-column justify-content-between">
+                  <div class="numberAbs ff-2b">
+                    2
+                  </div>
+                  Pair with ArbStore chat bot
+                  <div class="ff-1 f-18 color-2 mb-4 mt-4">Click this link to open a dialog with ArbStore bot inside Obyte wallet:</div>
+                  <div class="d-flex mt-3">
+                    <a :href="'obyte:'+pairingCode">Pair with ArbStore</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </template>
+    </Modal>
   </footer>
 
 </template>
 
 <script>
 import EditArbiter from '@/components/EditArbiter';
+import Modal from '../components/Modal.vue';
+import AppStoreSVG from '../components/AppStoreSVG'
+import PlayMarketSVG from '../components/PlayMarketSVG'
 
 export default {
   name: "Footer",
   components: {
-    EditArbiter
+    EditArbiter,
+    Modal,
+    AppStoreSVG,
+    PlayMarketSVG
   },
   data(){
-
     return{
       scrollY:document.body.style.top,
-      isModalVisible: true,
+      isModalVisible: false,
+      editFormVisible: true,
+      pairingCode: process.env.VUE_APP_ARBSTORE_PAIRING_CODE
     }
   },
   watch:{
     '$store.state.showReg': function() {
       if(this.$store.state.showReg){
-        this.scrollY=window.pageYOffset;
         this.isModalVisible = true;
-        document.body.style.position = 'fixed';
-        document.body.style.top = `-${window.scrollY}px`;
       }
     }
-
   },
   methods: {
     closeModal() {
       this.isModalVisible = false;
       this.$store.dispatch('showReg', false );
-
-      document.body.style.position = '';
-      window.scrollTo(0, parseInt(this.scrollY));
     },
+    closeEditForm() {
+        this.editFormVisible = false
+    }
   }
 };
 </script>

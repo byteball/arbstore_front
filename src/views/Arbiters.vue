@@ -195,7 +195,7 @@
         </div>
       </div>
     </div>
-    <modal
+    <ArbiterModal
         v-show="isModalVisible"
         @close="closeModal"
         :props="props"
@@ -210,7 +210,7 @@ import Pagination from 'v-pagination-3';
 import axios from 'axios'
 import {markRaw} from 'vue'
 import MyPagination from '../components/MyPagination'
-import modal from '../components/modal.vue';
+import ArbiterModal from '../components/ArbiterModal.vue';
 
 
 function _getScrollbarSize() { // получение ширины скролла
@@ -243,7 +243,7 @@ export default {
   name: 'Arbiters',
   components: {
     Pagination,
-    modal
+    ArbiterModal
   },
   data(){
 
@@ -269,7 +269,7 @@ export default {
         template: markRaw(MyPagination),
         chunksNavigation: false,
       },
-
+      pairingCode: process.env.VUE_APP_ARBSTORE_PAIRING_CODE,
     }
   },
 
