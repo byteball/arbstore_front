@@ -10,7 +10,6 @@ export default createStore({
     showMenu:false,
     languages:[],
     tags:[],
-    scrollY:'',
   },
   mutations: {
     getProducts(state, products){
@@ -30,9 +29,6 @@ export default createStore({
     },
     showMenu (state, showMenu) {
       state.showMenu=showMenu
-    },
-    addScroll (state, scrollY) {
-      state.scrollY=scrollY
     },
   },
   actions: {
@@ -71,10 +67,6 @@ export default createStore({
     showMenu({commit}, showMenu) {
       commit('showMenu', showMenu)
     },
-    addScroll({commit}, scrollY) {
-      commit('addScroll', scrollY)
-    },
-
   },
   modules: {
   }

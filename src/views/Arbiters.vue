@@ -80,7 +80,7 @@
         <div class="col-xl-9">
           <!-- Display Products -->
 
-          <div class=" bgc-1 radius p-4 mb-5"  v-for="product in filterProducts" :key="product.hash" v-bind:id="product.hash">
+          <div class="row bgc-1 radius p-4 mb-5"  v-for="product in filterProducts" :key="product.hash" v-bind:id="product.hash">
             <div class="col-sm-4 col-lg-4 cartBlockName">
               <div class="f-32 ff-2b mb-4">
                 {{product.real_name}}
@@ -148,7 +148,7 @@
                 <div class="color-2 d-flex w-100">
                   <input class="addressCartInput w-100 text-left text-lg-right" type="text" v-bind:value="product.address" readonly>
                   <div class="clickCopy"  @click="copyText(product.address, product.hash)">
-                    <div class="tool-tip">Copy</div>
+                    <div class="tool-tip">Copied!</div>
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="30" height="30" rx="6" fill="#1D45FE"/>
                       <path d="M24 11.94C23.9896 11.8481 23.9695 11.7576 23.94 11.67V11.58C23.8919 11.4772 23.8278 11.3827 23.75 11.3L17.75 5.3C17.6673 5.22222 17.5728 5.15808 17.47 5.11C17.4402 5.10576 17.4099 5.10576 17.38 5.11C17.2784 5.05174 17.1662 5.01434 17.05 5H13C12.2044 5 11.4413 5.31607 10.8787 5.87868C10.3161 6.44129 10 7.20435 10 8V9H9C8.20435 9 7.44129 9.31607 6.87868 9.87868C6.31607 10.4413 6 11.2044 6 12V22C6 22.7956 6.31607 23.5587 6.87868 24.1213C7.44129 24.6839 8.20435 25 9 25H17C17.7956 25 18.5587 24.6839 19.1213 24.1213C19.6839 23.5587 20 22.7956 20 22V21H21C21.7956 21 22.5587 20.6839 23.1213 20.1213C23.6839 19.5587 24 18.7956 24 18V12C24 12 24 12 24 11.94ZM18 8.41L20.59 11H19C18.7348 11 18.4804 10.8946 18.2929 10.7071C18.1054 10.5196 18 10.2652 18 10V8.41ZM18 22C18 22.2652 17.8946 22.5196 17.7071 22.7071C17.5196 22.8946 17.2652 23 17 23H9C8.73478 23 8.48043 22.8946 8.29289 22.7071C8.10536 22.5196 8 22.2652 8 22V12C8 11.7348 8.10536 11.4804 8.29289 11.2929C8.48043 11.1054 8.73478 11 9 11H10V18C10 18.7956 10.3161 19.5587 10.8787 20.1213C11.4413 20.6839 12.2044 21 13 21H18V22ZM22 18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H13C12.7348 19 12.4804 18.8946 12.2929 18.7071C12.1054 18.5196 12 18.2652 12 18V8C12 7.73478 12.1054 7.48043 12.2929 7.29289C12.4804 7.10536 12.7348 7 13 7H16V10C16 10.7956 16.3161 11.5587 16.8787 12.1213C17.4413 12.6839 18.2044 13 19 13H22V18Z" fill="#F4FBFF"/>
@@ -212,33 +212,6 @@ import {markRaw} from 'vue'
 import MyPagination from '../components/MyPagination'
 import ArbiterModal from '../components/ArbiterModal.vue';
 
-
-function _getScrollbarSize() { // получение ширины скролла
-  let outer = document.createElement('div');
-  outer.style.visibility = 'hidden';
-  outer.style.width = '100px';
-  outer.style.msOverflowStyle = 'scrollbar'; // needed for WinJS apps
-
-  document.body.appendChild(outer);
-
-  let widthNoScroll = outer.offsetWidth;
-  // force scrollbars
-  outer.style.overflow = 'scroll';
-
-  // add innerdiv
-  let inner = document.createElement('div');
-  inner.style.width = '100%';
-  outer.appendChild(inner);
-
-  let widthWithScroll = inner.offsetWidth;
-
-  // remove divs
-  outer.parentNode.removeChild(outer);
-
-  return widthNoScroll - widthWithScroll;
-}
-
-
 export default {
   name: 'Arbiters',
   components: {
@@ -252,7 +225,6 @@ export default {
     }
 
     return{
-      scrollY:'',
       isActive: false,
       isModalVisible: false,
       searchProduct: '',
@@ -324,16 +296,10 @@ export default {
           return product;
         }
       });
-
-
       this.$store.dispatch('addCount', { count:arrProd.length });
-
-      //let newProd;
       for (let key of Object.keys(arrProd)) {
         arrProd[key].img=require('../assets/image/avatar.png');
       }
-
-
       return arrProd.slice(start,end);
     },
     rows() {
@@ -346,25 +312,17 @@ export default {
       this.isActive = !this.isActive;
     },
     avatar: function (e){
-
       e.src=require('../assets/image/avatar.png');
-      //console.log();
     },
     getImg: function (hash){
-
       let result;
-
       let img = new Image();
       img.src = 'https://testnet.arbstore.org/assets/uploads/'+hash+'.jpeg';
       img.onload = function(){
-
       };
-
       return result
     },
     copyText: function(textToCopy, e){
-
-
       // eslint-disable-next-line no-useless-catch
       // navigator clipboard api needs a secure context (https)
       if (navigator.clipboard && window.isSecureContext) {
@@ -400,8 +358,6 @@ export default {
           textArea.remove();
         });
       }
-
-
     },
     eliminateDuplicatedCategories(products){
       let arr = []
@@ -426,42 +382,17 @@ export default {
 
     },
     displayProductModal: function (route){
-
       this.showDetail(route.params.id);
       window.history.pushState({}, null, route.path);
     },
     hideProductModal() {
       this.$router.push({ path: '/arbiters'})
-
       //this.$router.go(-1);
       window.history.pushState({}, null, this.$route.path);
     },
     showDetail: function(e) {
-      this.scrollY=window.scrollY;
-
-
-
-
       axios.get('https://testnet.arbstore.org/api/v1/arbiter/'+e)
           .then((response) => {
-            //document.body.style.overflow = 'hidden';
-            document.body.classList.add("no-scroll");
-            this.$store.dispatch('addScroll', window.scrollY );
-            //this.scrollY = window.pageYOffset; // запоминаем текущую прокрутку сверху
-
-
-
-            document.body.style.position = 'fixed';
-            if (document.body.scrollHeight > document.body.clientHeight) {
-              // с учетом горизонтального скролла. Чтобы небыло рывка при открытии модального окна
-              document.body.style.width = `calc(100% - ${_getScrollbarSize()}px)`;
-            } else {
-              document.body.style.width = '100%';
-            }
-            document.body.style.top = -this.scrollY + 'px';
-
-
-
             this.isModalVisible = true;
             this.props=response.data;
             this.props.bio=response.data.info.bio;
@@ -471,23 +402,9 @@ export default {
           .catch((error) => {
             console.log(error);
           });
-
     },
     closeModal() {
       this.hideProductModal();
-
-
-      document.body.classList.remove('no-scroll');
-
-      document.body.style.position = '';
-      document.body.style.width = '';
-      document.body.style.top = '';
-
-
-      console.log(this.$store.state.scrollY);
-      window.scroll(0, this.scrollY);
-
-
       this.isModalVisible = false;
     },
     showRegModl: function() {
@@ -495,7 +412,6 @@ export default {
     }
   },
   beforeRouteLeave (to, from, next) {
-
     if (to.name === "Arbiters id") {
       //this.showDetail(to.params.id);
       this.displayProductModal(to);

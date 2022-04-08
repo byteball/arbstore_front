@@ -38,7 +38,7 @@
       </div>
     </div>
     <EditArbiter v-if="$route.params.token && editFormVisible" @close="closeEditForm" :token="$route.params.token"/>
-    <Modal v-show="isModalVisible" @close="closeModal" :props="props">
+    <Modal v-show="isModalVisible" @close="closeModal">
         <template v-slot:header>
             Sign up as Arbiter
         </template>
@@ -75,9 +75,11 @@
                   </div>
                   Pair with ArbStore chat bot
                   <div class="ff-1 f-18 color-2 mb-4 mt-4">Click this link to open a dialog with ArbStore bot inside Obyte wallet:</div>
+                  <br>
                   <div class="d-flex mt-3">
                     <a :href="'obyte:'+pairingCode">Pair with ArbStore</a>
                   </div>
+                  <br><br>
                 </div>
               </div>
             </div>
@@ -103,7 +105,6 @@ export default {
   },
   data(){
     return{
-      scrollY:document.body.style.top,
       isModalVisible: false,
       editFormVisible: true,
       pairingCode: process.env.VUE_APP_ARBSTORE_PAIRING_CODE

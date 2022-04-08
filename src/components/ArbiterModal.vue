@@ -1,11 +1,7 @@
 <template>
-  <transition name="modal-fade">
-    <div class="fancybox-container fancybox-is-open fancybox-can-swipe" role="dialog" tabindex="-1" id="fancybox-container-1" style="transition-duration: 366ms;">
-      <div class="fancybox-bg"></div>
-      <div class="fancybox-inner">
-        <div class="fancybox-stage"  >
-          <div class="fancybox-slide fancybox-slide--html fancybox-slide--current fancybox-slide--complete" style="">
-          <div class="bgc-1 radius pt-5 pb-5 pl-4 pr-4 fastViewBlock fancybox-content" style="">
+  <Modal @close="close">
+    <template v-slot:body>
+    <div class="bgc-1 pt-0 pb-0 radius fastViewBlock fancybox-content" style="">
             <div class="row">
               <div class="col-lg-4">
                 <div class="f-32 ff-2b mb-4">
@@ -115,28 +111,25 @@
               </div>
             </div>
             <notifications position="top right" :max="3" :width="200" />
-            <button type="button"  @click="close" class="fancybox-button fancybox-close-small" title="Close">
-              <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg>
-            </button>
           </div>
-     </div></div><div class="fancybox-caption fancybox-caption--separate"><div class="fancybox-caption__body"></div></div></div></div>
-  </transition>
+    </template>
+  </Modal>
 </template>
 
 <script>
-
+import Modal from '../components/Modal.vue';
 
 export default {
   name: 'ArbiterModal',
+  components: {
+    Modal,
+  },
   props: ['props'],
   methods: {
     close() {
       this.$emit('close');
     },
     copyText: function(textToCopy){
-
-
-
       // eslint-disable-next-line no-useless-catch
       // navigator clipboard api needs a secure context (https)
       if (navigator.clipboard && window.isSecureContext) {
@@ -171,8 +164,6 @@ export default {
           textArea.remove();
         });
       }
-
-
     },
   },
 

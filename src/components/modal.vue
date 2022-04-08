@@ -4,7 +4,7 @@
       <div class="fancybox-bg"></div>
       <div class="fancybox-inner">
         <div class="fancybox-stage"  >
-          <div class="fancybox-slide fancybox-slide--html fancybox-slide--current fancybox-slide--complete" style="">
+          <div class="fancybox-slide--html fancybox-slide--current fancybox-slide--complete" style="padding-top: 40px;">
             <div class="container pl-0 pr-0 pl-sm-3 pr-sm-3">
               <div class="col-12 col-sm-11 m-auto p-0">
                 <button type="button"  @click="close" class="fancybox-button fancybox-close-small" title="Close">
@@ -15,10 +15,8 @@
                     <slot name="header">
                     </slot>
                   </div>
-                  <div class="f-32 ff-2 mb-4">
-                    <slot name="body">
-                    </slot>
-                  </div>
+                  <slot name="body">
+                  </slot>
                 </div>
               </div>
             </div>
@@ -34,7 +32,6 @@
 <script>
 export default {
   name: 'Modal',
-  props: ['props'],
   methods: {
     close() {
       this.$emit('close');

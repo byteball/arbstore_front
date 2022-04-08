@@ -557,7 +557,7 @@ textarea.formTextarea::placeholder{
   cursor: pointer;
 }
 .formScroll{
-  /*height: calc(100vh - 70px);*/
+  max-height: calc(100vh - 70px);
   /*max-height: 720px;*/
   overflow-y: auto;
   overflow-x: hidden;
