@@ -12,7 +12,7 @@ import './assets/css/main.css';
 const app = createApp(App).use(store).use(router).use(Notifications);
 if (!window.location.hostname.includes('testnet.')) {
 	app.use(VueGtag, {
-		config: { id: "G-CM0KLFYDWV" }
+		config: { id: process.env.GOOGLE_ANALYTICS_ID }
 	}, router);
 }
 app.mount('#app')
