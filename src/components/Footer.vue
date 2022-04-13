@@ -50,7 +50,7 @@
                     1
                   </div>
                   Download Obyte app
-                  <div class="ff-1 f-18 color-2 mb-4 mt-4">ArbStore is based on <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> cryptocurrency platform. Sign up process is started through ArbStore chat bot inside Obyte wallet app.</div>
+                  <div class="ff-1 f-18 color-2 mb-4 mt-4">ArbStore is based on <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> cryptocurrency platform. Sign up process begins with opening the ArbStore chatbot in the app.</div>
                   <div class="d-flex mt-3">
                     <a href="https://apps.apple.com/us/app/obyte-formerly-byteball/id1147137332" target="_blank" rel="noopener" class="mr-4">
                       <AppStoreSVG/>
@@ -73,8 +73,8 @@
                   <div class="numberAbs ff-2b">
                     2
                   </div>
-                  Pair with ArbStore chat bot
-                  <div class="ff-1 f-18 color-2 mb-4 mt-4">Click this link to open a dialog with ArbStore bot inside Obyte wallet:</div>
+                  Pair with the ArbStore chatbot
+                  <div class="ff-1 f-18 color-2 mb-4 mt-4">Click this link to open a dialog with the ArbStore bot in your Obyte wallet:</div>
                   <br>
                   <div class="d-flex mt-3">
                     <a :href="'obyte:'+pairingCode">Pair with ArbStore</a>
