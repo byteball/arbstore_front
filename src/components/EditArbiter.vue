@@ -119,7 +119,7 @@
               </label>
               <div id="preview" class="upload_prev">
                 <img v-if="url" :src="url"/>
-                <img v-if="formData.hash && !noPhoto && !url" :src="'https://testnet.arbstore.org/assets/uploads/'+formData.hash+'.jpeg'" @error="noPhotoHandler"/>
+                <img v-if="formData.hash && !noPhoto && !url" :src="BACKEND_URL + '/assets/uploads/'+formData.hash+'.jpeg'" @error="noPhotoHandler"/>
                 <span v-if="url" class="remove-file"  @click="removeFile"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#F44336" d="M21.5 4.5H26.501V43.5H21.5z" transform="rotate(45.001 24 24)"/><path fill="#F44336" d="M21.5 4.5H26.5V43.501H21.5z" transform="rotate(135.008 24 24)"/></svg>
 </span>
               </div>
@@ -149,7 +149,7 @@ import axios from "axios";
 
 defineRule('required', required);
 
-const APIURL = `https://testnet.arbstore.org/api/v1/`;
+const APIURL = `${process.env.BACKEND_URL}/api/v1/`;
 
 export default {
   name: 'EditArbiter',
@@ -176,6 +176,7 @@ export default {
         }
       },
       noPhoto: false,
+      BACKEND_URL: process.env.VUE_APP_BACKEND_URL,
     }
   },
   methods: {

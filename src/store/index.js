@@ -34,7 +34,7 @@ export default createStore({
   actions: {
     getProductsAction({commit}){
 
-      axios('https://testnet.arbstore.org/api/v1/').then(res => {
+      axios(process.env.VUE_APP_BACKEND_URL + '/api/v1/').then(res => {
         commit('getProducts', res.data)
       }).catch(error => {
         console.log(error);
@@ -43,7 +43,7 @@ export default createStore({
 
     },
     getLanguages({commit}){
-      axios('https://testnet.arbstore.org/api/v1/languages').then(res => {
+      axios(process.env.VUE_APP_BACKEND_URL + '/api/v1/languages').then(res => {
         commit('getLanguages', res.data);
       }).catch(error => {
         console.log(error);
@@ -51,7 +51,7 @@ export default createStore({
       }).finally(() => (this.loading = false));
     },
     getTags({commit}){
-      axios('https://testnet.arbstore.org/api/v1/tags').then(res => {
+      axios(process.env.VUE_APP_BACKEND_URL + '/api/v1/tags').then(res => {
         commit('getTags', res.data);
       }).catch(error => {
         console.log(error);

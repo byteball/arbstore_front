@@ -8,7 +8,7 @@
                   {{props.real_name}}
                 </div>
                 <div class="imgCart radius mb-4">
-                  <img :src="'https://testnet.arbstore.org/assets/uploads/'+props.hash+'.jpeg'" onerror="this.src='/avatar.png';"  alt="img">
+                  <img :src="BACKEND_URL + '/assets/uploads/'+props.hash+'.jpeg'" onerror="this.src='/avatar.png';"  alt="img">
                 </div>
               </div>
               <div class="col-lg-8">
@@ -125,6 +125,11 @@ export default {
     Modal,
   },
   props: ['props'],
+  data() {
+    return {
+        BACKEND_URL: process.env.VUE_APP_BACKEND_URL
+    }
+  },
   methods: {
     close() {
       this.$emit('close');

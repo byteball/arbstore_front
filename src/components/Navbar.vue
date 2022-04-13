@@ -2,9 +2,9 @@
     <div class="topMenuWrap">
       <div id="app">
       <ul>
-        <!--li class="f-18">
+        <li class="f-18">
           <router-link to="/about" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">About</router-link>
-        </li-->
+        </li>
         <li class="f-18">
           <router-link to="/arbiters" @click.native="hideMenu" class="color-1 js__click_menu" active-class="active" >Arbiters</router-link>
         </li>

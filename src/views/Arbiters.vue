@@ -86,7 +86,7 @@
                 {{product.real_name}}
               </div>
               <div class="imgCart radius mb-4">
-                <img :src="'https://testnet.arbstore.org/assets/uploads/'+product.hash+'.jpeg'"  onerror="this.onerror=null;this.src='/avatar.png';"  alt="img">
+                <img :src="BACKEND_URL + '/assets/uploads/'+product.hash+'.jpeg'"  onerror="this.onerror=null;this.src='/avatar.png';"  alt="img">
               </div>
               <router-link class="button small f-18 text-center mb-4"  :to="{ name: 'Arbiters id', params: { id: product.hash }}" >Info</router-link>
             </div>
@@ -242,6 +242,7 @@ export default {
         chunksNavigation: false,
       },
       pairingCode: process.env.VUE_APP_ARBSTORE_PAIRING_CODE,
+      BACKEND_URL: process.env.VUE_APP_BACKEND_URL,
     }
   },
 
@@ -317,7 +318,7 @@ export default {
     getImg: function (hash){
       let result;
       let img = new Image();
-      img.src = 'https://testnet.arbstore.org/assets/uploads/'+hash+'.jpeg';
+      img.src = process.env.VUE_APP_BACKEND_URL + '/assets/uploads/'+hash+'.jpeg';
       img.onload = function(){
       };
       return result
@@ -391,7 +392,7 @@ export default {
       window.history.pushState({}, null, this.$route.path);
     },
     showDetail: function(e) {
-      axios.get('https://testnet.arbstore.org/api/v1/arbiter/'+e)
+      axios.get(process.env.VUE_APP_BACKEND_URL + '/api/v1/arbiter/'+e)
           .then((response) => {
             this.isModalVisible = true;
             this.props=response.data;
