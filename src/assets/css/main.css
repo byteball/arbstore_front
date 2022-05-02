@@ -161,7 +161,7 @@ header {
 .bg-3 {
   background-image: url(../image/bg-3.png);
   background-repeat: no-repeat;
-  background-position: 101% 128%;
+  background-position: 98% 50%;
 }
 .bg-4 {
   background-image: url(../image/bg-4-1.png);
@@ -191,6 +191,30 @@ header {
 .bg-10{
   background: url(../image/bg-10.png)no-repeat top right;
   background-position-x: calc(100% - 15px);
+}
+.bg-11 {
+  background-image: url(../image/bg-11.png);
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  background-size: 20%;
+}
+.bg-12 {
+  background-image: url(../image/bg-12.png);
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  background-size: 20%;
+}
+.bg-13 {
+  background-image: url(../image/bg-13.png);
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  background-size: 20%;
+}
+.bg-14 {
+  background-image: url(../image/bg-14.png);
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  background-size: 20%;
 }
 .mt-100{
   margin-top: 110px;
