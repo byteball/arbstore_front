@@ -152,7 +152,7 @@
           </div>
         </div>
         <div class="d-flex align-items-center justify-content-end d-lg-none bg3Mob pr-5 pb-5">
-          <img src="../assets/image/bg-3.png" alt="bg-2">
+          <img src="../assets/image/cross-border-trade.png" alt="Cross-border trade">
         </div>
       </div>
       </div>
@@ -365,7 +365,7 @@
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg12Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/bg-12.png" alt="bg-12">
+          <img src="../assets/image/privacy.png" alt="Perfect privacy">
         </div>
   </div>
   <div class="container mt-100 pb-5 bg-11 nobgMob">
@@ -382,7 +382,7 @@
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg11Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/bg-11.png" alt="bg-11">
+          <img src="../assets/image/custody.png" alt="Decentralized custody">
         </div>
   </div>
   <div class="container mt-100 pb-5 bg-13 nobgMob">
@@ -399,7 +399,7 @@
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg13Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/bg-13.png" alt="bg-13">
+          <img src="../assets/image/global.png" alt="Global, unstoppable">
         </div>
   </div>
   <div class="container mt-100 pb-5 bg-14 nobgMob">
@@ -422,7 +422,7 @@
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg14Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/bg-14.png" alt="bg-14">
+          <img src="../assets/image/how-much.png" alt="How much?">
         </div>
   </div>
   <div class="container mt-100 pb-5">
