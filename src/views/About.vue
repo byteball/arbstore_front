@@ -33,7 +33,7 @@
       <div class="row mt-5">
         <div class="col-lg-12">
           <div class="f-18 color-2">
-            ArbStore is not a financial business nor a payment system and it does not provide centralized escrow services itself. Our technology allows the parties to make transactions to deposit funds in an escrow account managed by a smart contract between themselves. When hiring the ArbStore solution, the parties appoint an independent arbitrator provided by ArbStore, but not related to ArbStore, to resolve transaction disputes in case they arise. If no dispute arises, the buyer releases the funds to the seller. If a dispute arises, the arbitrator will be invoked and, after analysing the dispute, the arbitrator allows the winner side to claim the funds from the smart contract. Neither ArbStore nor the arbitrators custody or have access to the transaction funds at any point in time.
+            ArbStore is not a financial business nor a payment system and it does not provide centralized escrow services itself. Our technology allows the parties to make transactions to deposit funds in an escrow account managed by a smart contract between themselves. When using the ArbStore solution, the parties appoint an independent arbitrator provided by ArbStore, but not related to ArbStore, to resolve transaction disputes in case they arise. If no dispute arises, the buyer releases the funds to the seller. If a dispute arises, the arbitrator will be invoked and, after analysing the dispute, the arbitrator allows the winner side to claim the funds from the smart contract. Neither ArbStore nor the arbitrators custody or have access to the transaction funds at any point in time.
           </div>
         </div>
       </div>

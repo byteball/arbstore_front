@@ -74,7 +74,7 @@
                     2
                   </div>
                   Pair with the ArbStore chatbot
-                  <div class="ff-1 f-18 color-2 mb-4 mt-4">Click this link to open a dialog with the ArbStore bot in your Obyte wallet:</div>
+                  <div class="ff-1 f-18 color-2 mb-4 mt-4">Click the below link to open a dialog with the ArbStore bot in your Obyte wallet:</div>
                   <br>
                   <div class="d-flex mt-3">
                     <a :href="'obyte:'+pairingCode">Pair with ArbStore</a>
