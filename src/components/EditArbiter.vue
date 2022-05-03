@@ -128,7 +128,7 @@
           </div>
           <div class="col-lg-3">
             <button type="submit" class="button small f-18 w-100">
-              Sign up
+              {{isNew ? 'Sign up' : 'Save'}}
             </button>
           </div>
         </div>
@@ -149,7 +149,7 @@ import axios from "axios";
 
 defineRule('required', required);
 
-const APIURL = `${process.env.BACKEND_URL}/api/v1/`;
+const APIURL = `${process.env.VUE_APP_BACKEND_URL}/api/v1/`;
 
 export default {
   name: 'EditArbiter',
@@ -227,33 +227,29 @@ export default {
             }
           }
       ).then(function(resp){
-        console.log(resp.request.responseURL);
-        let arrayVar = []; // массив для хранения переменных
-        let valueAndKey = []; // массив для временного хранения значения и имени переменной
-        let resultArray = {}; // массив для хранения переменных
-        arrayVar = (resp.request.responseURL.substr(1)).split('?'); // разбираем урл на параметры
-
-        if(arrayVar[1]=="") return false; // если нет переменных в урле
-        valueAndKey = arrayVar[1].split('='); // пишем в массив имя переменной и ее значение
-        resultArray[valueAndKey[0]]=decodeURIComponent(valueAndKey[1]);
-        console.log($this);
-
-        if(valueAndKey[0] =='error'){
-
+        console.log('resp', resp);
+        const { data } = resp;
+        if (data.success){
           $this.$notify({
-            text:decodeURIComponent(valueAndKey[1]),
-            type:'error',
+            text: data.is_new_arbiter ? 'Saved your data, please continue in chat.' : 'Data updated',
+            type: 'success',
             duration: 15000,
           });
-        } else if(valueAndKey[0] =='success'){
+        }
+        else{
           $this.$notify({
-            text:'Data updated',
-            type:'success',
+            text: data.error,
+            type: 'error',
             duration: 15000,
           });
         }
       }).catch(function(error){
-        console.log(error);
+        console.log('catched', JSON.stringify(error));
+        $this.$notify({
+          text:error,
+          type:'error',
+          duration: 15000,
+        });
       });
     },
     noPhotoHandler() {
@@ -286,6 +282,7 @@ export default {
   },
   mounted() {
     axios.get(`${APIURL}${this.token}`).then(resp => {
+      this.isNew = !resp.data.announce_unit;
       for (const field in resp.data) {
         if (resp.data[field] !== "" && resp.data[field] !== null)
           this.formData[field] = resp.data[field];
