@@ -87,7 +87,8 @@ body {
 }
 .f-98{
   font-size: 98px;
-  line-height: 117px;
+  line-height: 98px;
+  margin-bottom: 20px;
 }
 .ff-1{
   font-family: 'Formular',sans-serif;
@@ -159,7 +160,7 @@ header {
   background-position-y: 70px;
 }
 .bg-3 {
-  background-image: url(../image/cross-border-trade.png);
+  background-image: url(../image/cross-border-trade.svg);
   background-repeat: no-repeat;
   background-position: 98% 50%;
 }
@@ -170,7 +171,7 @@ header {
   background-size: contain;
 }
 .bg-5{
-  background: url(../image/bg-5.png) no-repeat top right;
+  background: url(../image/bg-5.svg) no-repeat top right;
 }
 .bg-6{
   background: url(../image/bg-6.png) no-repeat top right;
@@ -193,28 +194,31 @@ header {
   background-position-x: calc(100% - 15px);
 }
 .bg-11 {
-  background-image: url(../image/custody.png);
+  background-image: url(../image/custody.svg);
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  background-size: 20%;
+  background-size: 23%;
 }
 .bg-12 {
-  background-image: url(../image/privacy.png);
+  background-image: url(../image/privacy.svg);
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  background-size: 20%;
+  background-size: 30%;
 }
 .bg-13 {
-  background-image: url(../image/global.png);
+  background-image: url(../image/global.svg);
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  background-size: 20%;
+  background-size: 30%;
 }
 .bg-14 {
-  background-image: url(../image/how-much.png);
+  background-image: url(../image/how-much.svg);
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  background-size: 20%;
+  background-size: 30%;
+}
+.max-w-100 {
+  max-width: 100%;
 }
 .mt-100{
   margin-top: 110px;
@@ -224,7 +228,7 @@ header {
   padding: 9px 45px;
   font-size: 26px;
   border-radius: 30px;
-  color: #ffffff;
+  color: #ffffff !important;
   font-family: Roboto,sans-serif;
   cursor: pointer;
   transition: all 0.3s;
@@ -745,13 +749,13 @@ body{
 }
 @media all and (max-width: 768px){
   .f-98 {
-    font-size: 52px;
-    line-height: 62px;
+    font-size: 48px;
+    line-height: 58px;
   }
-  /*.f-52 {*/
-  /*font-size: 28px;*/
-  /*line-height: 33px;*/
-  /*}*/
+  .f-52 {
+    font-size: 33px;
+    line-height: 38px;
+  }
   .f-32 {
     font-size: 28px;
     line-height: 33px;
@@ -786,6 +790,12 @@ body{
   .bg3Mob{
     right: -11px;
     bottom: -16px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .f-98 {
+    word-break: break-all;
   }
 }
 .scrollWrapperAll {

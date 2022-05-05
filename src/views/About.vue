@@ -10,7 +10,7 @@
             is a facilitator to international trade
           </div>
           <div class="d-flex align-items-center justify-content-center d-lg-none">
-            <img class="w-100" src="../assets/image/bg-5.png" alt="bg-5">
+            <img class="w-100" src="../assets/image/bg-5.svg" alt="bg-5">
           </div>
         </div>
         <div class="col-lg-6 f-18 color-2 mb-3">
