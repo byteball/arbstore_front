@@ -10,43 +10,47 @@
         protected by an independent arbiter
       </div>
       <div class="d-flex">
-        <router-link to="/#get_started"  class="button" >Get started</router-link>
-
-
+        <router-link to="/#get_started"  class="button">Get started</router-link>
       </div>
     </div>
     </div>
-    <div class="d-flex align-items-center justify-content-center d-lg-none">
+    <!-- <div class="d-flex align-items-center justify-content-center d-lg-none">
       <img class="w-100" src="../assets/image/bg-1.png" alt="bg-1">
-    </div>
+    </div> -->
     <div class="row mt-5 pt-5">
       <div class="col-lg-4 mb-4">
         <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-center">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3">
-<path d="M24.5375 4.5624C24.3923 4.44492 24.2226 4.36149 24.0409 4.31823C23.8592 4.27496 23.6701 4.27297 23.4875 4.3124C22.1518 4.59233 20.7729 4.59589 19.4358 4.32288C18.0987 4.04986 16.8316 3.50604 15.7125 2.7249C15.5033 2.57974 15.2547 2.50195 15 2.50195C14.7453 2.50195 14.4968 2.57974 14.2875 2.7249C13.1685 3.50604 11.9014 4.04986 10.5642 4.32288C9.22708 4.59589 7.84821 4.59233 6.51251 4.3124C6.32993 4.27297 6.14084 4.27496 5.95913 4.31823C5.77743 4.36149 5.60773 4.44492 5.46251 4.5624C5.31748 4.68005 5.20066 4.82869 5.12062 4.99742C5.04059 5.16614 4.99937 5.35065 5.00001 5.5374V14.8499C4.9989 16.6421 5.42597 18.4086 6.24568 20.0023C7.06538 21.5961 8.25398 22.9709 9.71251 24.0124L14.275 27.2624C14.4867 27.4131 14.7401 27.4941 15 27.4941C15.2599 27.4941 15.5133 27.4131 15.725 27.2624L20.2875 24.0124C21.746 22.9709 22.9346 21.5961 23.7543 20.0023C24.574 18.4086 25.0011 16.6421 25 14.8499V5.5374C25.0006 5.35065 24.9594 5.16614 24.8794 4.99742C24.7994 4.82869 24.6825 4.68005 24.5375 4.5624ZM22.5 14.8499C22.501 16.2433 22.1691 17.6169 21.5321 18.8562C20.895 20.0955 19.9712 21.1647 18.8375 21.9749L15 24.7124L11.1625 21.9749C10.0288 21.1647 9.10499 20.0955 8.46794 18.8562C7.8309 17.6169 7.49905 16.2433 7.50001 14.8499V6.9749C10.1205 7.19919 12.7451 6.59118 15 5.2374C17.255 6.59118 19.8795 7.19919 22.5 6.9749V14.8499Z" fill="#F4FBFF"/>
-</svg>
+            <div>
+              <svg width="55" height="55" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3">
+                <path d="M24.5375 4.5624C24.3923 4.44492 24.2226 4.36149 24.0409 4.31823C23.8592 4.27496 23.6701 4.27297 23.4875 4.3124C22.1518 4.59233 20.7729 4.59589 19.4358 4.32288C18.0987 4.04986 16.8316 3.50604 15.7125 2.7249C15.5033 2.57974 15.2547 2.50195 15 2.50195C14.7453 2.50195 14.4968 2.57974 14.2875 2.7249C13.1685 3.50604 11.9014 4.04986 10.5642 4.32288C9.22708 4.59589 7.84821 4.59233 6.51251 4.3124C6.32993 4.27297 6.14084 4.27496 5.95913 4.31823C5.77743 4.36149 5.60773 4.44492 5.46251 4.5624C5.31748 4.68005 5.20066 4.82869 5.12062 4.99742C5.04059 5.16614 4.99937 5.35065 5.00001 5.5374V14.8499C4.9989 16.6421 5.42597 18.4086 6.24568 20.0023C7.06538 21.5961 8.25398 22.9709 9.71251 24.0124L14.275 27.2624C14.4867 27.4131 14.7401 27.4941 15 27.4941C15.2599 27.4941 15.5133 27.4131 15.725 27.2624L20.2875 24.0124C21.746 22.9709 22.9346 21.5961 23.7543 20.0023C24.574 18.4086 25.0011 16.6421 25 14.8499V5.5374C25.0006 5.35065 24.9594 5.16614 24.8794 4.99742C24.7994 4.82869 24.6825 4.68005 24.5375 4.5624ZM22.5 14.8499C22.501 16.2433 22.1691 17.6169 21.5321 18.8562C20.895 20.0955 19.9712 21.1647 18.8375 21.9749L15 24.7124L11.1625 21.9749C10.0288 21.1647 9.10499 20.0955 8.46794 18.8562C7.8309 17.6169 7.49905 16.2433 7.50001 14.8499V6.9749C10.1205 7.19919 12.7451 6.59118 15 5.2374C17.255 6.59118 19.8795 7.19919 22.5 6.9749V14.8499Z" fill="#F4FBFF"/>
+              </svg>
+            </div>
           Safe transactions between businesses or individuals.
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-center">
-            <svg width="50" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3">
-<path d="M7 9.99967L11.9999 9.99991C13.1045 9.99996 14 9.10451 14 7.99991V3" stroke="#F4FBFF" stroke-width="2"/>
-<path d="M6 9.85817C6 9.60062 6.09937 9.35299 6.27742 9.16689L11.8819 3.30871C12.0705 3.11153 12.3316 3 12.6045 3H22C22.5523 3 23 3.44772 23 4V26C23 26.5523 22.5523 27 22 27H7C6.44772 27 6 26.5523 6 26V9.85817Z" stroke="#F4FBFF" stroke-width="2"/>
-</svg>
+            <div>
+              <svg width="55" height="55" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3">
+                <path d="M7 9.99967L11.9999 9.99991C13.1045 9.99996 14 9.10451 14 7.99991V3" stroke="#F4FBFF" stroke-width="2"/>
+                <path d="M6 9.85817C6 9.60062 6.09937 9.35299 6.27742 9.16689L11.8819 3.30871C12.0705 3.11153 12.3316 3 12.6045 3H22C22.5523 3 23 3.44772 23 4V26C23 26.5523 22.5523 27 22 27H7C6.44772 27 6 26.5523 6 26V9.85817Z" stroke="#F4FBFF" stroke-width="2"/>
+              </svg>
+            </div>
           Smart contracts provide decentralized escrow and protect both parties from fraud.
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="f-18 bgc-1 radius p-4 ff-1b h-100 d-flex align-items-center">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3">
-<path d="M8 5.33325L4 14.6262C4 16.8576 5.79086 18.6666 8 18.6666C10.2091 18.6666 12 16.8576 12 14.6262L8 5.33325ZM8 5.33325H14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
-<path d="M21.3334 5.33325L25.3334 14.6262C25.3334 16.8576 23.5425 18.6666 21.3334 18.6666C19.1242 18.6666 17.3334 16.8576 17.3334 14.6262L21.3334 5.33325ZM21.3334 5.33325H14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
-<path d="M4 14.6667C4 14.6667 6 15.3334 8 15.3334C10 15.3334 12 14.6667 12 14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
-<path d="M17.3334 14.6667C17.3334 14.6667 19.3334 15.3334 21.3334 15.3334C23.3334 15.3334 25.3334 14.6667 25.3334 14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
-<path d="M15 3L15 24" stroke="#F4FBFF" stroke-width="1.6" stroke-linecap="square"/>
-<line x1="8.13337" y1="24.5333" x2="21.2" y2="24.5333" stroke="#F4FBFF" stroke-width="1.6" stroke-linecap="square"/>
-</svg>
+            <div>
+              <svg width="55" height="55" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-3">
+                <path d="M8 5.33325L4 14.6262C4 16.8576 5.79086 18.6666 8 18.6666C10.2091 18.6666 12 16.8576 12 14.6262L8 5.33325ZM8 5.33325H14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
+                <path d="M21.3334 5.33325L25.3334 14.6262C25.3334 16.8576 23.5425 18.6666 21.3334 18.6666C19.1242 18.6666 17.3334 16.8576 17.3334 14.6262L21.3334 5.33325ZM21.3334 5.33325H14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
+                <path d="M4 14.6667C4 14.6667 6 15.3334 8 15.3334C10 15.3334 12 14.6667 12 14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
+                <path d="M17.3334 14.6667C17.3334 14.6667 19.3334 15.3334 21.3334 15.3334C23.3334 15.3334 25.3334 14.6667 25.3334 14.6667" stroke="#F4FBFF" stroke-width="1.6"/>
+                <path d="M15 3L15 24" stroke="#F4FBFF" stroke-width="1.6" stroke-linecap="square"/>
+                <line x1="8.13337" y1="24.5333" x2="21.2" y2="24.5333" stroke="#F4FBFF" stroke-width="1.6" stroke-linecap="square"/>
+              </svg>
+            </div>
 
           In case of a dispute, an arbiter resolves it.
         </div>
@@ -152,7 +156,7 @@
           </div>
         </div>
         <div class="d-flex align-items-center justify-content-end d-lg-none bg3Mob pr-5 pb-5">
-          <img src="../assets/image/cross-border-trade.png" alt="Cross-border trade">
+          <img src="../assets/image/cross-border-trade.svg" alt="Cross-border trade">
         </div>
       </div>
       </div>
@@ -351,21 +355,21 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         When you make a contract, only you and your conterpart know its content. Even the ArbStore doesn't know what your contract is about. The contract text is exchanged between you and your counterpart using Obyte's end-to-end encrypted messaging (which has been around since 2016).
       </div>
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         If your contract completes successfully, nobody else learns its content (unless you or your counterpart decide to disclose it).
       </div>
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         If a dispute arises, the arbiter gets the unencrypted text of the contract from the claimant in order to be able to resolve the dispute. The arbiter is bound by their own privacy terms which you can inquire before <router-link to="/arbiters">choosing the arbiter</router-link>.
       </div>
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         Only if the losing party decides to appeal the arbiter's decision, only in this case will they disclose the contract text to the ArbStore. The ArbStore will never share it with any third parties unless required by law.
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg12Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/privacy.png" alt="Perfect privacy">
+          <img class="max-w-100" src="../assets/image/privacy.svg" alt="Perfect privacy">
         </div>
   </div>
   <div class="container mt-100 pb-5 bg-11 nobgMob">
@@ -377,12 +381,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-7 f-18 mt-4 color-2">
         Neither the ArbStore nor the arbiters custody the funds. The funds are escrowed by a smart contract deployed on a decentralized <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> network, and no third party can touch them, even the ArbStore.
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg11Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/custody.png" alt="Decentralized custody">
+          <img class="max-w-100" src="../assets/image/custody.svg" alt="Decentralized custody">
         </div>
   </div>
   <div class="container mt-100 pb-5 bg-13 nobgMob">
@@ -394,12 +398,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         Since the ArbStore works on top of a <a href="https://obyte.org" target="_blank" rel="noopener">truly permissionless cryptocurrency platform</a>, nobody can ever stop, block, restrict, or intervene with your transactions. There are no intermediaries like banks, SWIFT, or credit card systems. Even the ArbStore itself is not an intermediary and can't intervene with your business.
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg13Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/global.png" alt="Global, unstoppable">
+          <img class="max-w-100" src="../assets/image/global.svg" alt="Global, unstoppable">
         </div>
   </div>
   <div class="container mt-100 pb-5 bg-14 nobgMob">
@@ -411,18 +415,18 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         ArbStore takes a 0.75% cut from every contract it facilitates.
       </div>
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         If a dispute arises, an arbitration fee has to be paid in addition. Different arbiters charge different fees but they typically range from 2% to 5%. See the <router-link to="/arbiters" >list of arbiters</router-link> and their fees. You select the arbiter before signing the contract and know their fees in advance. Arbitration costs are borne by the claimant in the current version. In a future version, the losing party will bear the arbitration costs.
       </div>
-      <div class="col-lg-9 f-18 mt-4 color-2">
+      <div class="col-lg-8 f-18 mt-4 color-2">
         If you come from fiat, there are also conversion costs for getting into crypto and back to fiat. They vary widely depending on payment method. Bank transfers through SEPA or SWIFT usually cost between $5 and $50 while credit card payments are usually in 2%-4% range. If you make many contracts in a row, you don't have to use fiat/crypto conversions too often and can save costs.
       </div>
     </div>
     <div class="d-flex align-items-center justify-content-end d-lg-none bg14Mob pr-5 pb-5 pt-5">
-          <img src="../assets/image/how-much.png" alt="How much?">
+          <img class="max-w-100" src="../assets/image/how-much.svg" alt="How much?">
         </div>
   </div>
   <div class="container mt-100 pb-5">
