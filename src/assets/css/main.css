@@ -46,6 +46,10 @@ ul {
   padding: 0;
 }
 
+ol.list li {
+  list-style-type: circle;
+}
+
 html,
 body {
   padding: 0;

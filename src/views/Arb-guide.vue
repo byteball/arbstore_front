@@ -72,7 +72,7 @@
                 2
               </div>
               <p>
-                The ArbStore will ask you to get attested by through Real Name Attestation bot first. The bot is available through Bot Store tab on the Chat page of your wallet. After finishing the attestation process, click and save your private profile that the Real Name Attestation bot sent to you.
+                The ArbStore will ask you to get attested by Real Name Attestation bot first. The bot is available through Bot Store tab on the Chat page of your wallet. After finishing the attestation process, click and save your private profile that the Real Name Attestation bot sent to you.
               </p>
               Real name attestation is strongly recommended for added credibility, however you do not have to reveal your real name during signing up as an arbiter.
               <div style="clear: both"></div>
@@ -108,6 +108,9 @@
               <p>
                 After the signature was sent, the ArbStore will ask if you'd like to stay anonymous or reveal your real name to users. Click your choice.
               </p>
+              <p>
+                At this point, it is strongly recommended to back up your wallet (burger menu -> Settings -> Backup all wallet data) to make sure that you can always post your decision about a dispute. The contracts that have chosen you as arbiter indicate your wallet address and it cannot be changed once the contract is signed. Only you can post from this address and neither the ArbStore nor Obyte can help you to recover the wallet if it was lost.
+                </p>
               When you have revealed your profile (or chosen to stay anonymous), the ArbStore will send you your personal secret link to the ArbStore web site to continue filling your arbiter profile. Click it.
               <div style="clear: both"></div>
             </div>
@@ -125,6 +128,14 @@
               <p>
                 Fill all the fields on the web page. Be concise but clear. Write down the ways that users and ArbStore moderators can reach you outside of Obyte platform.
               </p>
+              <p>
+              </p>
+                Pay special attention to thoroughly filling the Bio field. In particular:
+                <ol class="list">
+                  <li>Describe your professional background.  Indicate any professional communities you are a member of. Back your claims with links to the relevant pages.</li>
+                  <li>Describe your dispute resolution process. Indicate the approximate time it takes (depending on the contract's nature and complexity).</li>
+                  <li>Describe how you have backed up your wallet (number of backups, how they are stored, etc). It's important &mdash; if you lose your wallet, you won't be able to post your decision and the money might be stuck on the smart contract forever!</li>
+                </ol>  
               <p>
                 Then pick the specializations (topics of the contracts) that you are good at and are interested in resolving. Indicate the approximate fee for your service of resolving contracts of each topic.
               </p>
@@ -145,7 +156,7 @@
                 6
               </div>
               <p>
-                When the web form was successfullly sent, the ArbStore will send you a payment request to fill up your deposit with a minimum amount. The amount and asset of the deposit depends on ArbStore configuration. The deposit is used as a source for funds to compensate users for incorrect arbiter decisions or any other misbehavior. The deposit should always have enough funds (at least the minimum amount that you were asked for during this step) to make your arbiter listing visible for users.
+                When the web form was successfullly sent, the ArbStore will send you a payment request to fill up your deposit (if any) with a minimum amount. The amount and asset of the deposit depends on ArbStore configuration. The deposit is used as a source for funds to compensate users for incorrect arbiter decisions or any other misbehavior. The deposit should always have enough funds (at least the minimum amount that you were asked for during this step) to make your arbiter listing visible for users.
               </p>
               <p>
                 Wait for the payment to be confirmed in Obyte network.

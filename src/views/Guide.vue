@@ -192,7 +192,8 @@
               <div class="numberAbs big ff-2b">
                 7
               </div>
-              After the unit is posted, the buyer needs to pay to the contract by opening the contract in their wallet and clicking the Pay button. This locks the money on the smart contract address associated with the contract.
+              <p>After the unit is posted, the buyer needs to pay to the contract by opening the contract in their wallet and clicking the Pay button. This locks the money on the smart contract address associated with the contract.</p>
+              <p>At this point, it is strongly recommended that both parties back up their wallets (burger menu -> Settings -> Backup all wallet data) to make sure that the funds can always be recovered from the smart contract. The smart contract, as well as contract text, is stored only in the parties' wallets and nowhere else.</p>
               <div style="clear: both"></div>
             </div>
           </div>
