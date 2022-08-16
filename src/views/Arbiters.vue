@@ -164,6 +164,7 @@
                       :options="options"
                       :per-page="PER_PAGE"
                       :records="rows"
+                      @paginate="goToTop()"
                      />
           <!--end pagination-->
         </div>
@@ -392,13 +393,14 @@ export default {
       window.history.pushState({}, null, this.$route.path);
     },
     showDetail: function(e) {
-      axios.get(process.env.VUE_APP_BACKEND_URL + '/api/v1/arbiter/'+e)
+      axios.get(process.env.VUE_APP_BACKEND_URL + '/api/v1/arbiter/' + e)
           .then((response) => {
             this.isModalVisible = true;
             this.props=response.data;
-            this.props.bio=response.data.info.bio;
+            this.props.longBio=response.data.info.bio;
             this.props.tags=response.data.info.tags;
             this.props.languages=response.data.info.languages.join(', ');
+            this.props.shortBio =response.data.info.short_bio;
           })
           .catch((error) => {
             console.log(error);
@@ -410,6 +412,9 @@ export default {
     },
     showRegModl: function() {
       this.$store.dispatch('showReg', true );
+    },
+    goToTop: function () {
+      document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
     }
   },
   beforeRouteLeave (to, from, next) {

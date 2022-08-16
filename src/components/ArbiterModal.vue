@@ -14,15 +14,15 @@
               <div class="col-lg-8">
                 <div class="d-flex flex-column flex-lg-row">
                   <div class="f-18 ff-2b mr-2">
-                    Bio:
+                    {{props.shortBio}}
                   </div>
-                  <div class="f-18 color-2">
-                    {{props.bio}}
-                  </div>
+                </div>
+                <div class="f-18 color-2 long-bio">
+                  {{props.longBio}}
                 </div>
               </div>
             </div>
-            <div class="d-flex align-items-center flex-wrap mt-4 mt-lg-0">
+            <div class="d-flex align-items-center flex-wrap mt-4 mt-lg-0 tags">
               <div class="bgc-2 radius mr-3 tabletFast mb-3" v-for="(tag, key) in props.tags" :key="key">{{key}}</div>
             </div>
             <div class="mt-4">
