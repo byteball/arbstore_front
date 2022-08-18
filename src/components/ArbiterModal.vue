@@ -17,7 +17,7 @@
                     {{props.shortBio}}
                   </div>
                 </div>
-                <div class="f-18 color-2 long-bio">
+                <div class="f-18 color-2 long-bio" style="margin-top: 8px">
                   {{props.longBio}}
                 </div>
               </div>
