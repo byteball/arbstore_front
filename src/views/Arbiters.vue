@@ -88,7 +88,7 @@
               <div class="imgCart radius mb-4">
                 <img :src="BACKEND_URL + '/assets/uploads/'+product.hash+'.jpeg'"  onerror="this.onerror=null;this.src='/avatar.png';"  alt="img">
               </div>
-              <router-link class="button small f-18 text-center mb-4"  :to="{ name: 'Arbiters id', params: { id: product.hash }}" >Info</router-link>
+              <div class="button small f-18 text-center mb-4" @click="displayProductModal(product.hash)">Info</div>
             </div>
             <div class="col-sm col-lg-8">
               <div class="d-flex mb-4 flex-column flex-lg-row">
@@ -197,10 +197,9 @@
       </div>
     </div>
     <ArbiterModal
-        v-show="isModalVisible"
+        v-if="isModalVisible"
         @close="closeModal"
         :props="props"
-
     />
     <notifications position="top right" :max="3" :width="200" />
   </main>
@@ -219,9 +218,19 @@ export default {
     Pagination,
     ArbiterModal
   },
+  created() {
+    this.$watch(
+        () => this.$route.params,
+        () => {
+          if (this.$route.params?.id) {
+            this.showDetail(this.$route.params.id);
+          }
+        }
+    )
+  },
   data(){
 
-    if (this.$route.name === "Arbiters id") {
+    if (this.$route.params?.id) {
       this.showDetail(this.$route.params.id);
     }
 
@@ -383,14 +392,12 @@ export default {
       return [...new Set(arr)];
 
     },
-    displayProductModal: function (route){
-      this.showDetail(route.params.id);
-      window.history.pushState({}, null, route.path);
+    displayProductModal: function (id){
+      this.showDetail(id);
+      window.history.pushState({}, null, `/arbiters/${id}`);
     },
     hideProductModal() {
-      this.$router.push({ path: '/arbiters'})
-      //this.$router.go(-1);
-      window.history.pushState({}, null, this.$route.path);
+      window.history.pushState({}, null, `/arbiters`);
     },
     showDetail: function(e) {
       axios.get(process.env.VUE_APP_BACKEND_URL + '/api/v1/arbiter/' + e)
@@ -415,14 +422,6 @@ export default {
     },
     goToTop: function () {
       document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
-    }
-  },
-  beforeRouteLeave (to, from, next) {
-    if (to.name === "Arbiters id") {
-      //this.showDetail(to.params.id);
-      this.displayProductModal(to);
-    } else {
-      next();
     }
   },
 }
