@@ -8,13 +8,9 @@ const routes = [
     component: () => import('../views/Home.vue')
   },
   {
-    path: '/arbiters',
+    path: '/arbiters/:id?',
     name: 'Arbiters',
-    component: () => import('../views/Arbiters.vue')
-  },
-  {
-    path: '/arbiters/:id',
-    name: 'Arbiters id',
+    alias: ['/arbiters'],
     component: () => import('../views/Arbiters.vue')
   },
   {

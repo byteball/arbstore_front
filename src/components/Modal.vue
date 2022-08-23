@@ -1,9 +1,11 @@
 <template>
   <transition name="modal-fade">
-    <div class="fancybox-container fancybox-is-open fancybox-can-swipe" role="dialog" tabindex="-1" id="fancybox-container-1" style="transition-duration: 366ms;">
+    <div class="fancybox-container fancybox-is-open fancybox-can-swipe" role="dialog" tabindex="-1"
+         id="fancybox-container-1" style="transition-duration: 366ms;"
+         @click="handlerClicksToBG">
       <div class="fancybox-bg"></div>
       <div class="fancybox-inner">
-        <div class="fancybox-stage"  >
+        <div class="fancybox-stage">
           <div class="fancybox-slide--html fancybox-slide--current fancybox-slide--complete" style="padding-top: 40px;">
             <div class="container pl-0 pr-0 pl-sm-3 pr-sm-3">
               <div class="col-12 col-sm-11 m-auto p-0">
@@ -36,6 +38,11 @@ export default {
     close() {
       this.$emit('close');
     },
+    handlerClicksToBG(event) {
+      if (event.target.classList.contains('fancybox-slide--html')) {
+        this.close()
+      }
+    }
   },
 }
 </script>

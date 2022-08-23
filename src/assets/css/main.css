@@ -1493,3 +1493,11 @@ footer .fancybox-slide{
   position: fixed;
   overflow: hidden;
 }
+
+.tags {
+  padding-top: 24px;
+}
+
+.long-bio {
+  white-space: pre-line;
+}
