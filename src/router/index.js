@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
+import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 
 const routes = [
   {
@@ -46,6 +46,10 @@ const routes = [
   {
     path: '/:pathMatch(.*)*',
     component: () => import('../views/NotFound.vue')
+  },
+  {
+    path: '/privacy',
+    component: PrivacyPolicy
   },
 
 ]
