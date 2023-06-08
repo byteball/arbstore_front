@@ -1501,3 +1501,57 @@ footer .fancybox-slide{
 .long-bio {
   white-space: pre-line;
 }
+
+
+.privacy ol {
+  counter-reset: item
+}
+
+.privacy li {
+  display: block
+}
+
+.privacy li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
+
+.privacy ol {
+  padding: 0;
+  margin: 0;
+}
+
+.privacy ol b::before {
+  content: '';
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.privacy ol li {
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
+
+.privacy ol li::before {
+  font-weight: bold;
+  color: #fff;
+}
+
+.privacy ol li ol li {
+  color: #C4C4C4;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.privacy ol li ol li::before {
+  color: #C4C4C4;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.privacy .title {
+  font-weight: bold;
+  color: #fff;
+}
