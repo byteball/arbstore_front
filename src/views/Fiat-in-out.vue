@@ -16,7 +16,7 @@
       </div>
       <div class="row">
         <div class="col-lg-9 f-18 mt-2 color-2">
-          To convert your fiat to USDC or other cryptocurrencies, use any cryptocurrency exchange. Depending on your jurisdiction, different exchanges might be available to you. Popular choices are Coinbase, Binance, Kraken, FTX, Bittrex, and many others.
+          To convert your fiat to USDC or other cryptocurrencies, use any cryptocurrency exchange. Depending on your jurisdiction, different exchanges might be available to you. Popular choices are Coinbase, Binance, Kraken, Bittrex, and many others.
         </div>
         <div class="col-lg-9 f-18 mt-4 color-2">
           After obtaining USDC, transfer the coins to your <a href="https://obyte.org" target="_blank" rel="noopener">Obyte wallet</a> using <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> or <a href="https://counterstake.org" target="_blank" rel="noopener">Counterstake Bridge</a>.
