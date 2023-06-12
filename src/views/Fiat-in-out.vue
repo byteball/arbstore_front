@@ -21,6 +21,9 @@
         <div class="col-lg-9 f-18 mt-4 color-2">
           After obtaining USDC, transfer the coins to your <a href="https://obyte.org" target="_blank" rel="noopener">Obyte wallet</a> using <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> or <a href="https://counterstake.org" target="_blank" rel="noopener">Counterstake Bridge</a>.
         </div>
+        <div class="col-lg-9 f-18 mt-4 color-2">
+          You'll also need a small (under $1 worth) amount of Bytes to send transactions on Obyte, even if you are seller. You can acquire them on <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> or <a href="https://global.bittrex.com/trade/gbyte-btc" target="_blank" rel="noopener">Bittrex</a>.
+        </div>
       </div>
       <div class="row">
         <h2 class="col-lg-9 f-52 ff-2 mt-5">
