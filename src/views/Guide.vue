@@ -105,7 +105,7 @@
                   As soon as the wallet has a nominal sum of a few dollars or
                   more in it, we strongly recommend that you immediately create
                   a backup copy in the main menu section of the application
-                  "Settings" / Backup all wallet data
+                  "Settings" / Backup all wallet data.
                 </div>
               </div>
               <div style="clear: both"></div>
@@ -283,18 +283,18 @@
                   <ul>
                     <li>
                       - Selects their role in the contract as Seller option
-                      (active by default)
+                      (active by default).
                     </li>
                     <li>
-                      - Confirms the sum and currency of the contract (most
-                      likely you’ll want to transact in USDC – a stablecoin)
+                      - Enters the sum and currency of the contract (most
+                      likely you’ll want to transact in USDC – a stablecoin).
                     </li>
                     <li>
-                      - Selects an arbitrator from the proposed list by
+                      - Selects an arbiter from the proposed list by
                       inserting their address into the appropriate field from
-                      <router-link to="/arbiters">the page with the list of arbitrators</router-link>.
+                      <router-link to="/arbiters">the page with the list of arbiters</router-link>.
                     </li>
-                    <li>- Enters the title of the contract</li>
+                    <li>- Enters the title of the contract.</li>
                     <li>
                       - Copies the text of a previously prepared contract (or
                       another document replacing it, such as an invoice) into
@@ -310,15 +310,15 @@
                     </li>
                     <li>
                       - Indicates the duration of the waiting period for
-                      acceptance of the proposed contract in hours
+                      acceptance of the proposed contract in hours.
                     </li>
                     <li>
                       - Optionally indicates their additional contact details
                       (phone, email, etc) to facilitate communication with the
-                      other party and with the arbiter
+                      other party and with the arbiter.
                     </li>
                     <li>
-                      - Clicks the button "Offer contract with arbitration"
+                      - Clicks the button "Offer contract with arbitration".
                     </li>
                   </ul>
                 </div>
