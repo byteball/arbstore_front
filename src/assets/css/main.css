@@ -273,7 +273,7 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 6px;
-  background: #1F2428;
+  background: #24292F;
   transition: all 0.3s;
 }
 .checkArrow svg{
@@ -282,7 +282,7 @@ footer {
 }
 .checkInputOn input.formInput{
   /*pointer-events: none;*/
-  background: #21262A;
+  background: #131519;
   transition: all 0.3s;
 }
 .labelCheck input[type=checkbox]:checked + div {
@@ -293,7 +293,7 @@ footer {
 }
 .labelCheck input[type=checkbox]:checked + div + .checkArrow + .checkInputOn > .formInput{
   pointer-events: all;
-  background: #1F2428;
+  background: #24292F;
 }
 
 .labelCheckRed input[type=checkbox]:checked + div + .checkArrow {
@@ -312,7 +312,7 @@ footer {
 }
  .labelCheckPopup input[type=checkbox]:checked + div + .checkArrow + .checkInputOn > .formInput{
   pointer-events: all;
-  background: #1F2428;
+  background: #24292F;
 }
 
 .labelCheckPopup input[type=checkbox]:checked + div + .checkArrow {
@@ -557,7 +557,7 @@ footer {
 }
 input.formInput {
   height: 40px;
-  background: #1F2428;
+  background: #131519;
   border-radius: 20px;
   border: none;
   padding-left: 19px;
@@ -566,7 +566,7 @@ input.formInput {
   color: #F4FBFF;
 }
 textarea.formTextarea {
-  background: #1F2428;
+  background: #131519;
   border-radius: 20px;
   border: none;
   width: 100%;
@@ -1010,7 +1010,7 @@ footer .fancybox-slide{
 
 .multiselect {
   height: 40px;
-  background: #1F2428;
+  background: #131519;
   border-radius: 20px;
   border: none;
   padding-left: 19px;
