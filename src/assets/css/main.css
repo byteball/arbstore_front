@@ -1016,6 +1016,7 @@ footer .fancybox-slide{
 /*SLECTED */
 
 .multiselect {
+  min-height: 40px;
   background: #131519;
   padding: 10px 0;
   border-radius: 20px;
