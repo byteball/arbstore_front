@@ -1016,8 +1016,8 @@ footer .fancybox-slide{
 /*SLECTED */
 
 .multiselect {
-  height: 40px;
   background: #131519;
+  padding: 10px 0;
   border-radius: 20px;
   border: none;
   padding-left: 19px;
@@ -1035,7 +1035,8 @@ footer .fancybox-slide{
 }
 
 .multiselect.is-open {
-
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .multiselect.is-open-top {
