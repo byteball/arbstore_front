@@ -273,16 +273,23 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 6px;
-  background: #24292F;
+  background: #131519;
   transition: all 0.3s;
+  cursor: pointer;
+  flex-shrink: 0;
 }
+
+.filterWrap .checkArrow {
+  background: #24292F;
+}
+
 .checkArrow svg{
   opacity: 0;
   transition: all 0.3s;
 }
 .checkInputOn input.formInput{
   /*pointer-events: none;*/
-  background: #131519;
+  background: #21262A;
   transition: all 0.3s;
 }
 .labelCheck input[type=checkbox]:checked + div {
@@ -293,7 +300,7 @@ footer {
 }
 .labelCheck input[type=checkbox]:checked + div + .checkArrow + .checkInputOn > .formInput{
   pointer-events: all;
-  background: #24292F;
+  background: #131519;
 }
 
 .labelCheckRed input[type=checkbox]:checked + div + .checkArrow {
@@ -312,7 +319,7 @@ footer {
 }
  .labelCheckPopup input[type=checkbox]:checked + div + .checkArrow + .checkInputOn > .formInput{
   pointer-events: all;
-  background: #24292F;
+  background: #131519;
 }
 
 .labelCheckPopup input[type=checkbox]:checked + div + .checkArrow {
@@ -1089,7 +1096,7 @@ footer .fancybox-slide{
   appearance: none;
   font-size: inherit;
   font-family: inherit;
-  background: #1F2428;
+  background: #131519;
   border-radius: 20px;
   padding-left:.875rem;
 }
@@ -1194,7 +1201,7 @@ footer .fancybox-slide{
   box-sizing: border-box;
   width: 100%;
   appearance: none;
-  background-color: #24292e;
+  background-color: #131519;
   color: #F4FBFF;
 }
 
@@ -1287,7 +1294,7 @@ footer .fancybox-slide{
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   z-index: 100;
-  background: #1F2428;
+  background: #131519;
   display: flex;
   flex-direction: column;
   border-radius: 0 0 20px 20px;

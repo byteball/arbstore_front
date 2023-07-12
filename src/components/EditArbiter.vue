@@ -59,9 +59,9 @@
                   Arbiter specializations
                 </div>
                 <div v-for="(tag, index) in availableTags" :key="index">
-                  <label class=" labelCheckPopup d-flex justify-content-between align-items-center mb-4 pr-0 pr-lg-4">
+                  <label class=" labelCheckPopup d-flex justify-content-between align-items-center mb-4 pr-0">
                     <input type="checkbox" class="d-none" true-value="on" v-model="formData['tag-' + index]"/>
-                    <div class="color-2 f-18 mr-3 mwi-100">
+                    <div class="color-2 f-18 mr-3" style="width: 153px; flex-shrink: 0;">
                       {{tag}}
                     </div>
                     <div class="checkArrow">
@@ -69,8 +69,8 @@
                         <path d="M15.2688 0.810683C15.1681 0.709143 15.0483 0.628549 14.9163 0.57355C14.7843 0.518551 14.6427 0.490234 14.4997 0.490234C14.3566 0.490234 14.2151 0.518551 14.083 0.57355C13.951 0.628549 13.8312 0.709143 13.7305 0.810683L5.65966 8.89235L2.26883 5.49068C2.16426 5.38967 2.04083 5.31025 1.90557 5.25695C1.77031 5.20364 1.62587 5.1775 1.48051 5.18002C1.33515 5.18253 1.1917 5.21365 1.05837 5.2716C0.925034 5.32956 0.804419 5.4132 0.703411 5.51777C0.602402 5.62233 0.522979 5.74577 0.469675 5.88103C0.41637 6.01629 0.390229 6.16072 0.392744 6.30608C0.395259 6.45145 0.426381 6.59489 0.484332 6.72823C0.542283 6.86156 0.625929 6.98217 0.730494 7.08318L4.89049 11.2432C4.9912 11.3447 5.11102 11.4253 5.24304 11.4803C5.37505 11.5353 5.51665 11.5636 5.65966 11.5636C5.80267 11.5636 5.94427 11.5353 6.07629 11.4803C6.2083 11.4253 6.32812 11.3447 6.42883 11.2432L15.2688 2.40318C15.3788 2.30174 15.4665 2.17861 15.5266 2.04157C15.5866 1.90453 15.6176 1.75654 15.6176 1.60693C15.6176 1.45732 15.5866 1.30933 15.5266 1.17229C15.4665 1.03525 15.3788 0.912128 15.2688 0.810683Z" fill="#F4FBFF"/>
                       </svg>
                     </div>
-                    <div class="inputBlock checkInputOn">
-                      <Field class="formInput" :name="'price-tag-' + index" placeholder="1-5%" type="text" v-model="formData.info.tags[tag]"/>
+                    <div class="inputBlock checkInputOn"  style="margin-left: 5px;">
+                      <Field class="formInput" :disabled="!formData['tag-' + index]" :name="'price-tag-' + index" autocomplete="off" placeholder="1-5%" type="text" v-model="formData.info.tags[tag]"/>
                     </div>
                   </label>
                 </div>
