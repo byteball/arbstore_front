@@ -46,9 +46,16 @@
             </div>
             <div class="inputBlock mb-4">
               <div class="f-18 color-2 mb-2">
-                Contact info
+                email
               </div>
-              <Field class="formInput" name="contact_info" placeholder="(999) 999-99-99 testtest@testmail.com" type="text" rules="required" v-model="formData.info.contact_info"/>
+              <Field class="formInput" name="email" placeholder="testtest@testmail.com" type="text" rules="required" v-model="formData.info.email"/>
+              <ErrorMessage class="error_input" name="email" />
+            </div>
+            <div class="inputBlock mb-4">
+              <div class="f-18 color-2 mb-2">
+                Other contact info
+              </div>
+              <Field class="formInput" name="contact_info" placeholder="(999) 999-99-99, telegram @username" type="text" rules="required" v-model="formData.info.contact_info"/>
               <ErrorMessage class="error_input" name="contact_info" />
             </div>
           </div>
@@ -70,7 +77,7 @@
                       </svg>
                     </div>
                     <div class="inputBlock checkInputOn"  style="margin-left: 5px;">
-                      <Field class="formInput" :disabled="!formData['tag-' + index]" :name="'price-tag-' + index" autocomplete="off" placeholder="1-5%" type="text" v-model="formData.info.tags[tag]"/>
+                      <Field class="formInput" :disabled="!formData['tag-' + index]" :name="'price-tag-' + index" autocomplete="off" placeholder="1-5%, min $50" type="text" v-model="formData.info.tags[tag]"/>
                     </div>
                   </label>
                 </div>
