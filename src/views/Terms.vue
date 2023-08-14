@@ -1,7 +1,7 @@
 <template>
   <main class="mt-5 terms">
     <div class="container mt-50 pb-5">
-      <div class="f-52 ff-2b mb-2">Terms & Conditions</div>
+      <div class="f-52 ff-2b mb-2">Terms &amp; Conditions</div>
       <div class="row mt-5">
         <div class="col-lg-12 f-18 color-2">
           <ol type="1">
