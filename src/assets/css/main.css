@@ -261,6 +261,31 @@ footer {
   background: #0C0D10;
   padding: 35px 0;
 }
+
+footer .legal-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .legal-menu a{
+  color: white;
+  margin-bottom: 5px;
+}
+
+footer .legal-menu a:hover{
+  color: #1D45FE;
+}
+
+footer .legal-menu a {
+  margin-right: 20px;
+}
+
+footer .legal-menu a:last-child {
+  margin-right: 0px;
+}
+
 .labelCheck {
   display: flex;
   align-items: center;
@@ -1525,7 +1550,7 @@ footer .fancybox-slide{
   counter-increment: item
 }
 
-.privacy ol {
+.privacy ol, .terms ol, .code_of_conduct ol {
   padding: 0;
   margin: 0;
 }
@@ -1564,3 +1589,24 @@ footer .fancybox-slide{
   font-weight: bold;
   color: #fff;
 }
+
+.terms ol {
+  list-style-position: inside;
+}
+
+.terms li, .code_of_conduct li { 
+  color: white;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.terms li {
+  list-style-type: decimal;
+}
+
+.terms p, .code_of_conduct p {
+  color: #C4C4C4;
+  font-weight: 400;
+  margin-bottom: .6em;
+}
+
