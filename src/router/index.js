@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
+import Terms from '../views/Terms.vue'
+import CodeOfConduct from '../views/CodeOfConduct.vue'
 
 const routes = [
   {
@@ -51,7 +53,14 @@ const routes = [
     path: '/privacy',
     component: PrivacyPolicy
   },
-
+  {
+    path: '/terms',
+    component: Terms
+  },
+  {
+    path: '/arbiter-code-of-conduct',
+    component: CodeOfConduct
+  },
 ]
 
 

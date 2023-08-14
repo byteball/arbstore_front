@@ -1,6 +1,12 @@
 <template>
   <footer class="mt-100">
     <div class="container">
+      <div class="legal-menu mb-3">
+        <router-link to="/privacy">Privacy Policy</router-link>
+        <router-link to="/terms">Terms & Conditions</router-link>
+        <router-link to="/arbiter-code-of-conduct">Code of conduct for arbiters</router-link>
+      </div>
+
       <div class="row justify-content-center align-items-center">
         <a href="https://github.com/byteball/arbstore_front" target="_blank" rel="noopener" class="mr-3 mb-3 mb-lg-0">
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
