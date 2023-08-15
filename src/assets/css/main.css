@@ -1536,65 +1536,16 @@ footer .fancybox-slide{
   white-space: pre-line;
 }
 
-
-.privacy ol {
-  counter-reset: item
-}
-
-.privacy li {
-  display: block
-}
-
-.privacy li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item
-}
-
 .privacy ol, .terms ol, .code_of_conduct ol {
   padding: 0;
   margin: 0;
-}
-
-.privacy ol b::before {
-  content: '';
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-.privacy ol li {
-  margin-top: 15px;
-  display: block;
-  font-weight: bold;
-  color: #fff;
-}
-
-.privacy ol li::before {
-  font-weight: bold;
-  color: #fff;
-}
-
-.privacy ol li ol li {
-  color: #C4C4C4;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-.privacy ol li ol li::before {
-  color: #C4C4C4;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-.privacy .title {
-  font-weight: bold;
-  color: #fff;
 }
 
 .terms ol {
   list-style-position: inside;
 }
 
-.terms li, .code_of_conduct li { 
+.terms li, .code_of_conduct li,  .privacy ol li { 
   color: white;
   font-weight: 700;
   padding-bottom: 1em;
@@ -1604,9 +1555,23 @@ footer .fancybox-slide{
   list-style-type: decimal;
 }
 
-.terms p, .code_of_conduct p {
+.terms p, .code_of_conduct p,  .privacy ol p {
   color: #C4C4C4;
   font-weight: 400;
   margin-bottom: .6em;
 }
 
+.privacy ol p ul {
+  list-style-type: circle;
+}
+
+.privacy ol li ul li{
+  color: #C4C4C4;
+  font-weight: 400 !important;
+  margin-bottom: .2em;
+  padding-bottom: 0;
+}
+
+.privacy ol ul li:before {
+  content: "• ";
+}
