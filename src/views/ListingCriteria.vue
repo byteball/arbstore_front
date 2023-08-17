@@ -123,7 +123,7 @@
               Integrity and Ethics
               <p>
                 Arbiters should uphold high standards of integrity and adhere to
-                <router-link to="/terms">ArbStore Terms & Conditions</router-link>.
+                <router-link to="/terms">ArbStore Terms &amp; Conditions</router-link>.
               </p>
             </li>
           </ol>
