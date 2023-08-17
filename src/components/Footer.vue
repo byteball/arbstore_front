@@ -50,6 +50,15 @@
             Sign up as Arbiter
         </template>
         <template v-slot:body>
+
+          <div class="row pt-0">
+            <div class="col-lg-12">
+              <div class="f-18 ff-1 pl-4">
+                By signing up you agree to the <router-link to="/terms">terms</router-link>.
+              </div>
+            </div>
+          </div>
+
           <div class="row pt-0">
             <div class="col-lg-6 mb-4">
                 <div class="f-18 ff-2 bgc-1 radius p-4 position-relative h-100 d-flex flex-column justify-content-between">
