@@ -46,16 +46,16 @@
             </div>
             <div class="inputBlock mb-4">
               <div class="f-18 color-2 mb-2">
-                email
+                email (only for notifications, not displayed publicly)
               </div>
               <Field class="formInput" name="email" placeholder="testtest@testmail.com" type="text" rules="required" v-model="formData.info.email"/>
               <ErrorMessage class="error_input" name="email" />
             </div>
             <div class="inputBlock mb-4">
               <div class="f-18 color-2 mb-2">
-                Other contact info
+                Contact info (displayed publicly)
               </div>
-              <Field class="formInput" name="contact_info" placeholder="(999) 999-99-99, telegram @username" type="text" rules="required" v-model="formData.info.contact_info"/>
+              <Field class="formInput" name="contact_info" placeholder="testtest@testmail.com, (999) 999-99-99, telegram @username" type="text" rules="required" v-model="formData.info.contact_info"/>
               <ErrorMessage class="error_input" name="contact_info" />
             </div>
           </div>
