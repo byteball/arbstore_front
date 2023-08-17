@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import Terms from '../views/Terms.vue'
 import CodeOfConduct from '../views/CodeOfConduct.vue'
+import ListingCriteria from '../views/ListingCriteria.vue'
 
 const routes = [
   {
@@ -61,6 +62,10 @@ const routes = [
     path: '/arbiter-code-of-conduct',
     component: CodeOfConduct
   },
+  {
+    path: '/arbiters-listing-criteria',
+    component: ListingCriteria
+  }
 ]
 
 

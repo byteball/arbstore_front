@@ -1536,7 +1536,7 @@ footer .fancybox-slide{
   white-space: pre-line;
 }
 
-.privacy ol, .terms ol, .code_of_conduct ol {
+.privacy ol, .terms ol, .code_of_conduct ol, .listing ol {
   padding: 0;
   margin: 0;
 }
@@ -1545,7 +1545,7 @@ footer .fancybox-slide{
   list-style-position: inside;
 }
 
-.terms li, .code_of_conduct li,  .privacy ol li { 
+.terms li, .code_of_conduct li,  .privacy ol li, .listing ol li { 
   color: white;
   font-weight: 700;
   padding-bottom: 1em;
@@ -1555,7 +1555,7 @@ footer .fancybox-slide{
   list-style-type: decimal;
 }
 
-.terms p, .code_of_conduct p,  .privacy ol p {
+.terms p, .code_of_conduct p,  .privacy ol p, .listing ol p {
   color: #C4C4C4;
   font-weight: 400;
   margin-bottom: .6em;
@@ -1574,4 +1574,10 @@ footer .fancybox-slide{
 
 .privacy ol ul li:before {
   content: "• ";
+}
+
+.listing h2 {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
