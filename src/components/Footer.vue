@@ -4,6 +4,7 @@
       <div class="legal-menu mb-3">
         <router-link to="/privacy">Privacy Policy</router-link>
         <router-link to="/terms">Terms &amp; Conditions</router-link>
+        <router-link to="/arbiters-listing-criteria">Listing criteria</router-link>
         <router-link to="/arbiter-code-of-conduct">Code of conduct for arbiters</router-link>
       </div>
 
