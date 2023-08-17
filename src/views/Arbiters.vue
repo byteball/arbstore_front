@@ -408,6 +408,7 @@ export default {
             this.props.tags=response.data.info.tags;
             this.props.languages=response.data.info.languages.join(', ');
             this.props.shortBio =response.data.info.short_bio;
+            this.props.contact_info =response.data.info.contact_info;
           })
           .catch((error) => {
             console.log(error);

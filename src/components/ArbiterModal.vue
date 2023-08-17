@@ -92,6 +92,18 @@
               <div class="row mb-4 flex-column flex-lg-row">
                 <div class="col-lg-4">
                   <div class="ff-2b">
+                    Contacts:
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="color-2">
+                    {{props.contact_info}}
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4 flex-column flex-lg-row">
+                <div class="col-lg-4">
+                  <div class="ff-2b">
                     Address:
                   </div>
                 </div>
