@@ -1,6 +1,29 @@
 <template>
   <footer class="mt-100">
     <div class="container">
+      <div class="mb-4 sb">
+        <div class="d-flex form">
+          <input
+            v-model="email"
+            type="email"
+            :disabled="subscribeStatus !== 'none'"
+            class="formInput bgc-1"
+            v-on:keyup.enter="subscribe"
+            placeholder="Email for ArbStore newsletter"
+          />
+          
+          <button :disabled="subscribeStatus !== 'none'" class="button small" @click="subscribe" :style="subscribeStatus === 'pending' ? 'display: flex; align-items: center;' : ''"><span v-if="subscribeStatus === 'pending'" class="loader mr-2" /> Subscribe</button>
+        </div>
+        
+        <div v-if="subscribeError" class="text-center mt-1 error-label">
+          {{ subscribeError }}
+        </div>
+
+        <div v-if="subscribeStatus === 'ok'" class="mt-1 text-center success-label">
+          You have successfully subscribed
+        </div>
+      </div>
+
       <div class="legal-menu mb-3">
         <router-link to="/privacy">Privacy Policy</router-link>
         <router-link to="/terms">Terms &amp; Conditions</router-link>
@@ -106,6 +129,9 @@
 </template>
 
 <script>
+import { email } from "@vee-validate/rules";
+import axios from "axios";
+
 import EditArbiter from '@/components/EditArbiter';
 import Modal from '../components/Modal.vue';
 import AppStoreSVG from '../components/AppStoreSVG'
@@ -117,18 +143,21 @@ export default {
     EditArbiter,
     Modal,
     AppStoreSVG,
-    PlayMarketSVG
+    PlayMarketSVG,
   },
-  data(){
-    return{
+  data() {
+    return {
+      email: "",
+      subscribeError: null,
+      subscribeStatus: "none",
       isModalVisible: false,
       editFormVisible: true,
       pairingCode: process.env.VUE_APP_ARBSTORE_PAIRING_CODE
-    }
+    };
   },
-  watch:{
-    '$store.state.showReg': function() {
-      if(this.$store.state.showReg){
+  watch: {
+    '$store.state.showReg': function () {
+      if (this.$store.state.showReg) {
         this.isModalVisible = true;
       }
     }
@@ -139,7 +168,28 @@ export default {
       this.$store.dispatch('showReg', false );
     },
     closeEditForm() {
-        this.editFormVisible = false
+      this.editFormVisible = false
+    },
+    async subscribe() {
+      if (this.subscribeStatus === "none") {
+        this.subscribeError = null;
+
+        if (this.email && email(String(this.email))) {
+          this.subscribeStatus = "pending";
+
+          await axios.post(
+            `${process.env.VUE_APP_BACKEND_URL}/api/v1/subscribe`,
+            { email: this.email },
+            { headers: { "Content-Type": "application/json" }}
+          );
+
+          this.subscribeStatus = "ok";
+          
+        } else {
+          this.subscribeError = "Email is incorrect";
+          this.subscribeStatus === "none";
+        }
+      }
     }
   }
 };

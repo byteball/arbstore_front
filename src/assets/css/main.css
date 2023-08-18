@@ -1581,3 +1581,65 @@ footer .fancybox-slide{
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+.sb {
+  max-width: 500px; 
+  margin: 0 auto;
+}
+
+.sb .error-label {
+  color: red;
+}
+
+.sb .success-label {
+  color: #27ae60;
+}
+
+.sb input {
+  background: #24292e;
+  margin-right: 10px;
+  max-width: 400px;
+}
+
+.sb input:disabled {
+  opacity: .4;
+}
+
+.sb button:disabled {
+  opacity: .2;
+  cursor: not-allowed;
+  /* background-color: #24292F; */
+}
+
+
+.loader {
+  width: 1em;
+  height: 1em;
+  border: 2px solid #fff;
+  flex-shrink: 0;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+
+@media all and (max-width: 480px){
+  .sb .form {
+    flex-direction: column;
+  }
+
+  .sb input {
+    margin-bottom: 10px;
+  } 
+}
