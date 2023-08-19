@@ -18,7 +18,7 @@
               <h3>How to Install and Use MetaMask on Google Chrome?</h3>
               <p>
                 Please install the <b>MetaMask</b> wallet from its official site
-                <a href="https://metamask.io">metamask.io</a>.
+                <a href="https://metamask.io" target="_blank" rel="noopener">metamask.io</a>.
               </p>
               <p>
                 <img
@@ -102,16 +102,20 @@
                   alt="Add USDC"
                 />
               </p>
+            </li>
 
-							<!-- TODO: Please, fix it -->
-              <p>You can read about how you can get USDC on the <router-link to="/fiat-in-out">Fiat in / out</router-link> page</p>
+            <li>
+              <h3>How to get USDC into MetaMask?</h3>
+              <p>Note the address of your MetaMask wallet, it is displayed at the top of the MetaMask popup.</p>
+              <p>Buy USDC on any cryptocurrency exchange or from an OTC desk (as described on the <router-link to="/fiat-in-out">Fiat in/out page</router-link>) and withdraw the USDC to your MetaMask wallet address.</p>
+              <p>Please also buy and withdraw to your MetaMask at least $50 worth of ETH, you'll need them for paying for transaction fees on Ethereum.</p>
             </li>
 
             <li>
               <h3>How to convert USDC-Ethereum to USDC-Obyte?</h3>
-              <p>Open <a href="https://counterstake.org">counterstake.org</a></p>
+              <p>Open <a href="https://counterstake.org" target="_blank" rel="noopener">counterstake.org</a>.</p>
               <p>
-                <b>Please use the browser where you have installed MetaMask</b>
+                <b>Please use the browser where you have installed MetaMask.</b>
               </p>
               <p>
                 <img
@@ -121,7 +125,7 @@
               </p>
               <p>
                 Select the direction of transfer from “USDC on Ethereum” to
-                “USDC on Obyte” and specify your <b>Obyte wallet address</b>
+                “USDC on Obyte” and specify your <b>Obyte wallet address</b>.
               </p>
 
               <p>

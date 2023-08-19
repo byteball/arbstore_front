@@ -31,7 +31,7 @@
           Your USDC will be initially on Ethereum, and to move the coins you also need to acquire a small (about $50 worth) amount of ETH since ETH is required to pay for transaction fees on Ethereum. You can buy ETH on any cryptocurrency exchange including those listed above.
         </div>
         <div class="col-lg-9 f-18 mt-4 color-2">
-          After obtaining USDC, transfer the coins to your <a href="https://obyte.org" target="_blank" rel="noopener">Obyte wallet</a> using <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> or <a href="https://counterstake.org" target="_blank" rel="noopener">Counterstake Bridge</a>.
+          After obtaining USDC, withdraw the coins from the exchange (or OTC provider) to your MetaMask wallet, then transfer them to your <a href="https://obyte.org/#download" target="_blank" rel="noopener">Obyte wallet</a> using <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> or <a href="https://counterstake.org" target="_blank" rel="noopener">Counterstake Bridge</a>. If you are new to crypto wallets and cross-chain bridges, see the guide <router-link to="/obyte-usdc-guide">How to get USDC into Obyte wallet to pay the contract</router-link>.
         </div>
         <div class="col-lg-9 f-18 mt-4 color-2">
           You'll also need a small (under $1 worth) amount of Bytes to send transactions on Obyte, even if you are seller. You can acquire them on <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> or <a href="https://global.bittrex.com/trade/gbyte-btc" target="_blank" rel="noopener nofollow">Bittrex</a>.
