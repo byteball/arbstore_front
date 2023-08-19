@@ -78,7 +78,7 @@
       </div>
       <div class="row mt-2">
         <div class="f-14 col-lg-9 color-2">
-          Source: <a href="https://www.us.sogeti.com/explore/research/reports/world-payments-report-2021/#download" target="_blank" rel="noopener">World Payments Report 2021</a>.
+          Source: <a href="https://www.us.sogeti.com/explore/research/reports/world-payments-report-2021/#download" target="_blank" rel="noopener nofollow">World Payments Report 2021</a>.
         </div>
       </div>
       <div class="row mt-4">

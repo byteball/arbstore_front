@@ -8,7 +8,7 @@
             <li>
               ArbStore
               <p>
-                ArbStore, the legal entity described in <a href="https://arbstore.org">arbstore.org</a>,
+                ArbStore, the legal entity described in <router-link to="/">arbstore.org</router-link>,
                 supports cross-border trade and services with arbitration for
                 P2P crypto payments by facilitating dispute resolution .
                 ArbStore links parties who have entered a transaction that might
@@ -19,7 +19,7 @@
                 service facilitated by ArbStore and regulated by the terms of
                 this Terms and Conditions and the terms described in section
                 <i>“User guide for contracts with arbitration”</i> section in
-                ArbStore’s page (<a href="https://arbstore.org/guide">arbstore.org/guide</a>) (the
+                ArbStore’s page (<router-link to="/guide">arbstore.org/guide</router-link>) (the
                 <i>“Guide”</i>). To the extent permitted by public policy,
                 arbitration facilitated by ArbStore is not subject to any other
                 arbitration rules, conventions or treaties.

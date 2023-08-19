@@ -18,7 +18,7 @@
               <h3>How to Install and Use MetaMask on Google Chrome?</h3>
               <p>
                 Please install the <b>MetaMask</b> wallet from its official site
-                <a href="https://metamask.io" target="_blank" rel="noopener">metamask.io</a>.
+                <a href="https://metamask.io" target="_blank" rel="noopener nofollow">metamask.io</a>.
               </p>
               <p>
                 <img
