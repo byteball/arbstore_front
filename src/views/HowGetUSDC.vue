@@ -22,7 +22,7 @@
               </p>
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image11.png"
+                  src="../assets/image/usdc-guide/metamask-welcome.png"
                   alt="Welcome to MetaMask"
                 />
               </p>
@@ -39,8 +39,8 @@
 
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image10.png"
-                  alt="New to MetaMask?"
+                  src="../assets/image/usdc-guide/metamask-setup.png"
+                  alt="MetaMask setup?"
                 />
               </p>
               <p>
@@ -51,8 +51,8 @@
 
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image1.png"
-                  alt="Create password"
+                  src="../assets/image/usdc-guide/metamask-create-password.png"
+                  alt="MetaMask create password"
                 />
               </p>
 
@@ -67,15 +67,15 @@
               </p>
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image3.png"
-                  alt="Secret backup phrase"
+                  src="../assets/image/usdc-guide/metamask-seed.png"
+                  alt="MetaMask secret backup phrase"
                 />
               </p>
 
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image9.png"
-                  alt="Confirm backup phrase"
+                  src="../assets/image/usdc-guide/metamask-confirm-seed.png"
+                  alt="MetaMask confirm backup phrase"
                 />
               </p>
 
@@ -83,8 +83,8 @@
 
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image5.png"
-                  alt="Congratulations"
+                  src="../assets/image/usdc-guide/metamask-security-tips.png"
+                  alt="MetaMask security tips"
                 />
               </p>
             </li>
@@ -98,8 +98,8 @@
 
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image8.png"
-                  alt="Add USDC"
+                  src="../assets/image/usdc-guide/metamask-import-usdc.png"
+                  alt="Add USDC in MetaMask"
                 />
               </p>
             </li>
@@ -119,8 +119,8 @@
               </p>
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image7.png"
-                  alt="MetaMask in browser"
+                  src="../assets/image/usdc-guide/metamask-icon-in-browser.png"
+                  alt="MetaMask icon in browser"
                 />
               </p>
               <p>
@@ -130,7 +130,7 @@
 
               <p>
                 <img
-                  src="../assets/image/usdc-guide/image6.png"
+                  src="../assets/image/usdc-guide/counterstake-usdc.png"
                   alt="Counterstake"
                 />
               </p>
@@ -145,8 +145,8 @@
 
 							<p>
                 <img
-                  src="../assets/image/usdc-guide/image4.png"
-                  alt="Custom spending cap"
+                  src="../assets/image/usdc-guide/metamask-approval.png"
+                  alt="Custom spending cap approval"
                 />
               </p>
 
@@ -156,7 +156,7 @@
 
 							<p>
                 <img
-                  src="../assets/image/usdc-guide/image2.png"
+                  src="../assets/image/usdc-guide/obyte-wallet-received.png"
                   alt="Obyte wallet"
                 />
               </p>
