@@ -3,6 +3,7 @@ import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import Terms from '../views/Terms.vue'
 import CodeOfConduct from '../views/CodeOfConduct.vue'
 import ListingCriteria from '../views/ListingCriteria.vue'
+import HowGetUSDC from '../views/HowGetUSDC.vue'
 
 const routes = [
   {
@@ -65,6 +66,10 @@ const routes = [
   {
     path: '/arbiters-listing-criteria',
     component: ListingCriteria
+  },
+  {
+    path: '/obyte-usdc-guide',
+    component: HowGetUSDC
   }
 ]
 
