@@ -5,70 +5,79 @@ import CodeOfConduct from '../views/CodeOfConduct.vue'
 import ListingCriteria from '../views/ListingCriteria.vue'
 import HowGetUSDC from '../views/HowGetUSDC.vue'
 
+const prefix = 'ArbStore —';
+const defaultTitle = `${prefix} Decentralized Escrow`;
+
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: defaultTitle,
     component: () => import('../views/Home.vue')
   },
   {
     path: '/arbiters/:id?',
-    name: 'Arbiters',
+    name: `${prefix} Arbiters`,
     alias: ['/arbiters'],
     component: () => import('../views/Arbiters.vue')
   },
   {
     path: '/edit/:token',
-    name: 'Arbiter edit',
+    name: `${prefix} Arbiter edit`,
     component: () => import('../views/Home.vue')
   },
   {
     path: '/about',
-    name: 'About',
+    name: `${prefix} About`,
     component: () => import('../views/About.vue')
   },
   {
     path: '/guide',
-    name: 'User Guide',
+    name: `${prefix} User Guide`,
     component: () => import('../views/Guide.vue')
   },
   {
     path: '/arb-guide',
-    name: 'Arbiter Guide',
+    name: `${prefix} Arbiter Guide`,
     component: () => import('../views/Arb-guide.vue')
   },
   {
     path: '/fiat-in-out',
-    name: 'In / Out',
+    name: `${prefix} In / Out`,
     component: () => import('../views/Fiat-in-out.vue')
   },
   {
     path: '/partners',
-    name: 'For Partners',
+    name: `${prefix} For Partners`,
     component: () => import('../views/Partners.vue')
   },
   {
     path: '/:pathMatch(.*)*',
+    name: `${prefix} Not Found`,
     component: () => import('../views/NotFound.vue')
   },
   {
     path: '/privacy',
+    name: `${prefix} Privacy Policy`,
     component: PrivacyPolicy
   },
   {
     path: '/terms',
+    name: `${prefix} Terms & Conditions`,
     component: Terms
   },
   {
     path: '/arbiter-code-of-conduct',
+  name: `${prefix} Code of conduct for arbiters`,
     component: CodeOfConduct
   },
   {
     path: '/arbiters-listing-criteria',
+    name: `${prefix} Arbiters' listing criteria`,
     component: ListingCriteria
   },
   {
     path: '/obyte-usdc-guide',
+    name: `${prefix} How to get USDC into Obyte wallet to pay the contract`,
     component: HowGetUSDC
   }
 ]
@@ -88,6 +97,11 @@ const router = createRouter({
     }
   }
 
+})
+
+router.beforeEach((to, _, next) => {
+  document.title = to.name || defaultTitle;
+  next();
 })
 
 export default router
