@@ -1,9 +1,9 @@
 <template>
   <main class="mt-5 usdc">
     <div class="container mt-50 pb-5">
-      <div class="f-52 ff-2b mb-2">
+      <h1 class="f-52 ff-2b mb-2">
         How to get USDC into Obyte wallet to pay the contract
-      </div>
+      </h1>
       <div class="row mt-5">
         <div class="col-lg-10 f-18 color-2">
           <p>
