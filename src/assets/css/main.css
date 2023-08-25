@@ -1617,7 +1617,6 @@ footer .fancybox-slide{
 .sb button:disabled {
   opacity: .2;
   cursor: not-allowed;
-  /* background-color: #24292F; */
 }
 
 
@@ -1673,13 +1672,7 @@ footer .fancybox-slide{
 }
 
 .posts p span img {
-  /* height: auto; */
-  /* display: block; */
-  /* padding: 10px; */
-
-  /* margin: 0 auto; */
   max-width: 100%;
-  /* display: block; */
   padding-top: 10px;
   padding-bottom: 10px;
 }
