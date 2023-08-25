@@ -11,7 +11,7 @@
             </svg>
           </div>
         </router-link>
-        <div class="mobBottomMenu d-flex d-xl-none" @click="openMenu">
+        <div class="mobBottomMenu d-flex d-lg-none" @click="openMenu">
           <svg width="30" height="21" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M30 2C30 2.55228 29.5523 3 29 3H1C0.447715 3 0 2.55228 0 2V1C0 0.447715 0.447716 0 1 0H29C29.5523 0 30 0.447715 30 1V2Z" fill="white"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M30 11C30 11.5523 29.5523 12 29 12H1C0.447715 12 0 11.5523 0 11V10C0 9.44772 0.447716 9 1 9H29C29.5523 9 30 9.44772 30 10V11Z" fill="white"/>

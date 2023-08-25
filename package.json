@@ -17,6 +17,7 @@
     "v-pagination-3": "^0.1.7",
     "vee-validate": "^4.5.7",
     "vue": "^3.2.26",
+    "vue-awesome-paginate": "^1.1.46",
     "vue-gtag": "^2.0.1",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
