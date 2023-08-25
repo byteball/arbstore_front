@@ -120,7 +120,6 @@ export default {
 
       this.pagination = result.data.meta.pagination;
       this.posts = result.data.data;
-      console.log("posts", this.posts);
       this.loading = false;
     },
   },
