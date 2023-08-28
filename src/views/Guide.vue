@@ -78,7 +78,7 @@
                   worth $5 for the Seller and the anticipated transaction sum
                   for the Buyer. You can find more information on depositing and
                   withdrawing fiat currencies at
-                  <router-link to="/fiat-in-out">fiat in out</router-link>.
+                  <router-link to="/fiat-in-out">fiat in/out</router-link>.
                 </div>
               </div>
               <div style="clear: both"></div>
