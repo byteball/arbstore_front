@@ -15,6 +15,11 @@
         </h2>
       </div>
       <div class="row">
+        <div class="col-lg-9 mb-3">
+          <img style="width: 100%; padding-right: 15px;" src="../assets/image/getting_in.png" alt="getting in" />
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-9 f-18 mt-2 color-2">
           To convert your fiat to USDC or other cryptocurrencies, use any cryptocurrency exchange. Depending on your jurisdiction, different exchanges might be available to you. Popular choices are 
           <a href="https://coinbase.com/" target="_blank" rel="noopener nofollow">Coinbase</a>, 
