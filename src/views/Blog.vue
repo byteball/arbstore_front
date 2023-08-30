@@ -1,15 +1,15 @@
 <template>
   <main class="mt-5 blog">
     <div class="container pb-5">
-      <h1 class="f-98 ff-2 mb-4">Blog</h1>
-      <div class="row">
+      <h1 class="f-98 ff-2 mb-4">ArbStore Blog</h1>
+      <!--div class="row">
         <div class="col-lg-7">
           <div class="f-32 f-52m ff-2 mb-4">
             You can find all the latest news and updates about our company and
             our products here.
           </div>
         </div>
-      </div>
+      </div-->
       <div class="row">
         <div class="posts mt-5" v-if="!loading">
           <div class="col-lg-10 mb-5" v-for="post in posts" :key="post.id">
