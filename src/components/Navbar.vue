@@ -3,30 +3,26 @@
       <div id="app">
       <ul>
         <li class="f-18">
-          <router-link to="/about" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">About</router-link>
-        </li>
-        <li class="f-18">
-          <router-link to="/arbiters" @click.native="hideMenu" class="color-1 js__click_menu" active-class="active" >Arbiters</router-link>
+          <router-link to="/arbiters" @click.native="hideMenu" class="color-1 js__click_menu" active-class="active">Arbiters</router-link>
         </li>
         <li class="f-18">
           <router-link to="/guide" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">User Guide</router-link>
         </li>
         <li class="f-18">
-          <router-link to="/arb-guide" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">Arbiter Guide</router-link>
+          <router-link to="/arb-guide" @click.native="hideMenu" class="color-1 js__click_menu" active-class="active">Arbiter Guide</router-link>
         </li>
         <li class="f-18">
-          <router-link to="/fiat-in-out" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">In / Out</router-link>
+          <router-link to="/fiat-in-out" @click.native="hideMenu" class="color-1 js__click_menu" active-class="active">In / Out</router-link>
         </li>
         <li class="f-18">
-          <router-link to="/partners" @click.native="hideMenu" class="color-1 js__click_menu"  active-class="active">For Partners</router-link>
+          <router-link to="/blog" @click.native="hideMenu" :class="'color-1 js__click_menu' + (addedClasses ? ' ' : '') + addedClasses" active-class="active" >Blog</router-link>
         </li>
         <li class="f-18">
-          <router-link to="/#get_started" @click.native="hideMenu" class="button small f-18" >Get started</router-link>
-
+          <router-link to="/#get_started" @click.native="hideMenu" class="button small f-18">Get started</router-link>
         </li>
 
       </ul>
-      <div class="row justify-content-center align-items-center d-flex d-xl-none">
+      <div class="row justify-content-center align-items-center d-flex d-lg-none">
         <a href="" class="mr-3 mb-3 mb-lg-0">
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 2.80859C12.0319 2.80872 9.16061 3.86499 6.89999 5.7884C4.63937 7.71182 3.13691 10.3769 2.66145 13.3067C2.18599 16.2365 2.76856 19.2399 4.30491 21.7795C5.84126 24.3191 8.23114 26.2292 11.0469 27.168C11.6719 27.2774 11.9063 26.9024 11.9063 26.5742C11.9063 26.2773 11.8907 25.293 11.8907 24.2461C8.75003 24.8242 7.93753 23.4805 7.68753 22.7774C7.41013 22.0935 6.97038 21.4875 6.40628 21.0117C5.96878 20.7773 5.34378 20.1992 6.39065 20.1836C6.79038 20.227 7.17377 20.3661 7.50832 20.5891C7.84288 20.8121 8.11874 21.1125 8.31253 21.4648C8.4835 21.772 8.71338 22.0423 8.98902 22.2605C9.26466 22.4786 9.58063 22.6402 9.91882 22.736C10.257 22.8318 10.6108 22.8599 10.9599 22.8187C11.309 22.7776 11.6465 22.6679 11.9531 22.4961C12.0072 21.8606 12.2905 21.2665 12.75 20.8243C9.96878 20.5118 7.06253 19.4336 7.06253 14.6524C7.04497 13.4101 7.50339 12.2081 8.34378 11.293C7.96164 10.2133 8.00635 9.02836 8.46878 7.98051C8.46878 7.98051 9.51562 7.65237 11.9063 9.26176C13.9516 8.69922 16.1109 8.69922 18.1563 9.26176C20.5469 7.63676 21.5938 7.98051 21.5938 7.98051C22.0563 9.02835 22.101 10.2133 21.7188 11.293C22.5617 12.2065 23.0205 13.4095 23 14.6524C23 19.4492 20.0781 20.5118 17.2969 20.8243C17.5952 21.1266 17.825 21.4896 17.9706 21.8886C18.1161 22.2877 18.1742 22.7133 18.1407 23.1368C18.1407 24.8087 18.125 26.1524 18.125 26.5743C18.125 26.9024 18.3594 27.293 18.9844 27.168C21.7952 26.2216 24.1782 24.3071 25.708 21.7662C27.2379 19.2253 27.8149 16.2234 27.3361 13.2964C26.8574 10.3694 25.354 7.70781 23.0944 5.78673C20.8347 3.86566 17.9659 2.81014 15 2.80859Z" fill="#F4FBFF"/>
@@ -81,8 +77,17 @@ export default {
     hideMenu: function (){
       this.$store.dispatch('showMenu', true );
     }
-
   },
+  computed: {
+    addedClasses: function () {
+      const path = this.$router.currentRoute.value.path;
+      if (path.includes('/blog/post/')) {
+        return 'active'
+      } else {
+        return ''
+      }
+    }
+  }
 
 
 };

@@ -25,6 +25,11 @@
       </div>
 
       <div class="legal-menu mb-3">
+        <router-link to="/about">About Arbstore</router-link>
+        <router-link to="/partners">For Partners</router-link>
+      </div>
+
+      <div class="legal-menu mb-3">
         <router-link to="/privacy">Privacy Policy</router-link>
         <router-link to="/terms">Terms &amp; Conditions</router-link>
         <router-link to="/arbiters-listing-criteria">Arbiter listing criteria</router-link>

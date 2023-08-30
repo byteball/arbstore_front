@@ -656,12 +656,12 @@ body{
 
 
 
+/* @media all and (max-width: 1024px){
+
+} */
+
+
 @media all and (max-width: 1024px){
-
-}
-
-
-@media all and (max-width: 1199px){
   main{
     padding-top: 110px;
   }
@@ -778,9 +778,6 @@ body{
 @media all and (max-width: 991px) {
   .nobgMob {
     background-image: none;
-  }
-  .numberAbs{
-
   }
 }
 @media all and (max-width: 768px){
@@ -1620,7 +1617,6 @@ footer .fancybox-slide{
 .sb button:disabled {
   opacity: .2;
   cursor: not-allowed;
-  /* background-color: #24292F; */
 }
 
 
@@ -1658,4 +1654,101 @@ footer .fancybox-slide{
   .usdc ol li p img { 
     max-width: 100%;
   }
+}
+
+
+.posts {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.posts ul {
+	display: block;
+	margin: 0 0 15px 25px;
+	padding: 0;
+}
+.posts ul ul {
+	margin-top: 15px;
+}
+.posts ul li {
+	list-style: outside disc;
+	margin: 0 0 10px 0;
+}
+
+.posts ol {
+	display: block;
+	margin: 0 0 15px 25px;
+	padding: 0;
+}
+.posts ol ol {
+	margin-top: 15px;
+}
+.posts ol li {
+	list-style: outside decimal;
+	margin: 0 0 10px 0;
+}
+
+.posts span, .posts p {
+  color: #c4c4c4 !important;
+  font-size: 18px !important;
+  font-family: 'Formular',sans-serif !important;
+}
+
+.posts p  a span {
+  color: #007bff !important;
+}
+
+.posts p span img {
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.posts div p ui li:before {
+  content: "• " !important;
+}
+
+.posts .published-at {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagination ul li {
+  display: inline-block;
+  margin-right: 10px;
+  height: auto;
+}
+
+.pagination ul li:last-child {
+  margin-right: 0;
+}
+
+.pagination ul li button {
+  box-shadow: none;
+  border: none;
+  height: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.pagination ul li button.active-page {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.blog .loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
 }

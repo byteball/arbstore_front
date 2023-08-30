@@ -67,7 +67,7 @@ const routes = [
   },
   {
     path: '/arbiter-code-of-conduct',
-  name: `${prefix} Code of conduct for arbiters`,
+    name: `${prefix} Code of conduct for arbiters`,
     component: CodeOfConduct
   },
   {
@@ -79,6 +79,16 @@ const routes = [
     path: '/obyte-usdc-guide',
     name: `${prefix} How to get USDC into Obyte wallet to pay the contract`,
     component: HowGetUSDC
+  },
+  {
+    path: '/blog/post/:id',
+    name: `${prefix} Blog post`,
+    component: () => import('../views/BlogPage.vue')
+  },
+  {
+    path: '/blog',
+    name: `${prefix} Blog`,
+    component: () => import('../views/Blog.vue')
   }
 ]
 
@@ -87,13 +97,13 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
-  scrollBehavior (to) {
+  scrollBehavior(to) {
 
     if (to.hash) {
       //return {selector: to.hash}
       //Or for Vue 3:
 
-      return {el: to.hash, top: 100,}
+      return { el: to.hash, top: 100, }
     }
   }
 
