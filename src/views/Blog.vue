@@ -110,7 +110,7 @@ export default {
       this.loading = true;
 
       const result = await axios.get(
-        `${process.env.VUE_APP_BLOG_API_URL}/posts?pagination[pageSize]=${POSTS_PER_PAGE}&pagination[page]=${page}&sort=-publishedAt`,
+        `${process.env.VUE_APP_BLOG_API_URL}/posts?pagination[pageSize]=${POSTS_PER_PAGE}&pagination[page]=${page}&sort=publishedAt:desc`,
         {
           headers: {
             Authorization: `Bearer ${process.env.VUE_APP_BLOG_API_KEY}`,
