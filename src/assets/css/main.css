@@ -1702,6 +1702,7 @@ footer .fancybox-slide{
   max-width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: auto;
 }
 
 .posts div p ui li:before {
