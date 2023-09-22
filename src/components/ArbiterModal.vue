@@ -70,9 +70,9 @@
                 </div>
                 <div class="col-lg-8">
                   <div class="color-2">
-                    <div class="row"  v-for="(tag, key) in props.tags" :key="key">
-                      <div class="col-3">{{ key }}:</div>
-                      <div class="col-9">{{tag}}</div>
+                    <div class="row  align-items-center"  v-for="(tag, key) in props.tags" :key="key">
+                      <div class="col-5 col-md-4 col-lg-6">{{key}}:</div>
+                      <div class="col-7 col-md-8 col-lg-6">{{tag}}</div>
                     </div>
                   </div>
                 </div>

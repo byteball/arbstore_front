@@ -782,8 +782,8 @@ body{
 }
 @media all and (max-width: 768px){
   .f-98 {
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 42px;
+    line-height: 48px;
   }
   .f-52 {
     font-size: 33px;
@@ -827,9 +827,10 @@ body{
 }
 
 @media all and (max-width: 375px) {
-  .f-98 {
-    word-break: break-all;
-  }
+  /* .f-98 { */
+    /* word-break: break-all; */
+  /* } */
+
 }
 .scrollWrapperAll {
   height: 500px;
@@ -1653,6 +1654,10 @@ footer .fancybox-slide{
 
   .usdc ol li p img { 
     max-width: 100%;
+  }
+
+  .fancybox-content {
+    padding: 0 !important;
   }
 }
 

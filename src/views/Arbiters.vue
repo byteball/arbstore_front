@@ -141,7 +141,7 @@
                   {{product.info.languages.join(', ')}}
                 </div>
               </div>
-              <div class="d-flex justify-content-between flex-column align-items-center flex-lg-row mb-4">
+              <div class="d-flex justify-content-between flex-column flex-lg-row mb-4">
                 <div class="addressName ff-2b pr-0 mr-3">
                   Address:
                 </div>
