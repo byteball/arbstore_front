@@ -70,7 +70,7 @@
             1
           </div>
           Download Obyte app
-          <div class="ff-1 f-18 color-2 mb-4 mt-4">ArbStore is based on <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> cryptocurrency platform. The wallet app will store your money and contracts.</div>
+          <div class="ff-1 f-18 color-2 mb-4 mt-4">ArbStore is based on <a href="https://obyte.org" target="_blank" rel="noopener">Obyte</a> cryptocurrency platform (running since 2016). The wallet app will store your money and contracts.</div>
           <div class="d-flex mt-3">
             <a href="https://apps.apple.com/us/app/obyte-formerly-byteball/id1147137332" target="_blank" rel="noopener" class="mr-4">
               <AppStoreSVG/>
@@ -98,7 +98,7 @@
           <div class="d-flex mt-3">
             <router-link to="/fiat-in-out" >
               <div class="button small">
-                In / Out
+                In / out guide
               </div>
             </router-link>
           </div>
