@@ -3,9 +3,9 @@
   <div class="container nobgMob bg-1 pb-5">
     <div class="row">
     <div class="col-lg-8">
-      <div class="f-98 ff-2">
+      <h1 class="f-98 ff-2">
         Decentralized escrow
-      </div>
+      </h1>
       <div class="f-52 f-52m mb-4 ff-2">
         protected by an independent arbiter
       </div>
