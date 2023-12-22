@@ -27,7 +27,6 @@
           <a href="https://binance.com/" target="_blank" rel="noopener nofollow">Binance</a>, 
           <a href="https://kraken.com/" target="_blank" rel="noopener nofollow">Kraken</a>, 
           <a href="https://crypto.com/" target="_blank" rel="noopener nofollow">Crypto.com</a>, 
-          <a href="https://global.bittrex.com/" target="_blank" rel="noopener nofollow">Bittrex</a>, 
           and many others.
         </div>
         <div class="col-lg-9 f-18 mt-4 color-2">
@@ -49,7 +48,7 @@
           5. Transfer your USDC from MetaMask to your Obyte wallet using <a href="https://counterstake.org" target="_blank" rel="noopener">Counterstake Bridge</a>. See the guide <router-link to="/obyte-usdc-guide">How to get USDC into Obyte wallet to pay the contract</router-link> for details. You'll use this money to pay the contract amount.
         </div>
         <div class="col-lg-9 f-18 mt-4 color-2">
-          6. Use <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> to transfer and convert a small (under $1 worth) amount of USDC to GBYTE in your Obyte wallet. You'll need this small amount of GBYTE to pay for transaction fees on Obyte, even if you are a seller. You can also acquire GBYTE on <a href="https://global.bittrex.com/trade/gbyte-btc" target="_blank" rel="noopener nofollow">Bittrex</a> and send the coins directly to your Obyte wallet.
+          6. Use <a href="https://getmein.ooo" target="_blank" rel="noopener">Get Me In</a> to transfer and convert a small (under $1 worth) amount of USDC to GBYTE in your Obyte wallet. You'll need this small amount of GBYTE to pay for transaction fees on Obyte, even if you are a seller. <!-- You can also acquire GBYTE on <a href="https://global.bittrex.com/trade/gbyte-btc" target="_blank" rel="noopener nofollow">Bittrex</a> and send the coins directly to your Obyte wallet. -->
         </div>
         <div class="col-lg-9 f-18 mt-4 color-2">
           7. Now you are ready to pay for contracts with arbitration.
