@@ -11,7 +11,7 @@
     "@kyvg/vue3-notification": "^2.3.4",
     "@vee-validate/rules": "^4.5.7",
     "@vueform/multiselect": "^2.3.1",
-    "axios": "^0.24.0",
+    "axios": "^1.6.2",
     "bootstrap": "^4.5.3",
     "core-js": "^3.6.5",
     "v-pagination-3": "^0.1.7",
@@ -23,11 +23,11 @@
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "4",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^7.32.0",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
   },
