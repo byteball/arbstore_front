@@ -69,7 +69,7 @@
         </a>
       </div>
       <div class="row justify-content-center align-items-center mt-2">
-        &copy;&nbsp;<a href="https://obyte.org" target="_blank" rel="noopener">Obyte.org</a>
+        <a href="https://obyte.org" target="_blank" rel="noopener">Built on Obyte</a>
       </div>
     </div>
     <EditArbiter v-if="$route.params.token && editFormVisible" @close="closeEditForm" :token="$route.params.token"/>
